@@ -1,12 +1,11 @@
 
-# try different definitions of SGILIB if hash_map is not found
-#SGILIB=
+# try different definitions of SGILIB if hash_map is not found SGILIB=
 SGILIB=-DSGI__gnu_cxx
 #SGILIB=-DSGIext
 
 # comment the following lines if readline is not found
 READLINE = -DREADLINE
-LREADLINE = -lreadline -lhistory -lncurses
+LREADLINE = -lreadline -lncurses
 
 # data type used for the encoding of the symbols (char, short, or int)
 # short is the default
@@ -36,7 +35,7 @@ INSTALL_MANPAGES = install -m 644
 INSTALL_DIR = install -d -m 755
 
 DESTDIR =
-PREFIX = /usr/local/
+PREFIX = /Users/christian/opt/usr/
 
 PROGRAMS = fst-compiler$(EXE) fst-infl$(EXE) fst-generate$(EXE) fst-print$(EXE)\
 	fst-compare$(EXE) fst-compact$(EXE) fst-infl2$(EXE) fst-lowmem$(EXE)\
