@@ -1,32 +1,44 @@
+% Diese Datei ist jetzt UTF-8 codiert
+% Bitte berÃ¼cksichtigt das, wenn Umlaute einfÃ¼gt!!!
+
 \documentclass {beamer}
-\usepackage [ngerman] {babel}
-\usepackage [T1] {fontenc}
-\usepackage [ansinew] {inputenc}
-\usepackage {beamerthemeshadow}
-\usetheme [compress] {Ilmenau}
+
+%\usepackage [ngerman] {babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+%\usepackage {beamerthemeshadow}
+\usepackage{beamerthemeIlmenau}
+
+\usepackage{alltt}
+%\usetheme [compress] {Ilmenau}
 %Ohne Navigation: default, boxes, Bergen, Bordilla, Madrid,AnnArbor, CambridgeUS, Pittsburgh, Rochester
 %Mini Navigation: Berlin, Ilmenau, Dresden, Darmstadt, Frankfurt,Singapore, Szeged
 %\usepackage {multimedia }
-\usepackage{epsfig}
+%\usepackage{epsfig}
 \usepackage{graphicx}
 %\usecolortheme {dove}
 \usecolortheme{beaver} 
-%\setbeamercolor{palette quaternary}{fg=white}  
-%\usecolortheme {albatross, beetle, crane, dove, seagull, wolverine, beaver}
-\title{Morphisto - \\Service-oriented Open Source Morphology for German}
-\author{Andrea Zielinski}
-\date{26.06.2009}
-\institute{FIZ }
-\DeclareGraphicsExtensions{.eps,.eps.gz}
+\beamertemplatenavigationsymbolsempty
 
+ 
 
 \begin{document}
 
+%\setbeamercolor{palette quaternary}{fg=white}  
+%\usecolortheme {albatross, beetle, crane, dove, seagull, wolverine, beaver}
+\title{Morphisto - \\Service-oriented Open Source Morphology for German}
+\author{Andrea Zielinski, Christian Simon, Tilman Wittl}
+\date{04.09.2009}
+
 \frame{\titlepage}
 
-\subsection[Outline]{
-}
-%\frame{\tableofcontents}
+\section{Outline}
+\frame{
+	\tableofcontents
+	}
 
 \section{Morphisto - An Open Source Morphological Analyzer for German}
 
@@ -57,7 +69,6 @@ reference word list \textit{DeReWo }}
 \end{itemize}
 }
 
-
 \subsection{Short Introduction to SMOR}
 \frame
 {
@@ -76,13 +87,13 @@ SMOR is ...
   \frametitle{What it can do}
 SMOR analyzes inflectional forms of German
   \begin{itemize}
-  \item<1-> simple (or compound) lexemes
-  \item<2-> derivational constructions
-  \item<3-> complex word formations need not be stored in the lexicon but can be analyzed on-the-fly
-  \item<4-> flat analyses:
-%   \begin{verbatim}
+  \item<1->{simple (or compound) lexemes}
+  \item<2->{derivational constructions}
+  \item<3->{complex word formations need not be stored in the lexicon but can be analyzed on-the-fly}
+  \item<4->{flat analyses:}
+  \begin{alltt}
     Bahn<NN>Hof<NN>Halle<+NN><Fem><Nom><Sg>
-%   \end{verbatim}
+  \end{alltt}
   \end{itemize}
 }
 
@@ -94,24 +105,23 @@ SMOR analyzes inflectional forms of German
 Resources used:
 \begin{itemize}
 \item DeReWo Lemma List \url{http://www.ids-mannheim.de/kl/derewo/}; 
-\item Adelung(1793) - Grammatisch-kritisches Wörterbuch der Hochdeutschen Mundart\newline 
+\item Adelung(1793) - Grammatisch-kritisches WÃ¶rterbuch der Hochdeutschen Mundart\newline 
 \url{http://www.zeno.org/Adelung-1793}; lexicon published by the ``Digitale Bibliothek"; early NHD dictionary;
 free for the public; covering more than 65,000 entries.
-\item Dictionary of Foreign Words (Deutsches Fremdwörterbuch)
+\item Dictionary of Foreign Words (Deutsches FremdwÃ¶rterbuch)
 \item grammis 
 \url{http://hypermedia.ids-mannheim.de/pls/public/gramwb.ansicht}
 \end{itemize}
 }
+
 \frame{
 \frametitle{Example Entry from Adelung(1793)}
 An excerpt lemma entry from Adelung (1793) from which we aquired our data is given below:
 \begin{enumerate}
-\item Das Futter, des -s, plur. ut nom. sing. die Bekleidung eines Körpers von außen oder von innen; [..] 
+\item Das Futter, des -s, plur. ut nom. sing. die Bekleidung eines KÃ¶rpers von auÃŸen oder von innen; [..] 
 \item Das Futter, des -s, plur. ut nom. sing. 1) Alles, was Menschen und Thieren zur Nahrung dienet; ohne Plural [..] 
 \end{enumerate}
-
 }
-
 
 \subsection{Managing the Lexical Data}
 \frame
@@ -124,6 +134,7 @@ Why is a lexical database helpful?
 \item finite-state based lexicon format is difficult to read and maintain
 \end{itemize}
 }
+
 \frame
 {
   \frametitle{Lexical Database Scheme }
@@ -136,39 +147,25 @@ Why is a lexical database helpful?
 \end{itemize}
 }
 
+
 \frame
 { \frametitle{Conversion of an XML-based Lexical Entry to SMOR}
 
-\begin{alltt}
-
-$<smor>$ 
-
-\hspace{1cm}  $<BaseStem>$
-
-\hspace{2cm}  $<Lemma>Atlas</Lemma>$ 
-
-\hspace{2cm}  $<Stem>Atlanten</Stem>$
-
-\hspace{2cm}  $<Pos>NN</Pos>$
-
-\hspace{2cm}  $<Origin>nativ</Origin>$
-
-\hspace{2cm}  $<InfClass>NMasc/Pl</InfClass>$
-
-%\hspace{2cm}  $<Frequency>676</Frequency>$
-
-\hspace{1cm}  $</BaseStem>$
-
-$</smor>$
-
-$=> <Basestems>Atlas:n<>:t<>:e<>:n$
-
-\hspace{1cm}  $<NN><base><nativ><NMasc/Pl>$ 
-
-\newline   
-\end{alltt}  
-%\textcolor{keyword}
 \begin{figure}
+\begin{alltt}
+<smor>\\
+\hspace{1cm}<BaseStem>\\
+\hspace{2cm}<Lemma>Atlas</Lemma>\\ 
+\hspace{2cm}<Stem>Atlanten</Stem>\\
+\hspace{2cm}<Pos>NN</Pos>\\
+\hspace{2cm}<Origin>nativ</Origin>\\
+\hspace{2cm}<InfClass>NMasc/Pl</InfClass>\\
+\hspace{2cm}<Frequency>676</Frequency>\\
+\hspace{1cm}</BaseStem>\\
+</smor>\\
+$\Rightarrow$<Basestems>Atlas:n<>:t<>:e<>:n<NN><base><nativ><NMasc/Pl>
+\end{alltt}  
+
 \caption{Example Conversion for \emph{Atlas (atlas)} }
 \end{figure}
 }
@@ -200,7 +197,6 @@ into the lexicon
 \end{itemize}
 \end{itemize}
 }
-
 
 \section{Test Results and Discussion}
 
@@ -238,8 +234,6 @@ Suffix Stems (Derivation Rules) & 	404 & 	410 \\
 \end{small}
 \end{frame}
 
-
-
 \frame
 {
 \frametitle{Evaluation on the 'Ispell Test Corpus'}
@@ -249,7 +243,6 @@ Approximately 225.833 words
 of Ispell are unknown to Morphisto. 
 The tests on randomly selected subsets of 100 inflected German wordforms in different frequency ranges reveal the number of correct, missing and spurious readings, e.g. the precision and recall rates.  
 }
-
 
 \frame
 {
@@ -284,7 +277,6 @@ Average &   96.93 & 91.09 & 93.63\\
 \smallskip
 }
 
-
 \subsection{Discussion}
 \frame
 {\frametitle{FSTs in Computational Morphology}
@@ -302,7 +294,6 @@ Minus
 \end{itemize}
 }
 
-
 \frame
 {  \frametitle{Remaining Issues}  
 \begin{itemize}
@@ -317,7 +308,7 @@ Minus
 \uncover<4>{Morphisto produces about 5 analyses on average!\\
   But: Humans often conceive only one reading for seemingly ambiguous words}
 }
-  
+
 \section{Improving the Morphological Analyzer}
 
 \frame
@@ -330,18 +321,17 @@ Motivation
 \item Hidden Markov Models (HMMs) are used a lot in unsupervised morphology learning
 \item Rank all hypothesis according to the Language Model \\
 in a postprocessing step
- \includegraphics[width=5cm] {C:/LatexGraphs/Pipeline2.jpg}
+\includegraphics[width=5cm] {Pipeline2.jpg}
  %\item Adjust lexical probabilities from DeReWo frequency statistics 
 \end{itemize}
-
+}
 %This way, the analysis with the fewest constituents is not automatically favoured. 
 %Note: There are restrictions based on the part of speech for derivations. For example nominal case suffixes 
 %can follow only nominal stems. These are already integrated declaratively.
 %But In German we have a free compounding of morphemes. This is handled by the follwing rule:
-}   
-
-
-\frame
+ 
+ 
+ \frame
 {  \frametitle{A Language Model for Morpheme Sequences}
 %HMMs are a specific transducer models. In speech they are used to map states to phonemes
 % P(W) = language model (likelihood of a morpheme sequence)
@@ -363,8 +353,6 @@ in a postprocessing step
     \end{itemize}
 %estimate Language Model  
  }
- 
- 
 
 \frame
 {  \frametitle{Issues}
@@ -374,12 +362,10 @@ in a postprocessing step
 \item Smoothing
 \end{itemize}
 For implementation details cf. Wittl, Tilman (2009): German Morphological Disambiguator based on statistical data. In: Proceedings of TaCoS 2009.
-
 }
 
 \frame
 {  \frametitle{Future Work}
-
 
 Transfomation into a Weighted Transducer (WFST) \\
 e.g. HFST, a new open-source interface to existing transducer frameworks with many add-ons  \\
@@ -389,8 +375,8 @@ e.g. HFST, a new open-source interface to existing transducer frameworks with ma
 \item Which weight function? Probabilities, log probabilities, costs
 \item Adjustement of weights by computing lexical probabilities from DeReWo and/or use of different measures (MI, C-Value, etc.) for word class probabilities
  \end{itemize}
- \includegraphics[width=5cm] {C:/LatexGraphs/Single2.jpg}
-
+ \includegraphics[width=5cm] {Single2.jpg}
+}
 %\begin{block}{Complete Morphological Model}
 %LexModel = best path  D .o. LM \\
 %where D is the dictionary transducer and LM is the language model, \\
@@ -401,31 +387,29 @@ e.g. HFST, a new open-source interface to existing transducer frameworks with ma
 %New Operation: Search best path
 %The main task for incorporating a new type of information into the overall Morphological Model is
 %to convert it to WFST format %while the combination is carried out with the elegant composition algorithm
-}
-
-  
 
 \frame
 {  \frametitle{Graphics of a weighted transducer}
 Example:
 \begin{figure}[hp]
 	\centering
-		\includegraphics[width=10cm]{C:/LatexGraphs/graph13.jpg}
+		\includegraphics[width=10cm]{graph13.jpg}
 	\label{fig:graph13}
 \end{figure}
 }
+
 
 \section{Applications}
 
 \subsection{Morphisto Analyzer/Generator at the IDS}
 \frame
-{  \frametitle{Online-Demo of the Morphisto Analyzer/Generator}
-%\includegraphics[scale=0.75]{C:/LatexGraphs/Workbench.jpg} \htmladdnormallink{IDS-Webside for Morphisto}{http://www.ids-mannheim.de/ll/TextGrid/morphisto.html}\\
+{  
+	\frametitle{Online-Demo of the Morphisto Analyzer//Generator}
+\includegraphics[scale=0.75]{Workbench.jpg} \htmladdnormallink{IDS-Webside for Morphisto}{http://www.ids-mannheim.de/ll/TextGrid/morphisto.html}\\
  \begin{itemize}
 \item  \htmladdnormallink{Wordform Analysis with Morphisto}{http://ingrid.daasi.de/cgi-bin/analyze.cgi}
 \item  \htmladdnormallink{Generation of Inflection Table with Morphisto}{http://ingrid.sub.uni-goettingen.de/cgi-bin/flextables.cgi} 
 \end{itemize}
-
 You are welcome to download our Morphisto Transducer Lexicon for German 
 }
 
@@ -433,24 +417,23 @@ You are welcome to download our Morphisto Transducer Lexicon for German
 \frame
 {
   \frametitle{Lexicographic Work in the elexiko Project}
- \begin{itemize}
+  
+\begin{itemize}
  \item Current Status: 300.000 Articles, approx. 1.000 finished
-  \item Example Entry in the field \textit{Wordformation} \\
- %  \htmladdnormallink{elexiko-Stichwortliste}{http://www.owid.de}\\
-\newline
-\newline
-\small {
-  \itshape{Antragsberatungskommission}\\
- % \begin{alltt}
-\hspace{0,5cm}  Wortbildungsart/-typ:	Determinativkompositum, endozentrisch \\
-\hspace{0,5cm}  Bestandteil: \textbf{Antrag}   Wortart: Nomen\\
-\hspace{0,5cm}  Bestandteil: \textbf{Beratungskommission}   Wortart: Nomen\\
-\hspace{0,5cm}  Fuge: -s- \\
-\hspace{0,5cm}  Weitere Informationen unter canoo.net.}
-%\end{alltt}
-   \end{itemize}
-   
-  \begin{math} \Longrightarrow \end{math} Generate Information Automatically
+ \item Example Entry in the field \textit{Wordformation} \\
+  \htmladdnormallink{elexiko-Stichwortliste}{http://www.owid.de}\\
+ %\newline
+%\small {
+%  \itshape{Antragsberatungskommission}\\
+%	\begin{alltt}
+%	\hspace{0,5cm}  Wortbildungsart/-typ:	Determinativkompositum, endozentrisch \\
+%	\hspace{0,5cm}  Bestandteil: \textbf{Antrag}   Wortart: Nomen\\
+%	\hspace{0,5cm}  Bestandteil: \textbf{Beratungskommission}   Wortart: Nomen\\
+%	\hspace{0,5cm}  Fuge: -s- \\
+%	\hspace{0,5cm}  Weitere Informationen unter canoo.net}
+%	\end{alltt}
+\end{itemize}
+$\Longrightarrow$ Generate Information Automatically
 }
 
 \subsection{Integration into the TextGrid Workbench}
@@ -464,16 +447,14 @@ Issues
 \item Challenge: Handle performance and concurrency issues on the server side\\
 %Calling \textit{fst-infl2} command from the SFST toolkit vs. calling the lemmatizer daemon
 \end{itemize}
-For implementation details cf. Zielinski, Simon, Wittl (2009): Morphisto - Service-oriented Open Source Morphology for German, In: SFCM Zürich, Sept. 2009}
-
-
+For implementation details cf. Zielinski, Simon, Wittl (2009): Morphisto - Service-oriented Open Source Morphology for German, In: SFCM ZÃ¼rich, Sept. 2009
 }
 
 \frame
 {  \frametitle{A Grid-based Demo}
-%\includegraphics[scale=0.5] {C:/LatexGraphs/TextGrid.jpg}
-%\includegraphics[width=7cm] {C:/LatexGraphs/morphoplymp1.eps}
-%\includegraphics[width=7cm] {C:/LatexGraphs/configuration3.eps}
+\includegraphics[scale=0.5] {TextGrid.jpg}
+\includegraphics[width=7cm] {morpholymp1.jpg}
+\includegraphics[width=7cm] {configuration3.jpg}
 
  \begin{itemize}
 \item  \htmladdnormallink{TextGrid Hompage}{http://www.textgrid.de}
