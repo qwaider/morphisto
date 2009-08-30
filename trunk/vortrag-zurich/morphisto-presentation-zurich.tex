@@ -29,31 +29,32 @@
 
 %\setbeamercolor{palette quaternary}{fg=white}  
 %\usecolortheme {albatross, beetle, crane, dove, seagull, wolverine, beaver}
-\title{Morphisto - \\Service-oriented Open Source Morphology for German}
+\title{Morphisto - \\ A Service-oriented Open Source Morphology for German}
 \author{Andrea Zielinski, Christian Simon, Tilman Wittl}
 \date{04.09.2009}
 
 \frame{\titlepage}
 
-\section{Outline}
 \frame{
 	\tableofcontents
 	}
 
-\section{Morphisto - An Open Source Morphological Analyzer for German}
+%\section{Morphisto - An Open Source Morphological Analyzer for German}
 
 \section{Motivation}
 \frame{
-  \frametitle{Do we need another Morphological Analyzer for German?}
+  \frametitle{Why did we need another Morphological Analyzer for German?}
 \begin{itemize}
-  \item{Morphologcal analysis is the basis for a range of applications in TextGrid - an Infrastructure for ehumanities:}
+  \item{Morphisto originated within the context of the \textit{TextGrid} project, an infrastructure for e-Humanities}
+  \item{Morphological analysis is the basis for a range of applications provided}
 \begin{itemize}
+  \item{Lemmatization}
   \item{Lexical Lookup in Dictionaries}
   \item{Annotation of Texts}
-  \item{Translation from/into other language stages of German}
+  %\item{Translation from/into other language stages of German}
 \end{itemize}
   \item{No open-source morphological analyzer available for German at present}
-  \item{This is particularly true for the lexicon component which is labour-intensive to build}
+  \item{except SMOR, but which lacks an open-source lexicon}
 \end{itemize}
 }
 
@@ -61,11 +62,13 @@
 \frame{
   \frametitle{Basic Idea}
 \begin{itemize}
-  \item{Use GPL-licensed (except the lexicon) SMOR morphology for German as a starting point}
-  \item{Define lexical entries for the most common 30,000 German words as defined by the German 
-reference word list \textit{DeReWo }}
-   \item{Implement additional tools for the management of the lexical data}
-   \item{Build easy-to-use web services and integrate them into the Eclipse Rich Client Platform}
+  \item{use GPL-licensed SMOR morphology for German (University of Stuttgart) as a starting point}
+  \item{define lexical entries for the most common 30,000 German words as defined by the German 
+reference word list (\textit{DeReWo})}
+  \item{manage lexical data with the help of a relational database}
+   %\item{Implement additional tools for the management of the lexical data}
+  \item{partially aquire data from freely available sources (e.g. Adelung lexicon)}
+  \item{integrate Morphisto as a series of easy-to-use web services for use in TextGrid infrastructure}
 \end{itemize}
 }
 
@@ -98,54 +101,56 @@ SMOR analyzes inflectional forms of German
 }
 
 \section{Bootstrapping a Morphological Analyzer}
-\subsection{Extracting morphological information from a MRD}
+%was zum Teufel ist ein MRD???
+%\subsection{Extracting morphological information from a MRD}
 \frame
 {
-  \frametitle{Lexical Aquisition for MORPHISTO}
+  \frametitle{Lexical Aquisition for Morphisto}
 Resources used:
 \begin{itemize}
-\item DeReWo Lemma List \url{http://www.ids-mannheim.de/kl/derewo/}; 
+\item DeReWo Lemma List \url{http://www.ids-mannheim.de/kl/derewo/}
 \item Adelung(1793) - Grammatisch-kritisches Wörterbuch der Hochdeutschen Mundart\newline 
-\url{http://www.zeno.org/Adelung-1793}; lexicon published by the ``Digitale Bibliothek"; early NHD dictionary;
-free for the public; covering more than 65,000 entries.
-\item Dictionary of Foreign Words (Deutsches Fremdwörterbuch)
-\item grammis 
-\url{http://hypermedia.ids-mannheim.de/pls/public/gramwb.ansicht}
+\url{http://www.zeno.org/Adelung-1793}; lexicon published by the ``Digitale Bibliothek"; early NHD dictionary, free for the public, covering more than 65,000 entries
+\item Deutsches Fremdwörterbuch (IDS Mannheim)
+\item grammis (on-line grammar of the German language) \\
+	\url{http://hypermedia.ids-mannheim.de/pls/public/gramwb.ansicht}
 \end{itemize}
 }
 
-\frame{
-\frametitle{Example Entry from Adelung(1793)}
-An excerpt lemma entry from Adelung (1793) from which we aquired our data is given below:
-\begin{enumerate}
-\item Das Futter, des -s, plur. ut nom. sing. die Bekleidung eines Körpers von außen oder von innen; [..] 
-\item Das Futter, des -s, plur. ut nom. sing. 1) Alles, was Menschen und Thieren zur Nahrung dienet; ohne Plural [..] 
+% bitte nicht Adelung....
+
+%\frame{
+%\frametitle{Example Entry from Adelung(1793)}
+%An excerpt lemma entry from Adelung (1793) from which we aquired our data is given below:
+%\begin{enumerate}
+%\item Das Futter, des -s, plur. ut nom. sing. die Bekleidung eines Körpers von außen oder von innen; [..] 
+%\item Das Futter, des -s, plur. ut nom. sing. 1) Alles, was Menschen und Thieren zur Nahrung dienet; ohne Plural [..] 
+%\end{enumerate}
+%}
+
+%\subsection{Managing the Lexical Data}
+\frame
+{
+  \frametitle{Managing the lexical data}
+\begin{enumerate} 
+\item in a relational database aquired data was outer-joined with DeReWo lemma list
+\item the data was manually revised and completed with the goal that an automaton 
+based mainly on German simplexes covers DeReWo lemma list
+\item an XML-based exchange format was developed from which the data can be converted to the SFST automaton specification format
 \end{enumerate}
 }
 
-\subsection{Managing the Lexical Data}
-\frame
-{
-  \frametitle{Lexical Database Scheme }
-The acquired lexical data was joined with the DeReWo lemma list and stored in a lexical database.\newline  
-Why is a lexical database helpful?
-\begin{itemize} 
-\item developers want to to add, modify, remove lexical data
-\item finite-state based lexicon format is difficult to read and maintain
-\end{itemize}
-}
-
-\frame
-{
-  \frametitle{Lexical Database Scheme }
-  What is needed?
-\begin{itemize}
- \item An exchange format that is independent of the specific finite-state platform
-\item Scripts that convert lexical data to the originial SMOR lexicon format
-\item Validating the lexicon against a schema
-\item Enhanced user interface for lexicographic work 
-\end{itemize}
-}
+%\frame
+%{
+%  \frametitle{Lexical Database Scheme }
+%  What is needed?
+%\begin{itemize}
+% \item An exchange format that is independent of the specific finite-state platform
+%\item Scripts that convert lexical data to the originial SMOR lexicon format
+%\item Validating the lexicon against a schema
+%\item Enhanced user interface for lexicographic work 
+%\end{itemize}
+%}
 
 
 \frame
@@ -170,33 +175,34 @@ $\Rightarrow$<Basestems>Atlas:n<>:t<>:e<>:n<NN><base><nativ><NMasc/Pl>
 \end{figure}
 }
 
-\subsection{Cycle of Testing an Reengineering}
+%\subsection{Cycle of Testing an Reengineering}
 
 \frame
-{ \frametitle{Cycle of Testing and Reengineering }
+{ \frametitle{Morphisto's Contribution to SMOR morphology}
 \begin{itemize} 
-\item Checking the analysis of the DeReWo list (on the Adelung transducer)
-\item Adding missing base stems (for about 5,000 entries)
-\item Correcting false inflection classes or features (e.g., for \emph{Geister} (ghosts)) 
-\item Adding word formation rules (e.g., for \emph{StudentIn/Innen} (male and/or female student(s))
-\item Adding rules for the derivation of compound or derivation stems (e.g., \emph{Peters-kirche} (Peter's church))
+%\item Checking the analysis of the DeReWo list (on the Adelung transducer)
+\item Morphisto's lexicon encompasses ca. 18,000 entries (lexicon provided by SMOR ca. 1,000)
+%\item Adding missing base stems (for about 5,000 entries)
+\item false inflection classes or features were added/corrected (e.g., for \emph{Geister} (ghosts)) 
+\item word formation rules were added (e.g., for \emph{StudentIn/Innen} (male and/or female student(s))
+\item so were rules for the derivation of compound or derivation stems (e.g., \emph{Peters-kirche} (Peter's church))
 \end{itemize}
 }
 
-\frame
-{ \frametitle{Intermediate Result}
-\begin{itemize} 
-\item Manually creating the simplex units together with their required features is time-consuming
-\item In the worst case, an intensive study of the documentation and software code is required
-\item Gold standard would be beneficial %as only the delta of analysis that has been affected by rebuilding the network needs to be reanalyzed.
-\item Fine-tuning for stems and affixes that were likely to produce ambiguities
-\begin{itemize}
-\item Include complex words that produce segmentation errors (e.g., \textit{Tee-nager} (tea rodent) instead of \textit{Teen-ager})
-into the lexicon
-\item Assign the tag <NoDef> or <Initial> to short or antiquated words to restrict their productivity
-\end{itemize}
-\end{itemize}
-}
+%\frame
+%{ \frametitle{Intermediate Result}
+%\begin{itemize} 
+%\item Manually creating the simplex units together with their required features is time-consuming
+%\item In the worst case, an intensive study of the documentation and software code is required
+%\item Gold standard would be beneficial %as only the delta of analysis that has been affected by %rebuilding the network needs to be reanalyzed.
+%\item Fine-tuning for stems and affixes that were likely to produce ambiguities
+%\begin{itemize}
+%\item Include complex words that produce segmentation errors (e.g., \textit{Tee-nager} (tea rodent) %instead of \textit{Teen-ager})
+%into the lexicon
+%\item Assign the tag <NoDef> or <Initial> to short or antiquated words to restrict their productivity
+%\end{itemize}
+%\end{itemize}
+%}
 
 \section{Test Results and Discussion}
 
@@ -237,11 +243,11 @@ Suffix Stems (Derivation Rules) & 	404 & 	410 \\
 \frame
 {
 \frametitle{Evaluation on the 'Ispell Test Corpus'}
-The wordform list provided by Ispell has been used for the evaluation of Morphisto. 
+The wordform list provided by German Ispell has been used for the evaluation of Morphisto. 
 Approximately 225.833 words 
 % 248.578 words - 22.745 DeReWo words 
 of Ispell are unknown to Morphisto. 
-The tests on randomly selected subsets of 100 inflected German wordforms in different frequency ranges reveal the number of correct, missing and spurious readings, e.g. the precision and recall rates.  
+The tests on randomly selected subsets of 100 inflected German wordforms in the different frequency ranges reveal the number of correct, missing and spurious readings, e.g. the precision and recall rates.  
 }
 
 \frame
@@ -278,36 +284,42 @@ Average &   96.93 & 91.09 & 93.63\\
 }
 
 \subsection{Discussion}
-\frame
-{\frametitle{FSTs in Computational Morphology}
-Plus
-\begin{itemize} 
-\item A declarative framework for describing models
-\item Phonological regularities are described by use of context dependent rewrite rules 
-\item Search efficiency is improved via optimization algorithms (minimization, determinization, epsilon removal)
-\item Integrate filtering constraints via composition operations
-\end{itemize} 
-Minus
-\begin{itemize} 
-\item Filter rules generate a huge network
-\item Search space increases, and huge memory is required
-\end{itemize}
-}
+
+%\frame
+%{\frametitle{FSTs in Computational Morphology}
+%Plus
+%\begin{itemize} 
+%\item A declarative framework for describing models
+%\item Phonological regularities are described by use of context dependent rewrite rules 
+%\item Search efficiency is improved via optimization algorithms (minimization, determinization, epsilon removal)
+%\item Integrate filtering constraints via composition operations
+%\end{itemize} 
+%Minus
+%\begin{itemize} 
+%\item Filter rules generate a huge network
+%\item Search space increases, and huge memory is required
+%\end{itemize}
+%}
 
 \frame
-{  \frametitle{Remaining Issues}  
+{  
+\frametitle{Remaining Issues}
+Of course, Morphisto is still far away from being perfect. \\
+Some of the remaining issues are:  
 \begin{itemize}
   \item<1-> Different Segmentations \\
    West-europa vs. Weste-ur-opa 
   \item<2-> Ambiguous Constituents \\
-   der/die Chile-Kiefer
-     \item<3-> Different Levels of Decomposition \\
-     F\"uller vs. F\"ull-er
-     \end{itemize}
-
-\uncover<4>{Morphisto produces about 5 analyses on average!\\
+   der/die Chile-Kiefer 
+  \item<3-> Different Levels of Decomposition \\
+     F\"uller vs. F\"ull-er \\
+  \item<4-> Only rudimentary support for unknown lexical stems ("guessing")
+\end{itemize}
+\uncover<5>{Morphisto produces about 5 analyses on average!\\
   But: Humans often conceive only one reading for seemingly ambiguous words}
 }
+
+% Tilman, ab hier musst Du ran!!
 
 \section{Improving the Morphological Analyzer}
 
@@ -398,41 +410,43 @@ Example:
 \end{figure}
 }
 
+% Tilman, hier ist Dein Teil vorbei und ich übernehme wieder ....
 
-\section{Applications}
+\section{Morphisto in Real-World Applications}
 
-\subsection{Morphisto Analyzer/Generator at the IDS}
+%\subsection{Morphisto Analyzer/Generator at the IDS}
 \frame
 {  
-	\frametitle{Online-Demo of the Morphisto Analyzer//Generator}
-\includegraphics[scale=0.75]{Workbench.jpg} \htmladdnormallink{IDS-Webside for Morphisto}{http://www.ids-mannheim.de/ll/TextGrid/morphisto.html}\\
+	\frametitle{Online Demos of Morphisto}
+%\includegraphics[scale=0.75]{Workbench.jpg} 
  \begin{itemize}
+ \item \htmladdnormallink{Morphisto at the IDS Mannheim:}{http://www.ids-mannheim.de/ll/TextGrid/morphisto.html}
 \item  \htmladdnormallink{Wordform Analysis with Morphisto}{http://ingrid.daasi.de/cgi-bin/analyze.cgi}
 \item  \htmladdnormallink{Generation of Inflection Table with Morphisto}{http://ingrid.sub.uni-goettingen.de/cgi-bin/flextables.cgi} 
 \end{itemize}
 You are welcome to download our Morphisto Transducer Lexicon for German 
 }
 
+% Baustelle:
+
 \subsection{Morphisto within the elexiko Project}
 \frame
 {
-  \frametitle{Lexicographic Work in the elexiko Project}
-  
+  \frametitle{Lexicographic Work in the elexiko Project}  
 \begin{itemize}
  \item Current Status: 300.000 Articles, approx. 1.000 finished
  \item Example Entry in the field \textit{Wordformation} \\
   \htmladdnormallink{elexiko-Stichwortliste}{http://www.owid.de}\\
- %\newline
-%\small {
-%  \itshape{Antragsberatungskommission}\\
-%	\begin{alltt}
-%	\hspace{0,5cm}  Wortbildungsart/-typ:	Determinativkompositum, endozentrisch \\
-%	\hspace{0,5cm}  Bestandteil: \textbf{Antrag}   Wortart: Nomen\\
-%	\hspace{0,5cm}  Bestandteil: \textbf{Beratungskommission}   Wortart: Nomen\\
-%	\hspace{0,5cm}  Fuge: -s- \\
-%	\hspace{0,5cm}  Weitere Informationen unter canoo.net}
-%	\end{alltt}
 \end{itemize}
+ %\small {
+  \itshape{Antragsberatungskommission}\\
+	\begin{alltt}
+	\hspace{0,5cm}  Wortbildungsart/-typ:	Determinativkompositum, endozentrisch \\
+	\hspace{0,5cm}  Bestandteil: \textbf{Antrag}   Wortart: Nomen\\
+	\hspace{0,5cm}  Bestandteil: \textbf{Beratungskommission}   Wortart: Nomen\\
+	\hspace{0,5cm}  Fuge: -s- \\
+	\hspace{0,5cm}  Weitere Informationen unter canoo.net
+	\end{alltt}
 $\Longrightarrow$ Generate Information Automatically
 }
 
@@ -450,18 +464,15 @@ Issues
 For implementation details cf. Zielinski, Simon, Wittl (2009): Morphisto - Service-oriented Open Source Morphology for German, In: SFCM Zürich, Sept. 2009
 }
 
-\frame
-{  \frametitle{A Grid-based Demo}
-\includegraphics[scale=0.5] {TextGrid.jpg}
-\includegraphics[width=7cm] {morpholymp1.jpg}
-\includegraphics[width=7cm] {configuration3.jpg}
-
- \begin{itemize}
-\item  \htmladdnormallink{TextGrid Hompage}{http://www.textgrid.de}
-\end{itemize}
-}
-
-
+%\frame
+%{  \frametitle{A Grid-based Demo}
+%\includegraphics[scale=0.5] {TextGrid.jpg}
+%\includegraphics[width=7cm] {morpholymp1.jpg}
+%\includegraphics[width=7cm] {configuration3.jpg}
+%\begin{itemize}
+%\item  \htmladdnormallink{TextGrid Hompage}{http://www.textgrid.de}
+%\end{itemize}
+%}
 
 
 \end{document}
