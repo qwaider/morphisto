@@ -429,50 +429,105 @@ You are welcome to download our Morphisto Transducer Lexicon for German
 
 % Baustelle:
 
-\subsection{Morphisto within the elexiko Project}
 \frame
 {
-  \frametitle{Lexicographic Work in the elexiko Project}  
+  \frametitle{Morphisto in the elexiko Project}  
 \begin{itemize}
- \item Current Status: 300.000 Articles, approx. 1.000 finished
- \item Example Entry in the field \textit{Wordformation} \\
-  \htmladdnormallink{elexiko-Stichwortliste}{http://www.owid.de}\\
+ \item elexiko is freely available online dicionary of German
+ \item based on lemma list encompassing 300,000 entries
+ \item approx. 1,000 word articles have been finished so far
+ \item Morphisto aims at providing automatically generated inflection tables 
+ \item generation automaton created throgh SQL-based heuristics that reduce compounds to their heads
+ \item elexiko lexicographer makes the final corrections which in turn are integrated into the Morphisto database
+ %\item Example Entry in the field \textit{Wordformation} \\
+ % \htmladdnormallink{elexiko-Stichwortliste}{http://www.owid.de}\\
 \end{itemize}
  %\small {
-  \itshape{Antragsberatungskommission}\\
-	\begin{alltt}
-	\hspace{0,5cm}  Wortbildungsart/-typ:	Determinativkompositum, endozentrisch \\
-	\hspace{0,5cm}  Bestandteil: \textbf{Antrag}   Wortart: Nomen\\
-	\hspace{0,5cm}  Bestandteil: \textbf{Beratungskommission}   Wortart: Nomen\\
-	\hspace{0,5cm}  Fuge: -s- \\
-	\hspace{0,5cm}  Weitere Informationen unter canoo.net
-	\end{alltt}
-$\Longrightarrow$ Generate Information Automatically
+ % \itshape{Antragsberatungskommission}\\
+%	\begin{alltt}
+%	\hspace{0,5cm}  Wortbildungsart/-typ:	Determinativkompositum, endozentrisch \\
+%	\hspace{0,5cm}  Bestandteil: \textbf{Antrag}   Wortart: Nomen\\
+%	\hspace{0,5cm}  Bestandteil: \textbf{Beratungskommission}   Wortart: Nomen\\
+%	\hspace{0,5cm}  Fuge: -s- \\
+%	\hspace{0,5cm}  Weitere Informationen unter canoo.net
+%	\end{alltt}
+%$\Longrightarrow$ Generate Information Automatically
 }
 
-\subsection{Integration into the TextGrid Workbench}
+%\subsection{Integration into TextGrid}
 \frame
-{  \frametitle{Computing elsewhere}
-Main Philosophy: Use web services that run on a geographically distant grid server\\
-Issues
+{  \frametitle{Servic-base Integration into TextGrid}
+TextGrid distributes functionality over geographically distant grid servers.\\
+Morphisto is integrated in TextGrid a set of web services providing functionality of
 \begin{itemize} 
-\item Note: The standard DeReWo-based MORPHISTO automaton has a size of 24 MB and all SFST compact format based automatons in TextGrid have a total size of ca. 150 MB
-%\item Plus: Web services are platform independent
-\item Challenge: Handle performance and concurrency issues on the server side\\
-%Calling \textit{fst-infl2} command from the SFST toolkit vs. calling the lemmatizer daemon
+\item one-word morphological analysis and lemmatization
+\item batch processing of utf-8 encoded word lists
+\item annotating XML-based texts with lemma and morphological information
 \end{itemize}
-For implementation details cf. Zielinski, Simon, Wittl (2009): Morphisto - Service-oriented Open Source Morphology for German, In: SFCM Zürich, Sept. 2009
 }
 
-%\frame
-%{  \frametitle{A Grid-based Demo}
+\frame
+{
+	\frametitle{Pros}
+	Providing Morphisto's functionality via web-services offers independence from
+	\begin{itemize}
+	\item platform
+	\item programming language \\
+	(TextGrid's IDE is a Java-based RCP running on most major end-user systems)
+	\item memory and cpu capacities on client machine
+	\item installed SFST binaries on client system
+	\end{itemize}
+}
+
+\frame
+{
+	\frametitle{Issues}
+	\begin{itemize}
+	\item<1-> size of automatons
+		\begin{itemize}
+			\item{DeReWo-based standard automaton alone has a size of 24 MB} 
+			\item{all SFST compact automatons have a total size ca. 150 MB}
+		\end{itemize}
+	\item<1-> loading 24 MB into memory is extremely inefficient for processing one single wordform
+	\item<2-> especially when considering that several queries must be processed at the same time (concurrency)
+	\item<3-> certain input and configuration may require to run queried wordform through a different automaton if first automaton yielded no result (e.g. guessing)
+	\end{itemize}
+}
+
+\frame
+{
+	\frametitle{Solution}
+	\begin{itemize}
+		\item<1-> \textit{fst-infl2} only used for processing large input files where no interaction is necessary
+		\item<2-> for processing input files requiring "interaction" fst-infl2 was patched such that the Python web service can "chat" over the UNIX pipe 
+		\item<3-> for processing small input (e.g. only a single wordform) a daemon was implemented that keeps all automatons in the memory of the server
+	\end{itemize}
+}
+
+\frame
+{
+	\frametitle{Morphisto Daemon}
+	\begin{itemize}
+	\item<1-> the Daemon is memory-resistent unix tool running on the remote server that provides the web service
+	\item<2-> implemented in Python using \textit{asynchat} module for asynchronous communication over a UNIX port
+	\item<3-> loads Morphisto automatons only once at startup 
+	\item<4-> runs queried wordforms through in-memory automatons
+	\item<5-> uses TCP for flow control, which makes it more reliable, but also slower
+	\end{itemize}
+}
+
+\frame
+{  \frametitle{A Grid-based Demo}
 %\includegraphics[scale=0.5] {TextGrid.jpg}
 %\includegraphics[width=7cm] {morpholymp1.jpg}
 %\includegraphics[width=7cm] {configuration3.jpg}
-%\begin{itemize}
-%\item  \htmladdnormallink{TextGrid Hompage}{http://www.textgrid.de}
-%\end{itemize}
-%}
+\begin{itemize}
+\item{TextGrid Hompage \\ http://www.textgrid.de}
+\item{elexiko Homepage \\ http://www.elexiko.de}
+\item{Morphisto at Google Code \\ http://code.google.com/morphisto \\
+Everybody is welcome to participate!}
+\end{itemize}
+}
 
 
 \end{document}
