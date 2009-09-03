@@ -325,13 +325,13 @@ Some of the remaining issues are:
 
 \frame
 {  \frametitle{Dealing with Ambiguous Analysis}
-Idee:\\
+Idea:\\
 Define a Language Model (LM) that captures the likelihood of a morpheme sequence to filter out unlikely analyses \\
 Motivation
  \begin{itemize}
 \item Task is similar to PoS Tagging 
 \item Hidden Markov Models (HMMs) are used a lot in unsupervised morphology learning
-\item Rank all hypothesis according to the Language Model \\
+\item Rank all possible analyses according to the Language Model \\
 in a postprocessing step
 \includegraphics[width=5cm] {Pipeline2.jpg}
  %\item Adjust lexical probabilities from DeReWo frequency statistics 
@@ -371,9 +371,9 @@ in a postprocessing step
 \begin{itemize} 
 \item Training the Language Model
 \item Finding the path with the highest likelihood in the integrated morphological network
-\item Smoothing
+\item Smoothing (unknown word handling)
 \end{itemize}
-For implementation details cf. Wittl, Tilman (2009): German Morphological Disambiguator based on statistical data. In: Proceedings of TaCoS 2009.
+For implementation details cf. Wittl, Tilman (2009): German Morphological Disambiguator based on statistical data. In: Talk at TaCoS 2009.
 }
 
 \frame
@@ -385,7 +385,7 @@ e.g. HFST, a new open-source interface to existing transducer frameworks with ma
 \item SMOR grammar should be reimplemented to profit from this
 \item Problems: WFST will yield even more states
 \item Which weight function? Probabilities, log probabilities, costs
-\item Adjustement of weights by computing lexical probabilities from DeReWo and/or use of different measures (MI, C-Value, etc.) for word class probabilities
+\item Adjustement of weights by computing lexical probabilities from DeReWo and/or use of different measures for word class probabilities
  \end{itemize}
  \includegraphics[width=5cm] {Single2.jpg}
 }
