@@ -1,0 +1,12 @@
+STYLESHEET = lexicon-transform.xslt
+LEXICON = lexicon.xml
+
+
+lexicon: $(LEXICON)
+	xsltproc $(STYLESHEET) $(LEXICON) | python align.py | iconv -f utf-8 -t iso-8859-1 > lexicon
+
+.PHONY: clean
+
+clean:
+	rm lexicon
+
