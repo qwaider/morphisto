@@ -494,14 +494,6 @@
 	</BaseStem>
 	<BaseStem>
 		<MorphMarker>NoHy</MorphMarker>
-		<Lemma>Fis</Lemma>
-		<Stem>Fis</Stem>
-		<Pos>NE</Pos>
-		<Origin>frei</Origin>
-		<InfClass>NNeut-s/sse</InfClass>
-	</BaseStem>
-	<BaseStem>
-		<MorphMarker>NoHy</MorphMarker>
 		<Lemma>Ges</Lemma>
 		<Stem>Ges</Stem>
 		<Pos>NE</Pos>
