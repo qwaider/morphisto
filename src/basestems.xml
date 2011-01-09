@@ -7969,7 +7969,7 @@
 <BaseStem> <Lemma>Terrorist</Lemma> <Stem>Terrorist</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_en_en</InfClass> <Frequency>12</Frequency> </BaseStem>
 <BaseStem> <Lemma>Tessin</Lemma> <Stem>Tessin</Stem> <Pos>NN</Pos><Origin>fremd</Origin> <InfClass>Name-Neut_s</InfClass> <Frequency>14</Frequency> </BaseStem>
 <BaseStem> <Lemma>Tessiner</Lemma> <Stem>Tessiner</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_s_0</InfClass> <Frequency>15</Frequency> </BaseStem>
-<BaseStem> <Lemma>Test</Lemma> <Stem>Test</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_es_e</InfClass> <Frequency>11</Frequency> </BaseStem>
+<BaseStem> <Lemma>Test</Lemma> <Stem>Test</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_s_s</InfClass> <Frequency>11</Frequency> </BaseStem>
 <BaseStem> <Lemma>Testament</Lemma> <Stem>Testament</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NNeut_es_e</InfClass> <Frequency>14</Frequency> </BaseStem>
 <BaseStem> <Lemma>Testosteron</Lemma> <Stem>Testosteron</Stem> <Pos>NN</Pos><Origin>fremd</Origin> <InfClass>NNeut/Sg_s</InfClass> <Frequency>16</Frequency> </BaseStem>
 <BaseStem> <Lemma>Teuerung</Lemma> <Stem>Teuerung</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem_0_en</InfClass> <Frequency>15</Frequency> </BaseStem>
