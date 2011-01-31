@@ -12761,9 +12761,13 @@
 <Lemma>sehn</Lemma> <Stem>sehn</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>14</Frequency> </BaseStem>
 <BaseStem> <MorphMarker>ge</MorphMarker>
 <Lemma>seil</Lemma> <Stem>seil</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>16</Frequency> </BaseStem>
-<BaseStem> <Lemma>send</Lemma> <Stem>gesand</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPP-t</InfClass> <Frequency>12</Frequency> </BaseStem>
-<BaseStem> <Lemma>send</Lemma> <Stem>send</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastIndReg</InfClass> <Frequency>12</Frequency> </BaseStem>
-<BaseStem> <Lemma>send</Lemma> <Stem>send</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>12</Frequency> </BaseStem>
+
+<BaseStem> <Lemma>send</Lemma> <Stem>gesandt</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VPPast</InfClass> <Frequency>12</Frequency> 
+<MorphMarker>ge</MorphMarker></BaseStem>
+<BaseStem> <Lemma>send</Lemma> <Stem>sandte</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastStr</InfClass> <Frequency>12</Frequency> </BaseStem>
+<BaseStem> <Lemma>send</Lemma> <Stem>send</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>12</Frequency> 
+<MorphMarker>ge</MorphMarker></BaseStem>
+
 <BaseStem> <MorphMarker>ge</MorphMarker>
 <Lemma>senk</Lemma> <Stem>senk</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>11</Frequency> </BaseStem>
 <BaseStem> <Lemma>sensibilisier</Lemma> <Stem>sensibilisier</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>15</Frequency> </BaseStem>
