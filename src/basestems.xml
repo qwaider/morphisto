@@ -16157,7 +16157,7 @@
 <BaseStem> <Lemma>nachgebessert</Lemma> <Stem>nachgebessert</Stem> <Pos>ADJ</Pos><Origin>nativ</Origin> <InfClass>Adj+</InfClass> <Frequency>16</Frequency> </BaseStem>
 <BaseStem> <Lemma>nachhaltig</Lemma> <Stem>nachhaltig</Stem> <Pos>ADJ</Pos><Origin>nativ</Origin> <InfClass>Adj+</InfClass> <Frequency>12</Frequency> </BaseStem>
 <BaseStem> <Lemma>nachlässig</Lemma> <Stem>nachlässig</Stem> <Pos>ADJ</Pos><Origin>nativ</Origin> <InfClass>Adj+(e)</InfClass> <Frequency>16</Frequency> </BaseStem>
-<BaseStem> <Lemma>nachsichtig</Lemma> <Stem>nachgiebig</Stem> <Pos>ADJ</Pos><Origin>nativ</Origin> <InfClass>Adj+(e)</InfClass> <Frequency>None</Frequency> </BaseStem>
+<BaseStem> <Lemma>nachgiebig</Lemma> <Stem>nachgiebig</Stem> <Pos>ADJ</Pos><Origin>nativ</Origin> <InfClass>Adj+(e)</InfClass> <Frequency>None</Frequency> </BaseStem>
 <BaseStem> <Lemma>nachsichtig</Lemma> <Stem>nachsichtig</Stem> <Pos>ADJ</Pos><Origin>nativ</Origin> <InfClass>Adj+(e)</InfClass> <Frequency>16</Frequency> </BaseStem>
 <BaseStem> <Lemma>nachteilig</Lemma> <Stem>nachteilig</Stem> <Pos>ADJ</Pos><Origin>nativ</Origin> <InfClass>Adj+</InfClass> <Frequency>15</Frequency> </BaseStem>
 <BaseStem> <Lemma>nächtlich</Lemma> <Stem>nächtlich</Stem> <Pos>ADJ</Pos><Origin>nativ</Origin> <InfClass>AdjPos</InfClass> <Frequency>13</Frequency> </BaseStem>
