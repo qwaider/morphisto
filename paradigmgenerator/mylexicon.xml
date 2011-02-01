@@ -1,9 +1,15 @@
-<smor>
-<BaseStem> <Lemma>send</Lemma> <Stem>gesandt</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VPPast</InfClass> <Frequency>12</Frequency> 
-<MorphMarker>ge</MorphMarker></BaseStem>
+<smor> 
 
-<BaseStem> <Lemma>send</Lemma> <Stem>sandte</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastStr</InfClass> <Frequency>12</Frequency> </BaseStem>
+<BaseStem> <MorphMarker>ge</MorphMarker>  <Lemma>denk</Lemma> <Stem>dach</Stem> <Pos>V</Pos><Origin>nativ</Origin> 
+<InfClass>VVPastIndReg</InfClass> <Frequency>9</Frequency> </BaseStem> 
 
-<BaseStem> <Lemma>send</Lemma> <Stem>send</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>12</Frequency> 
-<MorphMarker>ge</MorphMarker></BaseStem>
+<BaseStem> <MorphMarker>ge</MorphMarker>  <Lemma>denk</Lemma> <Stem>dach</Stem> <Pos>V</Pos><Origin>nativ</Origin> 
+<InfClass>VVPP-t</InfClass> <Frequency>9</Frequency> </BaseStem> 
+
+<BaseStem> <MorphMarker>ge</MorphMarker> <Lemma>denk</Lemma> <Stem>dächt</Stem> 
+<Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastKonjStr</InfClass> <Frequency>9</Frequency> </BaseStem>
+
+<BaseStem> <MorphMarker>ge</MorphMarker> 
+<Lemma>denk</Lemma> <Stem>denk</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPres</InfClass> <Frequency>9</Frequency> </BaseStem>
+
 </smor>

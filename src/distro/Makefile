@@ -3,7 +3,7 @@ LEXICON = lexicon.xml
 
 
 lexicon: $(LEXICON)
-	xsltproc $(STYLESHEET) $(LEXICON) | python align.py | iconv -f utf-8 -t iso-8859-1 > lexicon
+	xsltproc $(STYLESHEET) $(LEXICON) | python align.py  > lexicon
 
 .PHONY: clean
 

@@ -1,0 +1,264 @@
+diff -Nabur --exclude=lexicon --exclude=.svn --exclude='*.pdf' --exclude='*.a' --exclude=README smor.original/defaults.fst smor.neutral/defaults.fst
+--- smor.original/defaults.fst	2004-07-15 17:18:12.000000000 +0200
++++ smor.neutral/defaults.fst	2008-07-28 13:33:30.000000000 +0200
+@@ -3,6 +3,7 @@
+ %  Author:       Helmut Schmid; IMS, University of Stuttgart
+ %  Date:         July 2003
+ %  Content:      generation of default base, derivation and composition stems
++%  Coding:	 iso-8859-1
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 
+ 
+@@ -104,7 +105,7 @@
+ % default verb composition stems
+ 
+ $DefKomposV$ = ([\!-\~¡-ÿ<PREF>]* {<>}:{<+V><Inf>} || $TMP$) <V> ||\
+-	[\!-\~¡-ÿ]* ({en}:{<>} | e[rl]n:<>) <V>
++	[\!-\~¡-ÿ]* ({en}:{<>} | e[rlg]n:<>) <V>
+ 
+ % default verb derivation stems
+ 
+diff -Nabur --exclude=lexicon --exclude=.svn --exclude='*.pdf' --exclude='*.a' --exclude=README smor.original/deko.fst smor.neutral/deko.fst
+--- smor.original/deko.fst	2004-07-20 11:34:55.000000000 +0200
++++ smor.neutral/deko.fst	2008-07-28 13:33:30.000000000 +0200
+@@ -3,6 +3,7 @@
+ %  Author:       Helmut Schmid; IMS, University of Stuttgart
+ %  Date:         July 2003
+ %  Content:      enforcement of derivation and composition constraints
++%  Coding:	 iso-8859-1
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 
+ % expression matching either a simplex word form
+@@ -44,8 +45,8 @@
+ <NGeo-istan-Name-Neut_s><NGeo-land-Name-Neut_s><NGeo-ner-NMasc_s_0> \
+ <NGeo-ner-Adj0-Up><NGeo-nisch-Adj+> \
+ <NMasc-s0/sse><NMasc-us/en><NMasc-us/i><NMasc/Pl><NMasc/Sg_0><NMasc/Sg_es> \
+-<NMasc/Sg_s><NMasc_0_x><NMasc_en_en=in><NMasc_en_en><NMasc_es_$e> \
+-<NMasc_es_$er><NMasc_es_e><NMasc_es_en><NMasc_n_n=$in><NMasc_n_n=in> \
++<NMasc/Sg_s><NMasc_0_x><NMasc_en_en=in><NMasc_en_en><NMasc_es_$e><NMasc_s_$e> \
++<NMasc_es_$er><NMasc_es_er><NMasc_es_e><NMasc_es_en><NMasc_n_n=$in><NMasc_n_n=in> \
+ <NMasc_n_n><NMasc_s_$><NMasc_s_$x><NMasc_s_0=in><NMasc_s_0><NMasc_s_e=in> \
+ <NMasc_s_e><NMasc_s_en=in><NMasc_s_en><NMasc_s_n><NMasc_s_s><NMasc_s_x> \
+ <NNeut-0/ien><NNeut-Dimin><NNeut-Herz><NNeut-a/ata><NNeut-a/en><NNeut-on/a> \
+@@ -60,7 +61,7 @@
+ <Ptkl-Ant><Ptkl-Neg><Ptkl-Zu><VAImpPl><VAImpSg><VAPastKonj2><VAPres1/3PlInd> \
+ <VAPres1SgInd><VAPres2PlInd><VAPres2SgInd><VAPres3SgInd><VAPresKonjPl> \
+ <VAPresKonjSg><VInf+PPres><VInf><VMPast><VMPastKonj><VMPresPl><VMPresSg> \
+-<VPPast><VPPres><VPastIndReg><VPastIndStr><VPastKonjStr><VPresKonj> \
++<VPPast><VPPres><VPastIndReg><VPastIndStr><VPastKonjStr><VPresKonj><VPastIndStr-hatte> \
+ <VPresPlInd><VVPP-en><VVPP-t><VVPastIndReg><VVPastIndStr><VVPastKonjReg> \
+ <VVPastKonjStr><VVPastStr><VVPres1+Imp><VVPres1><VVPres2+Imp0><VVPres2+Imp> \
+ <VVPres2><VVPres2t><VVPres><VVPresPl><VVPresSg><VVReg-el/er><VVReg><WAdv>]
+diff -Nabur --exclude=lexicon --exclude=.svn --exclude='*.pdf' --exclude='*.a' --exclude=README smor.original/FIX.fst smor.neutral/FIX.fst
+--- smor.original/FIX.fst	2006-02-01 16:52:31.000000000 +0100
++++ smor.neutral/FIX.fst	2008-07-28 13:33:30.000000000 +0200
+@@ -3,6 +3,7 @@
+ %  Author:       Helmut Schmid; IMS, Universitaet Stuttgart
+ %  Date:         July 2003
+ %  Content:      fixed stems not listed in IMSLex
++%  Coding:	 iso-8859-1
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 
+ 
+diff -Nabur --exclude=lexicon --exclude=.svn --exclude='*.pdf' --exclude='*.a' --exclude=README smor.original/flexion.fst smor.neutral/flexion.fst
+--- smor.original/flexion.fst	2004-07-15 17:17:17.000000000 +0200
++++ smor.neutral/flexion.fst	2008-07-28 13:33:30.000000000 +0200
+@@ -1,6 +1,7 @@
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ % inflectional endings --
+ % converted to S-FST from flexion.lex
++% coding: iso-8859-1
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 
+ $Fix#$ = <>:<Fix#>
+@@ -223,6 +224,10 @@
+ $N_es_\$e$ =				$NSg_es$ |\
+ 		{<>}:{<UL>e}		$NPl_0$
+ 
++$N_s_\$e$ =				$NSg_s$ |\
++		{<>}:{<UL>e}		$NPl_0$
++
++
+ $N_es_\$er$ =				$NSg_es$ |\
+ 		{<>}:{<UL>er}		$NPl_0$
+ 
+@@ -366,6 +371,14 @@
+ 		{<+V><2><Pl><Past><Konj>}:{<FB>et}	$V+(es)$ |\
+ 		{<+V><3><Pl><Past><Konj>}:{<FB>en}	$V+(es)$
+ 
++$VPastIndStr-hatte$ = {<+V><1><Sg><Past><Ind>}:{<FB>e}	$V+(es)$ |\	% (ich) hatte
++		{<+V><2><Sg><Past><Ind>}:{<FB>est}	$V+(es)$ |\     % (du) hattest
++		{<+V><3><Sg><Past><Ind>}:{<FB>e}	$V+(es)$ |\     
++		{<+V><1><Pl><Past><Ind>}:{<FB>en}	$V+(es)$ |\     % (wir) hatten
++		{<+V><2><Pl><Past><Ind>}:{<FB>et}	$V+(es)$ |\     % (ihr) hattet
++		{<+V><3><Pl><Past><Ind>}:{<FB>en}	$V+(es)$
++
++
+ $VPres1Irreg$ = {<+V><1><Sg><Pres><Ind>}:{<FB>}		$V+(es)$	% (ich) will, bedarf
+ 
+ $VPres1Reg$ =	{<+V><1><Sg><Pres><Ind>}:{<FB>e}	$V+(es)$	% (ich) liebe, rate, sammle
+@@ -520,6 +533,12 @@
+ %  Gott-(e)s/Götter
+ $NMasc_es_\$er$ =	{<+NN><Masc>}:{<>}	$N_es_\$er$
+ 
++% Tenor-s/Tenöre
++$NMasc_s_\$e$	=	{<+NN><Masc>}:{<>}	$N_s_\$e$
++
++% Geist-(e)s/Geister
++$NMasc_es_er$ =         {<+NN><Masc>}:{<>}      $N_es_\$er$
++
+ %  Tag-(e)s/Tage; 
+ $NMasc_es_e$ =		{<+NN><Masc>}:{<>}	$N_es_e$
+ 
+@@ -1053,7 +1072,9 @@
+ 		<>:<NMasc_en_en=in>	$NMasc_en_en=in$ |\
+ 		<>:<NMasc_en_en>	$NMasc_en_en$ |\
+ 		<>:<NMasc_es_$e>	$NMasc_es_\$e$ |\
++		<>:<NMasc_s_$e>		$NMasc_s_\$e$ |\
+ 		<>:<NMasc_es_$er>	$NMasc_es_\$er$ |\
++		<>:<NMasc_es_er>	$NMasc_es_er$ |\
+ 		<>:<NMasc_es_e>		$NMasc_es_e$ |\
+ 		<>:<NMasc_es_en>	$NMasc_es_en$ |\
+ 		<>:<NMasc_n_n=$in>	$NMasc_n_n=\$in$ |\
+@@ -1156,6 +1177,7 @@
+ 		<>:<VPastIndStr>	$VPastIndStr$ |\
+ 		<>:<VPastKonjStr>	$VPastKonjStr$ |\
+ 		<>:<VPresKonj>		$VPresKonj$ |\
++		<>:<VPastIndStr-hatte>	$VPastIndStr-hatte$ |\
+ 		<>:<VPresPlInd>		$VPresPlInd$ |\
+ 		<>:<VVPP-en>		$VVPP-en$ |\
+ 		<>:<VVPP-t>		$VVPP-t$ |\
+@@ -1278,7 +1300,9 @@
+ 		<NMasc_en_en=in>:<>	<NMasc_en_en=in>:<> |\
+ 		<NMasc_en_en>:<>	<NMasc_en_en>:<> |\
+ 		<NMasc_es_$e>:<>	<NMasc_es_$e>:<> |\
++		<NMasc_s_$e>:<>		<NMasc_s_$e>:<>	|\
+ 		<NMasc_es_$er>:<>	<NMasc_es_$er>:<> |\
++		<NMasc_es_er>:<>	<NMasc_es_er>:<> |\ 
+ 		<NMasc_es_e>:<>		<NMasc_es_e>:<> |\
+ 		<NMasc_es_en>:<>	<NMasc_es_en>:<> |\
+ 		<NMasc_n_n=$in>:<>	<NMasc_n_n=$in>:<> |\
+@@ -1388,6 +1412,7 @@
+ 		<VVPastIndStr>:<>	<VVPastIndStr>:<> |\
+ 		<VVPastKonjReg>:<>	<VVPastKonjReg>:<> |\
+ 		<VVPastKonjStr>:<>	<VVPastKonjStr>:<> |\
++		<VPastIndStr-hatte>:<>	<VPastIndStr-hatte>:<> |\
+ 		<VVPastStr>:<>		<VVPastStr>:<> |\
+ 		<VVPres>:<>		<VVPres>:<> |\
+ 		<VVPres1>:<>		<VVPres1>:<> |\
+diff -Nabur --exclude=lexicon --exclude=.svn --exclude='*.pdf' --exclude='*.a' --exclude=README smor.original/Makefile smor.neutral/Makefile
+--- smor.original/Makefile	2006-05-11 17:35:46.000000000 +0200
++++ smor.neutral/Makefile	1970-01-01 01:00:00.000000000 +0100
+@@ -1,19 +0,0 @@
+-
+-SOURCES = smor.fst
+-OTHER = lexicon
+-
+-smor.a: phon.a $(OTHER)
+-
+-%.a: %.fst
+-	fst-compiler $< $@
+-
+-%.ca: %.a
+-	fst-compact $< $@
+-
+-Makefile: *.fst
+-	-makedepend -Y -o.a $(SOURCES) 2>/dev/null 
+-
+-
+-# DO NOT DELETE
+-
+-smor.a: map.fst NUM.fst deko.fst flexion.fst defaults.fst FIX.fst PRO.fst
+diff -Nabur --exclude=lexicon --exclude=.svn --exclude='*.pdf' --exclude='*.a' --exclude=README smor.original/map.fst smor.neutral/map.fst
+--- smor.original/map.fst	2004-07-15 17:16:56.000000000 +0200
++++ smor.neutral/map.fst	2008-07-28 13:33:30.000000000 +0200
+@@ -4,6 +4,7 @@
+ %  Date:         April 2003
+ %  Content:      reads the stems from the lexicon files and deletes
+ % 		 certain symbols on the upper and lower layer
++% encoding: iso-8859-1
+ %**************************************************************************
+ 
+ %**************************************************************************
+@@ -69,8 +70,8 @@
+ <NGeo-Invar><NGeo-Masc_0><NGeo-Masc_s><NGeo-Neut+Loc><NGeo-Neut_0> \
+ <NGeo-Neut_s><NGeo-Pl_0><NMasc-Adj><NMasc-ns><NMasc-s/$sse><NMasc-s/Sg><NMasc-s/sse> \
+ <NMasc-s0/sse><NMasc-us/en><NMasc-us/i><NMasc/Pl><NMasc/Sg_0><NMasc/Sg_es> \
+-<NMasc/Sg_s><NMasc_0_x><NMasc_en_en=in><NMasc_en_en><NMasc_es_$e> \
+-<NMasc_es_$er><NMasc_es_e><NMasc_es_en><NMasc_n_n=$in><NMasc_n_n=in> \
++<NMasc/Sg_s><NMasc_0_x><NMasc_en_en=in><NMasc_en_en><NMasc_es_$e><NMasc_s_$e> \
++<NMasc_es_$er><NMasc_es_er><NMasc_es_e><NMasc_es_en><NMasc_n_n=$in><NMasc_n_n=in> \
+ <NMasc_n_n><NMasc_s_$><NMasc_s_$x><NMasc_s_0=in><NMasc_s_0><NMasc_s_e=in> \
+ <NMasc_s_e><NMasc_s_en=in><NMasc_s_en><NMasc_s_n><NMasc_s_s><NMasc_s_x> \
+ <NNeut-0/ien><NNeut-Dimin><NNeut-Herz><NNeut-a/ata><NNeut-a/en><NNeut-on/a> \
+@@ -85,7 +86,7 @@
+ <Ptkl-Ant><Ptkl-Neg><Ptkl-Zu><VAImpPl><VAImpSg><VAPastKonj2><VAPres1/3PlInd> \
+ <VAPres1SgInd><VAPres2PlInd><VAPres2SgInd><VAPres3SgInd><VAPresKonjPl> \
+ <VAPresKonjSg><VInf+PPres><VInf><VMPast><VMPastKonj><VMPresPl><VMPresSg> \
+-<VPPast><VPPres><VPastIndReg><VPastIndStr><VPastKonjStr><VPresKonj> \
++<VPPast><VPPres><VPastIndReg><VPastIndStr><VPastKonjStr><VPresKonj><VPastIndStr-hatte> \
+ <VPresPlInd><VVPP-en><VVPP-t><VVPastIndReg><VVPastIndStr><VVPastKonjReg> \
+ <VVPastKonjStr><VVPastStr><VVPres1+Imp><VVPres1><VVPres2+Imp0><VVPres2+Imp> \
+ <VVPres2><VVPres2t><VVPres><VVPresPl><VVPresSg><VVReg-el/er><VVReg><WAdv>] \
+@@ -167,8 +168,8 @@
+ <NGeo-Invar><NGeo-Masc_0><NGeo-Masc_s><NGeo-Neut+Loc><NGeo-Neut_0> \
+ <NGeo-Neut_s><NGeo-Pl_0><NMasc-Adj><NMasc-ns><NMasc-s/$sse><NMasc-s/Sg><NMasc-s/sse> \
+ <NMasc-s0/sse><NMasc-us/en><NMasc-us/i><NMasc/Pl><NMasc/Sg_0><NMasc/Sg_es> \
+-<NMasc/Sg_s><NMasc_0_x><NMasc_en_en=in><NMasc_en_en><NMasc_es_$e> \
+-<NMasc_es_$er><NMasc_es_e><NMasc_es_en><NMasc_n_n=$in><NMasc_n_n=in> \
++<NMasc/Sg_s><NMasc_0_x><NMasc_en_en=in><NMasc_en_en><NMasc_es_$e><NMasc_s_$e> \
++<NMasc_es_$er><NMasc_es_er><NMasc_es_e><NMasc_es_en><NMasc_n_n=$in><NMasc_n_n=in> \
+ <NMasc_n_n><NMasc_s_$><NMasc_s_$x><NMasc_s_0=in><NMasc_s_0><NMasc_s_e=in> \
+ <NMasc_s_e><NMasc_s_en=in><NMasc_s_en><NMasc_s_n><NMasc_s_s><NMasc_s_x> \
+ <NNeut-0/ien><NNeut-Dimin><NNeut-Herz><NNeut-a/ata><NNeut-a/en><NNeut-on/a> \
+@@ -183,7 +184,7 @@
+ <Ptkl-Ant><Ptkl-Neg><Ptkl-Zu><VAImpPl><VAImpSg><VAPastKonj2><VAPres1/3PlInd> \
+ <VAPres1SgInd><VAPres2PlInd><VAPres2SgInd><VAPres3SgInd><VAPresKonjPl> \
+ <VAPresKonjSg><VInf+PPres><VInf><VMPast><VMPastKonj><VMPresPl><VMPresSg> \
+-<VPPast><VPPres><VPastIndReg><VPastIndStr><VPastKonjStr><VPresKonj> \
++<VPPast><VPPres><VPastIndReg><VPastIndStr><VPastKonjStr><VPresKonj><VPastIndStr-hatte> \
+ <VPresPlInd><VVPP-en><VVPP-t><VVPastIndReg><VVPastIndStr><VVPastKonjReg> \
+ <VVPastKonjStr><VVPastStr><VVPres1+Imp><VVPres1><VVPres2+Imp0><VVPres2+Imp> \
+ <VVPres2><VVPres2t><VVPres><VVPresPl><VVPresSg><VVReg><WAdv> \
+diff -Nabur --exclude=lexicon --exclude=.svn --exclude='*.pdf' --exclude='*.a' --exclude=README smor.original/PRO.fst smor.neutral/PRO.fst
+--- smor.original/PRO.fst	2004-05-19 13:48:05.000000000 +0200
++++ smor.neutral/PRO.fst	2008-07-28 13:33:30.000000000 +0200
+@@ -3,6 +3,7 @@
+ %  Author:       Helmut Schmid; IMS, University of Stuttgart
+ %  Date:         April 2003
+ %  Content:      pronouns, determiners -- 
++%  Coding:	 iso-8859-1
+ % 	 converted to S-FST from stems.PRO
+ %**************************************************************************
+ 
+diff -Nabur --exclude=lexicon --exclude=.svn --exclude='*.pdf' --exclude='*.a' --exclude=README smor.original/smor.fst smor.neutral/smor.fst
+--- smor.original/smor.fst	2006-02-01 16:50:54.000000000 +0100
++++ smor.neutral/smor.fst	2008-07-28 13:33:30.000000000 +0200
+@@ -3,6 +3,7 @@
+ %  Author:       Helmut Schmid; IMS, Universitaet Stuttgart
+ %  Date:         April 2003
+ %  Content:      main file of the German morphology   
++%  Coding:	 iso-8859-1
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 
+ $PHON$ = "<phon.a>"
+@@ -55,8 +56,8 @@
+ <NGeo-Invar><NGeo-Masc_0><NGeo-Masc_s><NGeo-Neut+Loc><NGeo-Neut_0> \
+ <NGeo-Neut_s><NGeo-Pl_0><NMasc-Adj><NMasc-ns><NMasc-s/$sse><NMasc-s/Sg><NMasc-s/sse> \
+ <NMasc-s0/sse><NMasc-us/en><NMasc-us/i><NMasc/Pl><NMasc/Sg_0><NMasc/Sg_es> \
+-<NMasc/Sg_s><NMasc_0_x><NMasc_en_en=in><NMasc_en_en><NMasc_es_$e> \
+-<NMasc_es_$er><NMasc_es_e><NMasc_es_en><NMasc_n_n=$in><NMasc_n_n=in> \
++<NMasc/Sg_s><NMasc_0_x><NMasc_en_en=in><NMasc_en_en><NMasc_s_$e><NMasc_es_$e> \
++<NMasc_es_$er><NMasc_es_er><NMasc_es_e><NMasc_es_en><NMasc_n_n=$in><NMasc_n_n=in> \
+ <NMasc_n_n><NMasc_s_$><NMasc_s_$x><NMasc_s_0=in><NMasc_s_0><NMasc_s_e=in> \
+ <NMasc_s_e><NMasc_s_en=in><NMasc_s_en><NMasc_s_n><NMasc_s_s><NMasc_s_x> \
+ <NNeut-0/ien><NNeut-Dimin><NNeut-Herz><NNeut-a/ata><NNeut-a/en><NNeut-on/a> \
+@@ -83,7 +84,7 @@
+ <Ptkl-Ant><Ptkl-Neg><Ptkl-Zu><VAImpPl><VAImpSg><VAPastKonj2><VAPres1/3PlInd> \
+ <VAPres1SgInd><VAPres2PlInd><VAPres2SgInd><VAPres3SgInd><VAPresKonjPl> \
+ <VAPresKonjSg><VInf+PPres><VInf><VMPast><VMPastKonj><VMPresPl><VMPresSg> \
+-<VPPast><VPPres><VPastIndReg><VPastIndStr><VPastKonjStr><VPresKonj> \
++<VPPast><VPPres><VPastIndReg><VPastIndStr><VPastKonjStr><VPresKonj><VPastIndStr-hatte> \
+ <VPresPlInd><VVPP-en><VVPP-t><VVPastIndReg><VVPastIndStr><VVPastKonjReg> \
+ <VVPastKonjStr><VVPastStr><VVPres1+Imp><VVPres1><VVPres2+Imp0><VVPres2+Imp> \
+ <VVPres2><VVPres2t><VVPres><VVPresPl><VVPresSg><VVReg-el/er><VVReg><WAdv>
