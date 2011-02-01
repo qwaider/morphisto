@@ -10004,10 +10004,12 @@
 <BaseStem> <Lemma>demontier</Lemma> <Stem>demontier</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>15</Frequency> </BaseStem>
 <BaseStem> <MorphMarker>ge</MorphMarker>
 <Lemma>demütig</Lemma> <Stem>demütig</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>15</Frequency> </BaseStem>
-<BaseStem> <MorphMarker>ge</MorphMarker>
-<Lemma>denk</Lemma> <Stem>dacht</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastIndStr</InfClass> <Frequency>9</Frequency> </BaseStem>
-<BaseStem> <MorphMarker>ge</MorphMarker>
-<Lemma>denk</Lemma> <Stem>dächt</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastKonjStr</InfClass> <Frequency>9</Frequency> </BaseStem>
+<BaseStem> <MorphMarker>ge</MorphMarker>  <Lemma>denk</Lemma> <Stem>dach</Stem> <Pos>V</Pos><Origin>nativ</Origin>
+<InfClass>VVPastIndReg</InfClass> <Frequency>9</Frequency> </BaseStem>
+<BaseStem> <MorphMarker>ge</MorphMarker>  <Lemma>denk</Lemma> <Stem>dach</Stem> <Pos>V</Pos><Origin>nativ</Origin>
+<InfClass>VVPP-t</InfClass> <Frequency>9</Frequency> </BaseStem>
+<BaseStem> <MorphMarker>ge</MorphMarker> <Lemma>denk</Lemma> <Stem>dächt</Stem>
+<Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastKonjStr</InfClass> <Frequency>9</Frequency> </BaseStem>
 <BaseStem> <MorphMarker>ge</MorphMarker>
 <Lemma>denk</Lemma> <Stem>denk</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPres</InfClass> <Frequency>9</Frequency> </BaseStem>
 <BaseStem> <Lemma>denk</Lemma> <Stem>gedach</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPP-t</InfClass> <Frequency>9</Frequency> </BaseStem>
@@ -10121,7 +10123,7 @@
 <Lemma>eign</Lemma> <Stem>eign</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>13</Frequency> </BaseStem>
 <BaseStem> <MorphMarker>ge</MorphMarker>
 <Lemma>eil</Lemma> <Stem>eil</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>13</Frequency> </BaseStem>
-<BaseStem> <Lemma>eingemeid</Lemma> <Stem>eingemeid</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>15</Frequency> </BaseStem>
+<BaseStem> <Lemma>eingemeind</Lemma> <Stem>eingemeind</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>15</Frequency> </BaseStem>
 <BaseStem> <MorphMarker>ge</MorphMarker>
 <Lemma>einig</Lemma> <Stem>einig</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>12</Frequency> </BaseStem>
 <BaseStem> <Lemma>elektrisier</Lemma> <Stem>elektrisier</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>16</Frequency> </BaseStem>
