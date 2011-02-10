@@ -3,7 +3,7 @@
 %  Author:       Helmut Schmid; IMS, Universitaet Stuttgart
 %  Date:         July 2003
 %  Content:      definition of cardinal and ordinal number stems
-%  Coding:	 utf-8
+%  Coding:	 	 utf-8
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
