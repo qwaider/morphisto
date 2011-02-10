@@ -1,0 +1,1 @@
+../SMOR.utf8/deko.fst
