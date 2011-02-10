@@ -27,6 +27,8 @@ distro: $(LEXICON)
 	cp -r legal*.html $(BUILDDIR)
 	cp statistics.sh $(BUILDDIR)
 	cp distro/* $(BUILDDIR)
+	cp *.fst $(BUILDDIR)
+	cp phon.a $(BUILDDIR)
 	zip -r morphisto.zip $(BUILDDIR)
 	mv morphisto.zip ..
 	
