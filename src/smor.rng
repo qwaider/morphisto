@@ -143,6 +143,11 @@
         <text/>
       </element>
     </optional>
+    <optional>
+      <element name="Source">
+        <text/>
+      </element>
+    </optional>
   </define>
   <define name="MorphMarkerContent">
     <element name="MorphMarker">
