@@ -13,6 +13,7 @@ lexicon: basestems.xml adverbien.xml others.xml suff_stems.xml derivatives.xml p
 	tail -n +4 derivatives.xml | sed '$$d' >> $(TMPFILE)
 	tail -n +4 prefixes.xml | sed '$$d' >> $(TMPFILE)
 	tail -n +4 aux_verbs.xml | sed '$$d' >> $(TMPFILE)
+	tail -n +4 basestems_new.xml | sed '$$d' >> $(TMPFILE)
 	tail -n +4 suff_stems.xml >> $(TMPFILE)
 	xmllint $(TMPFILE) --relaxng $(SCHEMA) --format > $(LEXICON)
 	xsltproc $(STYLESHEET) $(LEXICON) | python align.py >lexicon

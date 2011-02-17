@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'utf-8' ?>
+<?xml-stylesheet type="text/xsl" href="lexicon-transform.xslt"?>
+<smor>
+<BaseStem> <Lemma>Diener</Lemma> <Stem>Diener</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_s_0</InfClass> <Frequency>14</Frequency> </BaseStem>
+<BaseStem> <Lemma>Vertrauen</Lemma> <Stem>Vertrauen</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NNeut/Sg_s</InfClass> <Frequency>11</Frequency> </BaseStem>
+<BaseStem> <Lemma>vertrau</Lemma> <Stem>vertrau</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>14</Frequency> </BaseStem>
+</smor>

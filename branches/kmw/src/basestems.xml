@@ -1640,7 +1640,6 @@
 <BaseStem> <Lemma>Dickicht</Lemma> <Stem>Dickicht</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NNeut_s_e</InfClass> <Frequency>16</Frequency> </BaseStem>
 <BaseStem> <Lemma>Dieb</Lemma> <Stem>Dieb</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_es_e</InfClass> <Frequency>12</Frequency> </BaseStem>
 <BaseStem> <Lemma>Diebstahl</Lemma> <Stem>Diebstahl</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_es_$e</InfClass> <Frequency>13</Frequency> </BaseStem>
-<BaseStem> <Lemma>Diener</Lemma> <Stem>Diener</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_s_0</InfClass> <Frequency>14</Frequency> </BaseStem>
 <BaseStem> <Lemma>Dienst</Lemma> <Stem>Dienst</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_es_e</InfClass> <Frequency>10</Frequency> </BaseStem>
 <BaseStem> <Lemma>Dienstag</Lemma> <Stem>Dienstag</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_s_e</InfClass> <Frequency>9</Frequency> </BaseStem>
 <BaseStem> <Lemma>Dienstleistung</Lemma> <Stem>Dienstleistung</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem_0_en</InfClass> <Frequency>12</Frequency> </BaseStem>
@@ -8520,7 +8519,6 @@
 <BaseStem> <Lemma>Versuch</Lemma> <Stem>Versuch</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_es_e</InfClass> <Frequency>10</Frequency> </BaseStem>
 <BaseStem> <Lemma>Versuchung</Lemma> <Stem>Versuchung</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem_0_en</InfClass> <Frequency>14</Frequency> </BaseStem>
 <BaseStem> <Lemma>Vertrag</Lemma> <Stem>Vertrag</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_es_$e</InfClass> <Frequency>9</Frequency> </BaseStem>
-<BaseStem> <Lemma>Vertrauen</Lemma> <Stem>Vertrauen</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NNeut/Sg_s</InfClass> <Frequency>11</Frequency> </BaseStem>
 <BaseStem> <Lemma>Vertreib</Lemma> <Stem>Vertreib</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc/Sg_es</InfClass> <Frequency>0</Frequency> </BaseStem>
 <BaseStem> <Lemma>Vertretung</Lemma> <Stem>Vertretung</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem_0_en</InfClass> <Frequency>13</Frequency> </BaseStem>
 <BaseStem> <Lemma>Vertrieb</Lemma> <Stem>Vertrieb</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_s_e</InfClass> <Frequency>13</Frequency> </BaseStem>
@@ -14087,7 +14085,6 @@
 <BaseStem> <Lemma>vertrag</Lemma> <Stem>verträg</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPres2</InfClass> <Frequency>14</Frequency> </BaseStem>
 <BaseStem> <Lemma>vertrag</Lemma> <Stem>vertrug</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastIndStr</InfClass> <Frequency>14</Frequency> </BaseStem>
 <BaseStem> <Lemma>vertrag</Lemma> <Stem>vertrüg</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastKonjStr</InfClass> <Frequency>14</Frequency> </BaseStem>
-<BaseStem> <Lemma>vertrau</Lemma> <Stem>vertrau</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>14</Frequency> </BaseStem>
 <BaseStem> <Lemma>vertreib</Lemma> <Stem>vertreib</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPres</InfClass> <Frequency>13</Frequency> </BaseStem>
 <BaseStem> <Lemma>vertreib</Lemma> <Stem>vertrieb</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastStr</InfClass> <Frequency>13</Frequency> </BaseStem>
 <BaseStem> <Lemma>vertreib</Lemma> <Stem>vertrieb</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPP-en</InfClass> <Frequency>13</Frequency> </BaseStem>
