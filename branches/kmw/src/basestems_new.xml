@@ -1,4 +1,8 @@
 <?xml version = '1.0' encoding = 'utf-8' ?>
 <?xml-stylesheet type="text/xsl" href="lexicon-transform.xslt"?>
 <smor>
+<BaseStem> <Lemma>Andreas</Lemma> <Stem>Andreas</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>Name-Masc_s</InfClass> <Frequency>14</Frequency> <Editor>kmw</Editor> <Source>Wiktionary</Source> </BaseStem>
+<BaseStem> <Lemma>Paul</Lemma> <Stem>Paul</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>Name-Masc_s</InfClass> <Frequency>14</Frequency> <Editor>kmw</Editor> <Source>Wiktionary</Source> </BaseStem>
+<BaseStem> <Lemma>Willy</Lemma> <Stem>Willy</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>Name-Masc_s</InfClass> <Frequency>14</Frequency> <Editor>kmw</Editor> <Source>Wiktionary</Source> </BaseStem>
+<Lemma>schiff</Lemma> <Stem>schiff</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>9</Frequency> <Editor>kmw</Editor> <Source>Wiktionary</Source> </BaseStem>
 </smor>
