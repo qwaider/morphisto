@@ -877,7 +877,6 @@
 <BaseStem> <Lemma>Begleiter</Lemma> <Stem>Begleiter</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_s_0</InfClass> <Frequency>13</Frequency> </BaseStem>
 <BaseStem> <Lemma>Begleitung</Lemma> <Stem>Begleitung</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem_0_en</InfClass> <Frequency>13</Frequency> </BaseStem>
 <BaseStem> <Lemma>Begräbnis</Lemma> <Stem>Begräbnis</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NNeut-s/sse</InfClass> <Frequency>15</Frequency> </BaseStem>
-<BaseStem> <Lemma>Begrenzung</Lemma> <Stem>Begrenzung</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem_0_en</InfClass> <Frequency>14</Frequency> </BaseStem>
 <BaseStem> <Lemma>Begriff</Lemma> <Stem>Begriff</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_es_e</InfClass> <Frequency>11</Frequency> </BaseStem>
 <BaseStem> <Lemma>Behalt</Lemma> <Stem>Behalt</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc/Sg_es</InfClass> <Frequency>0</Frequency> </BaseStem>
 <BaseStem> <Lemma>Behälter</Lemma> <Stem>Behälter</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_s_0</InfClass> <Frequency>14</Frequency> </BaseStem>
@@ -2745,7 +2744,6 @@
 <BaseStem> <Lemma>Genesung</Lemma> <Stem>Genesung</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem_0_en</InfClass> <Frequency>15</Frequency> </BaseStem>
 <BaseStem> <Lemma>Genetik</Lemma> <Stem>Genetik</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem/Sg</InfClass> <Frequency>16</Frequency> </BaseStem>
 <BaseStem> <Lemma>Genf</Lemma> <Stem>Genf</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>Name-Neut_s</InfClass> <Frequency>12</Frequency> </BaseStem>
-<BaseStem> <Lemma>Genfer</Lemma> <Stem>Genfer</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_s_0</InfClass> <Frequency>13</Frequency> </BaseStem>
 <BaseStem> <Lemma>Genick</Lemma> <Stem>Genick</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NNeut_s_e</InfClass> <Frequency>16</Frequency> </BaseStem>
 <BaseStem> <Lemma>Genie</Lemma> <Stem>Genie</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NNeut_s_s</InfClass> <Frequency>14</Frequency> </BaseStem>
 <BaseStem> <Lemma>Genius</Lemma> <Stem>Genius</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc-us/en</InfClass> <Frequency>16</Frequency> </BaseStem>
@@ -5316,10 +5314,8 @@
 <BaseStem> <Lemma>Mythos</Lemma> <Stem>Mythus</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc-us/en</InfClass> <Frequency>12</Frequency> </BaseStem>
 <BaseStem> <Lemma>Nabel</Lemma> <Stem>Nabel</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_s_0</InfClass> <Frequency>16</Frequency> </BaseStem>
 <BaseStem> <Lemma>Nachbar</Lemma> <Stem>Nachbar</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_n_n</InfClass> <Frequency>11</Frequency> </BaseStem>
-<BaseStem> <Lemma>Nachbarschaft</Lemma> <Stem>Nachbarschaft</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem/Sg</InfClass> <Frequency>13</Frequency> </BaseStem>
 <BaseStem> <Lemma>Nachfahre</Lemma> <Stem>Nachfahre</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_n_n</InfClass> <Frequency>15</Frequency> </BaseStem>
 <BaseStem> <Lemma>Nachfolge</Lemma> <Stem>Nachfolge</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem_0_n</InfClass> <Frequency>12</Frequency> </BaseStem>
-<BaseStem> <Lemma>Nachfolger</Lemma> <Stem>Nachfolger</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_s_0</InfClass> <Frequency>11</Frequency> </BaseStem>
 <BaseStem> <Lemma>Nachfrage</Lemma> <Stem>Nachfrage</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem_0_n</InfClass> <Frequency>11</Frequency> </BaseStem>
 <BaseStem> <Lemma>Nachhilfe</Lemma> <Stem>Nachhilfe</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem_0_n</InfClass> <Frequency>15</Frequency> </BaseStem>
 <BaseStem> <Lemma>Nachkomme</Lemma> <Stem>Nachkomme</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_n_n</InfClass> <Frequency>14</Frequency> </BaseStem>
@@ -9383,7 +9379,6 @@
 <BaseStem> <Lemma>begreif</Lemma> <Stem>begreif</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPres</InfClass> <Frequency>12</Frequency> </BaseStem>
 <BaseStem> <Lemma>begreif</Lemma> <Stem>begriff</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastStr</InfClass> <Frequency>12</Frequency> </BaseStem>
 <BaseStem> <Lemma>begreif</Lemma> <Stem>begriff</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPP-en</InfClass> <Frequency>12</Frequency> </BaseStem>
-<BaseStem> <Lemma>begrenz</Lemma> <Stem>begrenz</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>12</Frequency> </BaseStem>
 <BaseStem> <Lemma>begrün</Lemma> <Stem>begrün</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>16</Frequency> </BaseStem>
 <BaseStem> <Lemma>begründ</Lemma> <Stem>begründ</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>11</Frequency> </BaseStem>
 <BaseStem> <Lemma>begrüß</Lemma> <Stem>begrüß</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>11</Frequency> </BaseStem>
@@ -9812,7 +9807,8 @@
 <Lemma>bind</Lemma> <Stem>bänd</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastKonjStr</InfClass> <Frequency>13</Frequency> </BaseStem>
 <BaseStem> <MorphMarker>ge</MorphMarker>
 <Lemma>bind</Lemma> <Stem>bind</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPres</InfClass> <Frequency>13</Frequency> </BaseStem>
-<BaseStem> <Lemma>bind</Lemma> <Stem>gebund</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPP-en</InfClass> <Frequency>13</Frequency> </BaseStem>
+<BaseStem> <MorphMarker>ge</MorphMarker>
+<Lemma>bind</Lemma> <Stem>bund</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPP-en</InfClass> <Frequency>13</Frequency> </BaseStem>
 <BaseStem> <MorphMarker>ge</MorphMarker>
 <Lemma>bitt</Lemma> <Stem>bat</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastIndStr</InfClass> <Frequency>10</Frequency> </BaseStem>
 <BaseStem> <MorphMarker>ge</MorphMarker>
@@ -13566,7 +13562,6 @@
 <BaseStem> <Lemma>verabschied</Lemma> <Stem>verabschied</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>11</Frequency> </BaseStem>
 <BaseStem> <Lemma>veracht</Lemma> <Stem>veracht</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>15</Frequency> </BaseStem>
 <BaseStem> <Lemma>veralt</Lemma> <Stem>veralt</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>15</Frequency> </BaseStem>
-<BaseStem> <Lemma>veränder</Lemma> <Stem>veränder</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg-el/er</InfClass> <Frequency>11</Frequency> </BaseStem>
 <BaseStem> <Lemma>veranker</Lemma> <Stem>veranker</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg-el/er</InfClass> <Frequency>13</Frequency> </BaseStem>
 <BaseStem> <Lemma>veranlag</Lemma> <Stem>veranlag</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>16</Frequency> </BaseStem>
 <BaseStem> <Lemma>veranlass</Lemma> <Stem>veranlass</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>13</Frequency> </BaseStem>
@@ -14012,7 +14007,6 @@
 <BaseStem> <Lemma>versend</Lemma> <Stem>versend</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastIndReg</InfClass> <Frequency>15</Frequency> </BaseStem>
 <BaseStem> <Lemma>versend</Lemma> <Stem>versend</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>15</Frequency> </BaseStem>
 <BaseStem> <Lemma>versenk</Lemma> <Stem>versenk</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>14</Frequency> </BaseStem>
-<BaseStem> <Lemma>versetz</Lemma> <Stem>versetz</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>12</Frequency> </BaseStem>
 <BaseStem> <Lemma>verseuch</Lemma> <Stem>verseuch</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>15</Frequency> </BaseStem>
 <BaseStem> <Lemma>versicher</Lemma> <Stem>versicher</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg-el/er</InfClass> <Frequency>12</Frequency> </BaseStem>
 <BaseStem> <Lemma>versicker</Lemma> <Stem>versicker</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg-el/er</InfClass> <Frequency>15</Frequency> </BaseStem>
@@ -14139,7 +14133,6 @@
 <BaseStem> <Lemma>verwind</Lemma> <Stem>verwänd</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastKonjStr</InfClass> <Frequency>16</Frequency> </BaseStem>
 <BaseStem> <Lemma>verwind</Lemma> <Stem>verwind</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPres</InfClass> <Frequency>16</Frequency> </BaseStem>
 <BaseStem> <Lemma>verwind</Lemma> <Stem>verwund</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPP-en</InfClass> <Frequency>16</Frequency> </BaseStem>
-<BaseStem> <Lemma>verwirklich</Lemma> <Stem>verwirklich</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>12</Frequency> </BaseStem>
 <BaseStem> <Lemma>verwirr</Lemma> <Stem>verwirr</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastIndStr</InfClass> <Frequency>13</Frequency> </BaseStem>
 <BaseStem> <Lemma>verwirr</Lemma> <Stem>verwirr</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPres</InfClass> <Frequency>13</Frequency> </BaseStem>
 <BaseStem> <Lemma>verwirr</Lemma> <Stem>verworr</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastIndStr</InfClass> <Frequency>13</Frequency> </BaseStem>
@@ -14922,7 +14915,6 @@
 <BaseStem> <Lemma>chilenisch</Lemma> <Stem>chilenisch</Stem> <Pos>ADJ</Pos><Origin>nativ</Origin> <InfClass>Adj+Lang</InfClass> <Frequency>14</Frequency> </BaseStem>
 <BaseStem> <Lemma>chinesisch</Lemma> <Stem>chinesisch</Stem> <Pos>ADJ</Pos><Origin>nativ</Origin> <InfClass>Adj+Lang</InfClass> <Frequency>11</Frequency> </BaseStem>
 <BaseStem> <Lemma>chinesisch</Lemma> <Stem>chinesisch</Stem> <Pos>ADJ</Pos><Origin>nativ</Origin> <InfClass>Adj+Lang</InfClass> <Frequency>16</Frequency> </BaseStem>
-<BaseStem> <Lemma>christlich</Lemma> <Stem>christlich</Stem> <Pos>ADJ</Pos><Origin>nativ</Origin> <InfClass>Adj+(e)</InfClass> <Frequency>11</Frequency> </BaseStem>
 <BaseStem> <Lemma>chronisch</Lemma> <Stem>chronisch</Stem> <Pos>ADJ</Pos><Origin>nativ</Origin> <InfClass>Adj+</InfClass> <Frequency>13</Frequency> </BaseStem>
 <BaseStem> <Lemma>chronologisch</Lemma> <Stem>chronologisch</Stem> <Pos>ADJ</Pos><Origin>nativ</Origin> <InfClass>Adj+</InfClass> <Frequency>15</Frequency> </BaseStem>
 <BaseStem> <Lemma>clever</Lemma> <Stem>clever</Stem> <Pos>ADJ</Pos><Origin>fremd</Origin> <InfClass>Adj+</InfClass> <Frequency>14</Frequency> </BaseStem>
@@ -16889,7 +16881,6 @@
 <BaseStem> <Lemma>süchtig</Lemma> <Stem>süchtig</Stem> <Pos>ADJ</Pos><Origin>nativ</Origin> <InfClass>Adj+(e)</InfClass> <Frequency>14</Frequency> </BaseStem>
 <BaseStem> <Lemma>sudanesisch</Lemma> <Stem>sudanesisch</Stem> <Pos>ADJ</Pos><Origin>nativ</Origin> <InfClass>Adj+Lang</InfClass> <Frequency>15</Frequency> </BaseStem>
 <BaseStem> <Lemma>südländisch</Lemma> <Stem>südländisch</Stem> <Pos>ADJ</Pos><Origin>nativ</Origin> <InfClass>Adj+Lang</InfClass> <Frequency>16</Frequency> </BaseStem>
-<BaseStem> <Lemma>südlich</Lemma> <Stem>südlich</Stem> <Pos>ADJ</Pos><Origin>nativ</Origin> <InfClass>Adj+</InfClass> <Frequency>11</Frequency> </BaseStem>
 <BaseStem> <Lemma>süffig</Lemma> <Stem>süffig</Stem> <Pos>ADJ</Pos><Origin>nativ</Origin> <InfClass>Adj+</InfClass> <Frequency>16</Frequency> </BaseStem>
 <BaseStem> <Lemma>süffisant</Lemma> <Stem>süffisant</Stem> <Pos>ADJ</Pos><Origin>nativ</Origin> <InfClass>Adj+e</InfClass> <Frequency>16</Frequency> </BaseStem>
 <BaseStem> <Lemma>suggestiv</Lemma> <Stem>suggestiv</Stem> <Pos>ADJ</Pos><Origin>nativ</Origin> <InfClass>Adj+</InfClass> <Frequency>15</Frequency> </BaseStem>

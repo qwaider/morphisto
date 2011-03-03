@@ -1,7 +1,17 @@
 <?xml version = '1.0' encoding = 'utf-8' ?>
 <?xml-stylesheet type="text/xsl" href="lexicon-transform.xslt"?>
 <smor>
+<BaseStem> <Lemma>Begrenzung</Lemma> <Stem>Begrenzung</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem_0_en</InfClass> <Frequency>14</Frequency> </BaseStem>
 <BaseStem> <Lemma>Diener</Lemma> <Stem>Diener</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_s_0</InfClass> <Frequency>14</Frequency> </BaseStem>
+<BaseStem> <Lemma>Genfer</Lemma> <Stem>Genfer</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_s_0</InfClass> <Frequency>13</Frequency> </BaseStem>
+<BaseStem> <Lemma>Nachbarschaft</Lemma> <Stem>Nachbarschaft</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem/Sg</InfClass> <Frequency>13</Frequency> </BaseStem>
+<BaseStem> <Lemma>Nachfolger</Lemma> <Stem>Nachfolger</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_s_0</InfClass> <Frequency>11</Frequency> </BaseStem>
 <BaseStem> <Lemma>Vertrauen</Lemma> <Stem>Vertrauen</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NNeut/Sg_s</InfClass> <Frequency>11</Frequency> </BaseStem>
+<BaseStem> <Lemma>begrenz</Lemma> <Stem>begrenz</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>12</Frequency> </BaseStem>
+<BaseStem> <Lemma>christlich</Lemma> <Stem>christlich</Stem> <Pos>ADJ</Pos><Origin>nativ</Origin> <InfClass>Adj+(e)</InfClass> <Frequency>11</Frequency> </BaseStem>
+<BaseStem> <Lemma>südlich</Lemma> <Stem>südlich</Stem> <Pos>ADJ</Pos><Origin>nativ</Origin> <InfClass>Adj+</InfClass> <Frequency>11</Frequency> </BaseStem>
+<BaseStem> <Lemma>veränder</Lemma> <Stem>veränder</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg-el/er</InfClass> <Frequency>11</Frequency> </BaseStem>
+<BaseStem> <Lemma>versetz</Lemma> <Stem>versetz</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>12</Frequency> </BaseStem>
 <BaseStem> <Lemma>vertrau</Lemma> <Stem>vertrau</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>14</Frequency> </BaseStem>
+<BaseStem> <Lemma>verwirklich</Lemma> <Stem>verwirklich</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>12</Frequency> </BaseStem>
 </smor>
