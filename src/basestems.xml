@@ -3104,7 +3104,7 @@
 <BaseStem> <Lemma>Handicap</Lemma> <Stem>Handicap</Stem> <Pos>NN</Pos><Origin>fremd</Origin> <InfClass>NNeut_s_s</InfClass> <Frequency>15</Frequency> </BaseStem>
 <BaseStem> <Lemma>Handlanger</Lemma> <Stem>Handlanger</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_s_0</InfClass> <Frequency>16</Frequency> </BaseStem>
 <BaseStem> <Lemma>Händler</Lemma> <Stem>Händler</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_s_0</InfClass> <Frequency>11</Frequency> </BaseStem>
-<BaseStem> <Lemma>Handling</Lemma> <Stem>Handing</Stem> <Pos>NN</Pos><Origin>fremd</Origin> <InfClass>NNeut/Sg_s</InfClass> <Frequency>17</Frequency> </BaseStem>
+<BaseStem> <Lemma>Handling</Lemma> <Stem>Handling</Stem> <Pos>NN</Pos><Origin>fremd</Origin> <InfClass>NNeut/Sg_s</InfClass> <Frequency>17</Frequency> </BaseStem>
 <BaseStem> <Lemma>Handlung</Lemma> <Stem>Handlung</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem_0_en</InfClass> <Frequency>12</Frequency> </BaseStem>
 <BaseStem> <Lemma>Handumdrehen</Lemma> <Stem>Handumdrehen</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NNeut/Sg_s</InfClass> <Frequency>16</Frequency> </BaseStem>
 <BaseStem> <Lemma>Handvoll</Lemma> <Stem>Handvoll</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem/Sg</InfClass> <Frequency>14</Frequency> </BaseStem>
