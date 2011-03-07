@@ -1,0 +1,10 @@
+#summary Discussions concerning the further development of morphisto
+#labels Phase-Requirements,Phase-Design
+
+= Introduction =
+
+_morphisto_ is an open-source lexicon for the morphological analysis of German. It is designed to be used with SMOR, an open-source implementation of the German morphology rules. This page is supposed to discuss questions and problems of both morphisto and SMOR which are not obvious bugs or simple feature requests.
+
+= Details =
+
+  # 
