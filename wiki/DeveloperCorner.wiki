@@ -7,7 +7,7 @@ _morphisto_ is an open-source lexicon for the morphological analysis of German. 
 
 = Details =
 
-  # Prefix + Noun
+  * Prefix + Noun
     (Arbitrary)Combinations of prefix + noun are not possible in SMOR:
 {{{
     Absicht<+NN>:<><Fem>:<><Nom>:<><Sg>:<>
@@ -21,4 +21,26 @@ _morphisto_ is an open-source lexicon for the morphological analysis of German. 
 }}}
 
     Solution a: Add productive noun prefixation in SMOR (deko.fst).
+
     Solution b: Add 'ab', 'auf' etc. as 'OTHER' to morphisto.
+
+  * Verb participle to adjective conversion
+    The following example shows that an adjective reading is only available for base verbs not for complex ones.
+{{{
+    ver<PREF>suchen<+V><1><Sg><Past><Konj>
+    ver<PREF>suchen<+V><1><Sg><Past><Ind>
+    ver<PREF>suchen<+V><3><Sg><Past><Konj>
+    ver<PREF>suchen<+V><3><Sg><Past><Ind>
+    versuchen<+V><1><Sg><Past><Konj>
+    versuchen<+V><1><Sg><Past><Ind>
+    versuchen<+V><3><Sg><Past><Konj>
+    versuchen<+V><3><Sg><Past><Ind>
+    versuchen<V><PPast><SUFF><+ADJ><Pos><Masc><Nom><Sg><Sw>
+    versuchen<V><PPast><SUFF><+ADJ><Pos><Fem><Nom><Sg>
+    versuchen<V><PPast><SUFF><+ADJ><Pos><Fem><Akk><Sg>
+    versuchen<V><PPast><SUFF><+ADJ><Pos><Neut><Nom><Sg><Sw>
+    versuchen<V><PPast><SUFF><+ADJ><Pos><Neut><Akk><Sg><Sw>
+    versuchen<V><PPast><SUFF><+ADJ><Pos><NoGend><Nom><Pl><St>
+    versuchen<V><PPast><SUFF><+ADJ><Pos><NoGend><Akk><Pl><St>
+}}}
+    For the (in principle superflous) full form entry of 'versuchen' but not for the derived form 'ver + suchen', adjective readings are generated. Assumedly, this is also a problem in 'deko.fst'.
