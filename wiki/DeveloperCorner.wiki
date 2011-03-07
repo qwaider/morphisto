@@ -23,6 +23,11 @@ _morphisto_ is an open-source lexicon for the morphological analysis of German. 
     Solution a: Add productive noun prefixation in SMOR (deko.fst).
 
     Solution b: Add 'ab', 'auf' etc. as 'OTHER' to morphisto.
+    
+*Comments by CWRSimon:*
+
+I do like the ideas, but I am wondering, whether prefixation is productive enough for German nouns in general: E.g., Morphisto already analyzes "Durchhund" and "Durchstuhl". Of course, one could argue that only nouns with a certain semantic feature can be prefixed with a prefix that embodies the same feature (e.g. Durch[+direction] and Gang[+direction] can form Durchgang). But then again, is prefixation really a process that applies to German nouns? I don't know what the literature says, but I would imagine the following: Prefixation is process that typically applies to verbs: durchgehen, durchsehen, hingehen, absehen, etc. And Durchgang, Aufsicht, Hinsicht, etc. are just the nominalizations of theses verbs. I do concede that I don't know, how to tell an FST-based morphology about German etymological wordformation processes....
+
 
   * Verb participle to adjective conversion
     The following example shows that an adjective reading is only available for base verbs not for complex ones.
