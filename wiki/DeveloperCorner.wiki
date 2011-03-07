@@ -7,4 +7,18 @@ _morphisto_ is an open-source lexicon for the morphological analysis of German. 
 
 = Details =
 
-  # 
+  # Prefix + Noun
+    (Arbitrary)Combinations of prefix + noun are not possible in SMOR:
+{{{
+    Absicht<+NN>:<><Fem>:<><Nom>:<><Sg>:<>
+    Aufsicht<+NN>:<><Fem>:<><Nom>:<><Sg>:<>
+    Hinsicht<+NN>:<><Fem>:<><Nom>:<><Sg>:<>
+}}}
+    But:
+{{{
+    Durch<OTHER>:<>S:sicht<+NN>:<><Fem>:<><Nom>:<><Sg>:<>
+    Durch<OTHER>:<>D:durch<OTHER>:<>S:sicht<+NN>:<><Fem>:<><Nom>:<><Sg>:<>
+}}}
+
+    Solution a: Add productive noun prefixation in SMOR (deko.fst).
+    Solution b: Add 'ab', 'auf' etc. as 'OTHER' to morphisto.
