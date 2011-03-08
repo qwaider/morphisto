@@ -24,10 +24,17 @@ _morphisto_ is an open-source lexicon for the morphological analysis of German. 
 
     Solution b: Add 'ab', 'auf' etc. as 'OTHER' to morphisto.
     
-*Comments by CWRSimon:*
+    Comments by *CWRSimon*:
 
-I do like the ideas, but I am wondering, whether prefixation is productive enough for German nouns in general: E.g., Morphisto already analyzes "Durchhund" and "Durchstuhl". Of course, one could argue that only nouns with a certain semantic feature can be prefixed with a prefix that embodies the same feature (e.g. Durch[+direction] and Gang[+direction] can form Durchgang). But then again, is prefixation really a process that applies to German nouns? I don't know what the literature says, but I would imagine the following: Prefixation is process that typically applies to verbs: durchgehen, durchsehen, hingehen, absehen, etc. And Durchgang, Aufsicht, Hinsicht, etc. are just the nominalizations of theses verbs. I do concede that I don't know, how to tell an FST-based morphology about German etymological wordformation processes....
+    I do like the ideas, but I am wondering, whether prefixation is     productive enough for German nouns in general: E.g., Morphisto already  analyzes "Durchhund" and "Durchstuhl". Of course, one could argue that  only nouns with a certain semantic feature can be prefixed with a prefix  that embodies the same feature (e.g. Durch[+direction] and  Gang[+direction] can form Durchgang). But then again, is prefixation  really a process that applies to German nouns? I don't know what the  literature says, but I would imagine the following: Prefixation is  process that typically applies to verbs: durchgehen, durchsehen,  hingehen, absehen, etc. And Durchgang, Aufsicht, Hinsicht, etc. are just the nominalizations of theses verbs. I do concede that I don't know, how to tell an FST-based morphology about German etymological wordformation processes....
 
+     Comments by *wuerzner*:
+ 
+     You are absolutely right: According to Fleischer/Barz, prefixation of nouns is a rare phenomenon. Nouns as 'Durchgang' should then be analysed as deverbal:
+{{{
+    <CAP>durch<PREF>gehen<V><SUFF><+NN><Masc><Nom><Sg>
+}}}
+     Are we able to implement that with SFST?
 
   * Verb participle to adjective conversion
     The following example shows that an adjective reading is only available for base verbs not for complex ones.
@@ -50,8 +57,8 @@ I do like the ideas, but I am wondering, whether prefixation is productive enoug
 }}}
     For the (in principle superflous) full form entry of 'versuchen' but not for the derived form 'ver + suchen', adjective readings are generated. Assumedly, this is also a problem in 'deko.fst'.
 
-*Comments by CWRSimon*
-What exact wordform have you analyzed? _versuchen_ is not exactly a hypothetic attributive adjective form, only maybe a predicative one ("Dieses Angebot ist versuchen."). If one makes Morphisto analyze _versuchendes_, one will receive the analysis for an attributive adjective:
+    Comments by *CWRSimon*
+    What exact wordform have you analyzed? _versuchen_ is not exactly a hypothetic attributive adjective form, only maybe a predicative one ("Dieses Angebot ist versuchen."). If one makes Morphisto analyze _versuchendes_, one will receive the analysis for an attributive adjective:
 {{{
 versuchen<V><PPres><SUFF><+ADJ><Pos><Neut><Akk><Sg><St/Mix>
 versuchen<V><PPres><SUFF><+ADJ><Pos><Neut><Nom><Sg><St/Mix>
