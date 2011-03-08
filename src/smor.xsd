@@ -53,7 +53,9 @@
       <xs:element ref="Lower"/>
       <xs:element ref="Pos"/>
       <xs:element ref="Origin"/>
-      <xs:group ref="LexicographicContent"/>
+        <xs:element minOccurs="0" maxOccurs="1" ref="Frequency"/>
+        <xs:element minOccurs="0" maxOccurs="1" ref="Editor"/>
+        <xs:element minOccurs="0" maxOccurs="1" ref="Source"/>
     </xs:sequence>
   </xs:complexType>
   <xs:element name="SuffStem">
@@ -64,7 +66,9 @@
         <xs:element ref="Upper"/>
         <xs:element ref="Lower"/>
         <xs:element ref="NewStem"/>
-        <xs:group ref="LexicographicContent"/>
+        <xs:element minOccurs="0" maxOccurs="1" ref="Frequency"/>
+        <xs:element minOccurs="0" maxOccurs="1" ref="Editor"/>
+        <xs:element minOccurs="0" maxOccurs="1" ref="Source"/>
       </xs:sequence>
     </xs:complexType>
   </xs:element>
