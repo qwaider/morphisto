@@ -57,7 +57,7 @@ _morphisto_ is an open-source lexicon for the morphological analysis of German. 
 }}}
     For the (in principle superflous) full form entry of 'versuchen' but not for the derived form 'ver + suchen', adjective readings are generated. Assumedly, this is also a problem in 'deko.fst'.
 
-    Comments by *CWRSimon*
+    Comments by *CWRSimon*:
     What exact wordform have you analyzed? _versuchen_ is not exactly a hypothetic attributive adjective form, only maybe a predicative one ("Dieses Angebot ist versuchen."). If one makes Morphisto analyze _versuchendes_, one will receive the analysis for an attributive adjective:
 {{{
 versuchen<V><PPres><SUFF><+ADJ><Pos><Neut><Akk><Sg><St/Mix>
@@ -65,7 +65,10 @@ versuchen<V><PPres><SUFF><+ADJ><Pos><Neut><Nom><Sg><St/Mix>
 ver<PREF>suchen<V><PPres><SUFF><+ADJ><Pos><Neut><Akk><Sg><St/Mix>
 ver<PREF>suchen<V><PPres><SUFF><+ADJ><Pos><Neut><Nom><Sg><St/Mix>
 }}}
-But I agree that the internal workings of deko.fst are not very transparent and need to be examined in detail!
+    But I agree that the internal workings of deko.fst are not very transparent and need to be examined in detail!
+
+    Comments by *wuerzner*:
+    The concrete form was 'versuchte' ('Der zunächst versuchte Weg erwies sich als falsch.'). I confirm that everything is fine for 'versuchendes'. Do we have a bug here?
 
   * Relation between Base- and KomposStem
     Despite of defining a KomposStem for a base entry, it is still possible to infer compounds from that base.
