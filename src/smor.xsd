@@ -22,8 +22,8 @@
         <xs:element ref="Origin"/>
         <xs:element ref="InfClass"/>
         <xs:element minOccurs="0" maxOccurs="1" ref="Frequency"/>
-      <xs:element minOccurs="0" maxOccurs="1" ref="Editor"/>
-      <xs:element minOccurs="0" maxOccurs="1" ref="Source"/>
+        <xs:element minOccurs="0" maxOccurs="1" ref="Editor"/>
+        <xs:element minOccurs="0" maxOccurs="1" ref="Source"/>
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -38,7 +38,9 @@
         <xs:element ref="Lower"/>
         <xs:element maxOccurs="unbounded" ref="Pos"/>
         <xs:element maxOccurs="unbounded" ref="Origin"/>
-        <xs:group ref="LexicographicContent"/>
+        <xs:element minOccurs="0" maxOccurs="1" ref="Frequency"/>
+        <xs:element minOccurs="0" maxOccurs="1" ref="Editor"/>
+        <xs:element minOccurs="0" maxOccurs="1" ref="Source"/>
       </xs:sequence>
     </xs:complexType>
   </xs:element>
