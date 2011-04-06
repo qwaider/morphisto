@@ -74,6 +74,7 @@
 <Origin>nativ</Origin>
 </PrefStem>
 <PrefStem>
+<MorphMarker>no-ge</MorphMarker>
 <Upper>be</Upper>
 <Lower>be</Lower>
 <Pos>V</Pos>
@@ -254,6 +255,7 @@
 <Origin>nativ</Origin>
 </PrefStem>
 <PrefStem>
+<MorphMarker>no-ge</MorphMarker>
 <Upper>ent</Upper>
 <Lower>ent</Lower>
 <Pos>V</Pos>
@@ -896,6 +898,7 @@
 <Origin>nativ</Origin>
 </PrefStem>
 <PrefStem>
+<MorphMarker>no-ge</MorphMarker>
 <Upper>ver</Upper>
 <Lower>ver</Lower>
 <Pos>V</Pos>
@@ -1040,6 +1043,7 @@
 <Origin>nativ</Origin>
 </PrefStem>
 <PrefStem>
+<MorphMarker>no-ge</MorphMarker>
 <Upper>zer</Upper>
 <Lower>zer</Lower>
 <Pos>V</Pos>

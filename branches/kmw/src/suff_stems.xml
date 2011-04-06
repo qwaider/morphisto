@@ -2779,6 +2779,8 @@
 			<Pos>ABK</Pos>
 			<Pos>NE</Pos>
 			<Pos>NN</Pos>
+			<Pos>ADJ</Pos>
+			<Pos>V</Pos>
 		</PrevStem>
 		<Upper>haft</Upper>
 		<Lower>haft</Lower>
@@ -2798,6 +2800,8 @@
 			<Pos>ABK</Pos>
 			<Pos>NE</Pos>
 			<Pos>NN</Pos>
+			<Pos>ADJ</Pos>
+			<Pos>V</Pos>
 		</PrevStem>
 		<Upper>haft</Upper>
 		<Lower>haft</Lower>
@@ -2816,6 +2820,8 @@
 			<Pos>ABK</Pos>
 			<Pos>NE</Pos>
 			<Pos>NN</Pos>
+			<Pos>ADJ</Pos>
+			<Pos>V</Pos>
 		</PrevStem>
 		<Upper>haft</Upper>
 		<Lower>haft</Lower>
