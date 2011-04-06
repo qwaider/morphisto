@@ -152,6 +152,7 @@
   <define name="MorphMarkerContent">
     <element name="MorphMarker">
       <choice>
+	<value>no-ge</value>
         <value>ge</value>
         <value>NoDef</value>
         <value>NoHy</value>
