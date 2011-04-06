@@ -37,7 +37,38 @@ _morphisto_ is an open-source lexicon for the morphological analysis of German. 
      Comments by *CWRSimon*:
      With FST-based technologies possibly, but not necessarily in the framework of Morphisto. What we need is a means of defining conversion rules from one POS class to another.
 
-  * Verb participle to adjective conversion
+
+  * Relation between Base- and KomposStem
+    Despite of defining a KomposStem for a base entry, it is still possible to infer compounds from that base.
+{{{
+    Alter<NN>:<>W:weisheit<+NN>:<><Fem>:<><Nom>:<><Sg>:<>
+}}}
+    Should we define a special origin class for words which have a KomposStem and should not be used in compounds?
+{{{
+    <BaseStem><Lemma>Alter</Lemma><Stem>Alter</Stem><Pos>NN</Pos><Origin>special</Origin><InfClass>NNeut_s_0</InfClass> <Frequency>10</Frequency> </BaseStem>
+    <KomposStem><Upper>Alter</Upper><Lower>Alters</Lower><Pos>NN</Pos><Origin>nativ</Origin><Frequency>0</Frequency</KomposStem>
+}}}
+    Is there an equivalent type of entry for derivations (e.g. DerivStem)?
+
+    Comments by *CWRSimon*:
+    Yes, there is the _DerivStem_ class, but honestly, I have never understood how to use it properly:
+{{{
+<Deriv_Stems>Pantomime:<><NN><deriv><fremd>
+<Deriv_Stems>Seku:?nde:<><NN><deriv><frei>
+<Deriv_Stems>Standard<NN><deriv><frei>
+<Deriv_Stems>Thema<>:t<NN><deriv><frei>
+<Deriv_Stems>divis<V><deriv><lang>
+<Deriv_Stems>erkunde:<>n:<><V><deriv><nativ>
+<Deriv_Stems>ertra:?g<V><deriv><nativ>
+}}}
+    This would be a top-priority thing to ask Helmut Schmid...
+    Regarding the first question:
+The idea to exclude base stems for which a compound stem has been defined appeals to me. However, would it still be possible to analyze _Zeitalter_ or _Zeitalterbestimmung_ then?
+
+= Resolved questions =
+
+
+* Verb participle to adjective conversion
     The following example shows that an adjective reading is only available for base verbs not for complex ones.
 {{{
     ver<PREF>suchen<+V><1><Sg><Past><Konj>
@@ -74,30 +105,5 @@ ver<PREF>suchen<V><PPres><SUFF><+ADJ><Pos><Neut><Nom><Sg><St/Mix>
     Comments by *CWRSimon*:
     Possibly. Do you know the general rule for creating attribute adjectives from verbs? SMOR/Morphisto seems to use the Partizip-II form, because _vergesuchte_ works. Compare with _abgrasen_: It is possible to use _abgegraste_ as an adjective (_das abgegraste Feld_), but you cannote say _das abgraste Feld_ which is analogous to _versuchte_. That brings me to another complicated matter. Morphisto analyzes _abgraste_ as an inflected verb form of 'abgrasen' (_Ich abgraste das Feld_). That is BS, because it should actually be (_Ich graste das Feld ab_). But that matter gets us closer to parsing than mere morphological analysis...
 
-
-  * Relation between Base- and KomposStem
-    Despite of defining a KomposStem for a base entry, it is still possible to infer compounds from that base.
-{{{
-    Alter<NN>:<>W:weisheit<+NN>:<><Fem>:<><Nom>:<><Sg>:<>
-}}}
-    Should we define a special origin class for words which have a KomposStem and should not be used in compounds?
-{{{
-    <BaseStem><Lemma>Alter</Lemma><Stem>Alter</Stem><Pos>NN</Pos><Origin>special</Origin><InfClass>NNeut_s_0</InfClass> <Frequency>10</Frequency> </BaseStem>
-    <KomposStem><Upper>Alter</Upper><Lower>Alters</Lower><Pos>NN</Pos><Origin>nativ</Origin><Frequency>0</Frequency</KomposStem>
-}}}
-    Is there an equivalent type of entry for derivations (e.g. DerivStem)?
-
-    Comments by *CWRSimon*:
-    Yes, there is the _DerivStem_ class, but honestly, I have never understood how to use it properly:
-{{{
-<Deriv_Stems>Pantomime:<><NN><deriv><fremd>
-<Deriv_Stems>Seku:?nde:<><NN><deriv><frei>
-<Deriv_Stems>Standard<NN><deriv><frei>
-<Deriv_Stems>Thema<>:t<NN><deriv><frei>
-<Deriv_Stems>divis<V><deriv><lang>
-<Deriv_Stems>erkunde:<>n:<><V><deriv><nativ>
-<Deriv_Stems>ertra:?g<V><deriv><nativ>
-}}}
-    This would be a top-priority thing to ask Helmut Schmid...
-    Regarding the first question:
-The idea to exclude base stems for which a compound stem has been defined appeals to me. However, would it still be possible to analyze _Zeitalter_ or _Zeitalterbestimmung_ then?
+    Closing Remark by *wuerzner*:
+    It is possible to make use of the MorphMarker 'no-ge' to allow for the analysis of derived verb forms as past participle. Conversion to ADJ works if such an analysis is available.
