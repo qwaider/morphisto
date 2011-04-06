@@ -379,149 +379,75 @@
 	</BaseStem>
 	
 	<!-- müssen -->
-	
+
 	<BaseStem>
-		<Lemma>müssen</Lemma>
-		<Stem>müsst</Stem>
-		<Pos>V</Pos>
-		<Origin>nativ</Origin>
-		<InfClass>VPastKonjStr</InfClass>
-	</BaseStem>
-	<BaseStem>
-		<Lemma>müssen</Lemma>
-		<Stem>gemusst</Stem>
-		<Pos>V</Pos>
-		<Origin>nativ</Origin>
-		<InfClass>VPPast</InfClass>
-	</BaseStem>
-	<BaseStem>
-		<Lemma>müssen</Lemma>
-		<Stem>müssen</Stem>
-		<Pos>V</Pos>
-		<Origin>nativ</Origin>
-		<InfClass>VInf+PPres</InfClass>
-	</BaseStem>
-	<BaseStem>
-		<Lemma>müssen</Lemma>
-		<Stem>musst</Stem>
-		<Pos>V</Pos>
-		<Origin>nativ</Origin>
-		<InfClass>VAPres2SgInd</InfClass>
-	</BaseStem>
-	<BaseStem>
-		<Lemma>müssen</Lemma>
+		<Lemma>müss</Lemma>
 		<Stem>muss</Stem>
 		<Pos>V</Pos>
 		<Origin>nativ</Origin>
-		<InfClass>VAPres3SgInd</InfClass>
+		<InfClass>VMPresSg</InfClass>
 	</BaseStem>
+
 	<BaseStem>
-		<Lemma>müssen</Lemma>
-		<Stem>muss</Stem>
-		<Pos>V</Pos>
-		<Origin>nativ</Origin>
-		<InfClass>VAPres1SgInd</InfClass>
-	</BaseStem>
-	<BaseStem>
-		<Lemma>müssen</Lemma>
-		<Stem>müssen</Stem>
-		<Pos>V</Pos>
-		<Origin>nativ</Origin>
-		<InfClass>VAPres1/3PlInd</InfClass>
-	</BaseStem>
-	<BaseStem>
-		<Lemma>müssen</Lemma>
-		<Stem>müsst</Stem>
-		<Pos>V</Pos>
-		<Origin>nativ</Origin>
-		<InfClass>VAPres2PlInd</InfClass>
-	</BaseStem>
-	<BaseStem>
-		<Lemma>müssen</Lemma>
-		<Stem>muss</Stem>
-		<Pos>V</Pos>
-		<Origin>nativ</Origin>
-		<InfClass>VPastIndReg</InfClass> 
-	</BaseStem>
-	<BaseStem>
-		<Lemma>müssen</Lemma>
+		<Lemma>müss</Lemma>
 		<Stem>müss</Stem>
 		<Pos>V</Pos>
 		<Origin>nativ</Origin>
-		<InfClass>VPresKonj</InfClass>
+		<InfClass>VMPresPl</InfClass>
 	</BaseStem>
+
 	<BaseStem>
-		<Lemma>müssen</Lemma>
-		<Stem>müsse</Stem>
+		<MorphMarker>ge</MorphMarker>
+		<Lemma>müss</Lemma>
+		<Stem>müss</Stem>
 		<Pos>V</Pos>
 		<Origin>nativ</Origin>
-		<InfClass>VAImpSg</InfClass>
+		<InfClass>VMPastKonj</InfClass>
 	</BaseStem>
+
 	<BaseStem>
-		<Lemma>müssen</Lemma>
-		<Stem>müsst</Stem>
+		<MorphMarker>ge</MorphMarker>
+		<Lemma>müss</Lemma>
+		<Stem>muss</Stem>
 		<Pos>V</Pos>
 		<Origin>nativ</Origin>
-		<InfClass>VAImpPl</InfClass>
+		<InfClass>VMPast</InfClass>
 	</BaseStem>
-	
-	<!-- müssen, old spelling -->
-	
+
+	<!-- müssen - old spelling -->
+
 	<BaseStem>
-		<Lemma>müssen</Lemma>
-		<Stem>gemußt</Stem>
-		<Pos>V</Pos>
-		<Origin>nativ</Origin>
-		<InfClass>VPPast</InfClass>
-	</BaseStem>
-	<BaseStem>
-		<Lemma>müssen</Lemma>
-		<Stem>mußt</Stem>
-		<Pos>V</Pos>
-		<Origin>nativ</Origin>
-		<InfClass>VAPres2SgInd</InfClass>
-	</BaseStem>
-	<BaseStem>
-		<Lemma>müssen</Lemma>
+		<Lemma>müss</Lemma>
 		<Stem>muß</Stem>
 		<Pos>V</Pos>
 		<Origin>nativ</Origin>
-		<InfClass>VAPres3SgInd</InfClass>
+		<InfClass>VMPresSg</InfClass>
 	</BaseStem>
+
 	<BaseStem>
-		<Lemma>müssen</Lemma>
+		<Lemma>müss</Lemma>
+		<Stem>müß</Stem>
+		<Pos>V</Pos>
+		<Origin>nativ</Origin>
+		<InfClass>VMPresPl</InfClass>
+	</BaseStem>
+
+	<BaseStem>
+		<MorphMarker>ge</MorphMarker>
+		<Lemma>müss</Lemma>
+		<Stem>müß</Stem>
+		<Pos>V</Pos>
+		<Origin>nativ</Origin>
+		<InfClass>VMPastKonj</InfClass>
+	</BaseStem>
+
+	<BaseStem>
+		<MorphMarker>ge</MorphMarker>
+		<Lemma>müss</Lemma>
 		<Stem>muß</Stem>
 		<Pos>V</Pos>
 		<Origin>nativ</Origin>
-		<InfClass>VAPres1SgInd</InfClass>
-	</BaseStem>
-	<BaseStem>
-		<Lemma>müssen</Lemma>
-		<Stem>müßt</Stem>
-		<Pos>V</Pos>
-		<Origin>nativ</Origin>
-		<InfClass>VAPres2PlInd</InfClass>
-	</BaseStem>
-	<BaseStem>
-		<Lemma>müssen</Lemma>
-		<Stem>muß</Stem>
-		<Pos>V</Pos>
-		<Origin>nativ</Origin>
-		<InfClass>VPastIndReg</InfClass> 
-	</BaseStem>
-	<BaseStem>
-		<Lemma>müssen</Lemma>
-		<Stem>müßt</Stem>
-		<Pos>V</Pos>
-		<Origin>nativ</Origin>
-		<InfClass>VPastKonjStr</InfClass>
-	</BaseStem>
-	<BaseStem>
-		<Lemma>müssen</Lemma>
-		<Stem>müßt</Stem>
-		<Pos>V</Pos>
-		<Origin>nativ</Origin>
-		<InfClass>VAImpPl</InfClass>
+		<InfClass>VMPast</InfClass>
 	</BaseStem>
 	
 	<!-- sollen -->

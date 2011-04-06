@@ -2,16 +2,308 @@
 <?xml-stylesheet type="text/xsl" href="lexicon-transform.xslt"?>
 <smor>
 <BaseStem> <Lemma>Begrenzung</Lemma> <Stem>Begrenzung</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem_0_en</InfClass> <Frequency>14</Frequency> </BaseStem>
+<BaseStem> <Lemma>Botschaft</Lemma> <Stem>Botschaft</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem_0_en</InfClass> <Frequency>11</Frequency> </BaseStem>
+<BaseStem> <Lemma>Bürgerrecht</Lemma> <Stem>Bürgerrecht</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NNeut_es_e</InfClass> <Frequency>0</Frequency> </BaseStem>
 <BaseStem> <Lemma>Diener</Lemma> <Stem>Diener</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_s_0</InfClass> <Frequency>14</Frequency> </BaseStem>
+<BaseStem> <Lemma>Felsen</Lemma> <Stem>Felsen</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NNeut_s_x</InfClass> <Frequency>14</Frequency> </BaseStem>
 <BaseStem> <Lemma>Genfer</Lemma> <Stem>Genfer</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_s_0</InfClass> <Frequency>13</Frequency> </BaseStem>
+<BaseStem> <Lemma>Mannschaft</Lemma> <Stem>Mannschaft</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem_0_en</InfClass> <Frequency>9</Frequency> </BaseStem>
 <BaseStem> <Lemma>Nachbarschaft</Lemma> <Stem>Nachbarschaft</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem/Sg</InfClass> <Frequency>13</Frequency> </BaseStem>
 <BaseStem> <Lemma>Nachfolger</Lemma> <Stem>Nachfolger</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_s_0</InfClass> <Frequency>11</Frequency> </BaseStem>
+<BaseStem> <Lemma>Spannung</Lemma> <Stem>Spannung</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem_0_en</InfClass> <Frequency>11</Frequency> </BaseStem>
+<BaseStem> <Lemma>Spannungsspezialist</Lemma> <Stem>Spannungsspezialist</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_en_en</InfClass> <Frequency>None</Frequency> </BaseStem>
+<BaseStem> <Lemma>Verband</Lemma> <Stem>Verband</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_es_$e</InfClass> <Frequency>10</Frequency> </BaseStem>
 <BaseStem> <Lemma>Vertrauen</Lemma> <Stem>Vertrauen</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NNeut/Sg_s</InfClass> <Frequency>11</Frequency> </BaseStem>
+<BaseStem> <Lemma>Wirklichkeit</Lemma> <Stem>Wirklichkeit</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem_0_en</InfClass> <Frequency>11</Frequency> </BaseStem>
 <BaseStem> <Lemma>begrenz</Lemma> <Stem>begrenz</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>12</Frequency> </BaseStem>
+<BaseStem> <Lemma>besteh</Lemma> <Stem>bestand</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastIndStr</InfClass> <Frequency>8</Frequency> </BaseStem>
+<BaseStem> <Lemma>besteh</Lemma> <Stem>bestand</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPP-en</InfClass> <Frequency>8</Frequency> </BaseStem>
+<BaseStem> <Lemma>besteh</Lemma> <Stem>beständ</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastKonjStr</InfClass> <Frequency>8</Frequency> </BaseStem>
+<BaseStem> <Lemma>besteh</Lemma> <Stem>besteh</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPres</InfClass> <Frequency>8</Frequency> </BaseStem>
+<BaseStem> <Lemma>beurteil</Lemma> <Stem>beurteil</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>12</Frequency> </BaseStem>
+<BaseStem> <Lemma>bewach</Lemma> <Stem>bewach</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>14</Frequency> </BaseStem>
+<BaseStem> <Lemma>bewerb</Lemma> <Stem>bewarb</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastIndStr</InfClass> <Frequency>11</Frequency> </BaseStem>
+<BaseStem> <Lemma>bewerb</Lemma> <Stem>bewerb</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPres1</InfClass> <Frequency>11</Frequency> </BaseStem>
+<BaseStem> <Lemma>bewerb</Lemma> <Stem>bewirb</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPres2+Imp</InfClass> <Frequency>11</Frequency> </BaseStem>
+<BaseStem> <Lemma>bewerb</Lemma> <Stem>beworb</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPP-en</InfClass> <Frequency>11</Frequency> </BaseStem>
+<BaseStem> <Lemma>bewerb</Lemma> <Stem>bewürb</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastKonjStr</InfClass> <Frequency>11</Frequency> </BaseStem>
+<BaseStem> <Lemma>bewerf</Lemma> <Stem>bewarf</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastIndStr</InfClass> <Frequency>15</Frequency> </BaseStem>
+<BaseStem> <Lemma>bewerf</Lemma> <Stem>bewerf</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPres1</InfClass> <Frequency>15</Frequency> </BaseStem>
+<BaseStem> <Lemma>bewerf</Lemma> <Stem>bewirf</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPres2+Imp</InfClass> <Frequency>15</Frequency> </BaseStem>
+<BaseStem> <Lemma>bewerf</Lemma> <Stem>beworf</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPP-en</InfClass> <Frequency>15</Frequency> </BaseStem>
+<BaseStem> <Lemma>bewerf</Lemma> <Stem>bewürf</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastKonjStr</InfClass> <Frequency>15</Frequency> </BaseStem>
+<BaseStem> <Lemma>bewert</Lemma> <Stem>bewert</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>12</Frequency> </BaseStem>
+<BaseStem> <Lemma>bewirk</Lemma> <Stem>bewirk</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>12</Frequency> </BaseStem>
+<BaseStem> <Lemma>bewohn</Lemma> <Stem>bewohn</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>14</Frequency> </BaseStem>
+<BaseStem> <Lemma>bewunder</Lemma> <Stem>bewunder</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg-el/er</InfClass> <Frequency>12</Frequency> </BaseStem>
+<BaseStem> <Lemma>bezahl</Lemma> <Stem>bezahl</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>10</Frequency> </BaseStem>
+<BaseStem> <Lemma>bezeichn</Lemma> <Stem>bezeichn</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>10</Frequency> </BaseStem>
+<BaseStem> <Lemma>bezeug</Lemma> <Stem>bezeug</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>15</Frequency> </BaseStem>
 <BaseStem> <Lemma>christlich</Lemma> <Stem>christlich</Stem> <Pos>ADJ</Pos><Origin>nativ</Origin> <InfClass>Adj+(e)</InfClass> <Frequency>11</Frequency> </BaseStem>
+<BaseStem> <Lemma>erwürg</Lemma> <Stem>erwürg</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>16</Frequency> </BaseStem>
+<BaseStem> <Lemma>erzähl</Lemma> <Stem>erzähl</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>9</Frequency> </BaseStem>
+<BaseStem> <Lemma>erzeug</Lemma> <Stem>erzeug</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>12</Frequency> </BaseStem>
+<BaseStem> <Lemma>erzieh</Lemma> <Stem>erzieh</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPres</InfClass> <Frequency>13</Frequency> </BaseStem>
+<BaseStem> <Lemma>erzieh</Lemma> <Stem>erzog</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastIndStr</InfClass> <Frequency>13</Frequency> </BaseStem>
+<BaseStem> <Lemma>erzieh</Lemma> <Stem>erzog</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPP-en</InfClass> <Frequency>13</Frequency> </BaseStem>
+<BaseStem> <Lemma>erzieh</Lemma> <Stem>erzög</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastKonjStr</InfClass> <Frequency>13</Frequency> </BaseStem>
+<BaseStem> <Lemma>erziel</Lemma> <Stem>erziel</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>11</Frequency> </BaseStem>
+<BaseStem> <Lemma>erzürn</Lemma> <Stem>erzürn</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>16</Frequency> </BaseStem>
+<BaseStem> <Lemma>erzwing</Lemma> <Stem>erzwang</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastIndStr</InfClass> <Frequency>13</Frequency> </BaseStem>
+<BaseStem> <Lemma>erzwing</Lemma> <Stem>erzwäng</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastKonjStr</InfClass> <Frequency>13</Frequency> </BaseStem>
+<BaseStem> <Lemma>erzwing</Lemma> <Stem>erzwing</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPres</InfClass> <Frequency>13</Frequency> </BaseStem>
+<BaseStem> <Lemma>erzwing</Lemma> <Stem>erzwung</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPP-en</InfClass> <Frequency>13</Frequency> </BaseStem>
+<BaseStem> <Lemma>finanzkräftig</Lemma> <Stem>finanzkräftig</Stem> <Pos>ADJ</Pos><Origin>nativ</Origin> <InfClass>Adj+</InfClass> <Frequency>16</Frequency> </BaseStem>
+<BaseStem> <Lemma>kräftig</Lemma> <Stem>kräftig</Stem> <Pos>ADJ</Pos><Origin>nativ</Origin> <InfClass>Adj+(e)</InfClass> <Frequency>11</Frequency> </BaseStem>
+<BaseStem> <Lemma>maßgebend</Lemma> <Stem>maßgebend</Stem> <Pos>ADJ</Pos><Origin>nativ</Origin> <InfClass>Adj+</InfClass> <Frequency>15</Frequency> </BaseStem>
+<BaseStem> <Lemma>stellvertretend</Lemma> <Stem>stellvertretend</Stem> <Pos>ADJ</Pos><Origin>nativ</Origin> <InfClass>AdjPos</InfClass> <Frequency>11</Frequency> </BaseStem>
 <BaseStem> <Lemma>südlich</Lemma> <Stem>südlich</Stem> <Pos>ADJ</Pos><Origin>nativ</Origin> <InfClass>Adj+</InfClass> <Frequency>11</Frequency> </BaseStem>
+<BaseStem> <Lemma>tatkräftig</Lemma> <Stem>tatkräftig</Stem> <Pos>ADJ</Pos><Origin>nativ</Origin> <InfClass>Adj+</InfClass> <Frequency>14</Frequency> </BaseStem>
+<BaseStem> <Lemma>unterbiet</Lemma> <Stem>unterbiet</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPres</InfClass> <Frequency>15</Frequency> </BaseStem>
+<BaseStem> <Lemma>unterbiet</Lemma> <Stem>unterbot</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastIndStr</InfClass> <Frequency>15</Frequency> </BaseStem>
+<BaseStem> <Lemma>unterbiet</Lemma> <Stem>unterbot</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPP-en</InfClass> <Frequency>15</Frequency> </BaseStem>
+<BaseStem> <Lemma>unterbiet</Lemma> <Stem>unterböt</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastKonjStr</InfClass> <Frequency>15</Frequency> </BaseStem>
+<BaseStem> <Lemma>unterbind</Lemma> <Stem>unterband</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastIndStr</InfClass> <Frequency>14</Frequency> </BaseStem>
+<BaseStem> <Lemma>unterbind</Lemma> <Stem>unterbänd</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastKonjStr</InfClass> <Frequency>14</Frequency> </BaseStem>
+<BaseStem> <Lemma>unterbind</Lemma> <Stem>unterbind</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPres</InfClass> <Frequency>14</Frequency> </BaseStem>
+<BaseStem> <Lemma>unterbind</Lemma> <Stem>unterbund</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPP-en</InfClass> <Frequency>14</Frequency> </BaseStem>
+<BaseStem> <Lemma>unterbleib</Lemma> <Stem>unterbleib</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPres</InfClass> <Frequency>15</Frequency> </BaseStem>
+<BaseStem> <Lemma>unterbleib</Lemma> <Stem>unterblieb</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastStr</InfClass> <Frequency>15</Frequency> </BaseStem>
+<BaseStem> <Lemma>unterbleib</Lemma> <Stem>unterblieb</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPP-en</InfClass> <Frequency>15</Frequency> </BaseStem>
+<BaseStem> <Lemma>unterbrech</Lemma> <Stem>unterbrach</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastIndStr</InfClass> <Frequency>12</Frequency> </BaseStem>
+<BaseStem> <Lemma>unterbrech</Lemma> <Stem>unterbräch</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastKonjStr</InfClass> <Frequency>12</Frequency> </BaseStem>
+<BaseStem> <Lemma>unterbrech</Lemma> <Stem>unterbrech</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPres1</InfClass> <Frequency>12</Frequency> </BaseStem>
+<BaseStem> <Lemma>unterbrech</Lemma> <Stem>unterbrich</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPres2+Imp</InfClass> <Frequency>12</Frequency> </BaseStem>
+<BaseStem> <Lemma>unterbrech</Lemma> <Stem>unterbroch</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPP-en</InfClass> <Frequency>12</Frequency> </BaseStem>
+<BaseStem> <Lemma>unterbreit</Lemma> <Stem>unterbreit</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>13</Frequency> </BaseStem>
+<BaseStem> <Lemma>unterdrück</Lemma> <Stem>unterdrück</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>14</Frequency> </BaseStem>
+<BaseStem> <Lemma>untergrab</Lemma> <Stem>untergrab</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPP-en</InfClass> <Frequency>15</Frequency> </BaseStem>
+<BaseStem> <Lemma>untergrab</Lemma> <Stem>untergrab</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPres1+Imp</InfClass> <Frequency>15</Frequency> </BaseStem>
+<BaseStem> <Lemma>untergrab</Lemma> <Stem>untergräb</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPres2</InfClass> <Frequency>15</Frequency> </BaseStem>
+<BaseStem> <Lemma>untergrab</Lemma> <Stem>untergrub</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastIndStr</InfClass> <Frequency>15</Frequency> </BaseStem>
+<BaseStem> <Lemma>untergrab</Lemma> <Stem>untergrüb</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastKonjStr</InfClass> <Frequency>15</Frequency> </BaseStem>
+<BaseStem> <Lemma>unterhalt</Lemma> <Stem>unterhalt</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPP-en</InfClass> <Frequency>12</Frequency> </BaseStem>
+<BaseStem> <Lemma>unterhalt</Lemma> <Stem>unterhalt</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPres1+Imp</InfClass> <Frequency>12</Frequency> </BaseStem>
+<BaseStem> <Lemma>unterhalt</Lemma> <Stem>unterhält</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPres2t</InfClass> <Frequency>12</Frequency> </BaseStem>
+<BaseStem> <Lemma>unterhalt</Lemma> <Stem>unterhielt</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastStr</InfClass> <Frequency>12</Frequency> </BaseStem>
+<BaseStem> <Lemma>unterlass</Lemma> <Stem>unterlass</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPP-en</InfClass> <Frequency>14</Frequency> </BaseStem>
+<BaseStem> <Lemma>unterlass</Lemma> <Stem>unterlass</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPres1+Imp</InfClass> <Frequency>14</Frequency> </BaseStem>
+<BaseStem> <Lemma>unterlass</Lemma> <Stem>unterläss</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPres2</InfClass> <Frequency>14</Frequency> </BaseStem>
+<BaseStem> <Lemma>unterlass</Lemma> <Stem>unterließ</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastStr</InfClass> <Frequency>14</Frequency> </BaseStem>
+<BaseStem> <Lemma>unterlauf</Lemma> <Stem>unterlauf</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPP-en</InfClass> <Frequency>14</Frequency> </BaseStem>
+<BaseStem> <Lemma>unterlauf</Lemma> <Stem>unterlauf</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPres1+Imp</InfClass> <Frequency>14</Frequency> </BaseStem>
+<BaseStem> <Lemma>unterlauf</Lemma> <Stem>unterläuf</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPres2</InfClass> <Frequency>14</Frequency> </BaseStem>
+<BaseStem> <Lemma>unterlauf</Lemma> <Stem>unterlief</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastStr</InfClass> <Frequency>14</Frequency> </BaseStem>
+<BaseStem> <Lemma>unterlieg</Lemma> <Stem>unterlag</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastIndStr</InfClass> <Frequency>12</Frequency> </BaseStem>
+<BaseStem> <Lemma>unterlieg</Lemma> <Stem>unterläg</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastKonjStr</InfClass> <Frequency>12</Frequency> </BaseStem>
+<BaseStem> <Lemma>unterlieg</Lemma> <Stem>unterleg</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPP-en</InfClass> <Frequency>12</Frequency> </BaseStem>
+<BaseStem> <Lemma>unterlieg</Lemma> <Stem>unterlieg</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPres</InfClass> <Frequency>12</Frequency> </BaseStem>
+<BaseStem> <Lemma>untermal</Lemma> <Stem>untermal</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>15</Frequency> </BaseStem>
+<BaseStem> <Lemma>untermauer</Lemma> <Stem>untermauer</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg-el/er</InfClass> <Frequency>14</Frequency> </BaseStem>
+<BaseStem> <Lemma>unternehm</Lemma> <Stem>unternahm</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastIndStr</InfClass> <Frequency>11</Frequency> </BaseStem>
+<BaseStem> <Lemma>unternehm</Lemma> <Stem>unternähm</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastKonjStr</InfClass> <Frequency>11</Frequency> </BaseStem>
+<BaseStem> <Lemma>unternehm</Lemma> <Stem>unternehm</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPres1</InfClass> <Frequency>11</Frequency> </BaseStem>
+<BaseStem> <Lemma>unternehm</Lemma> <Stem>unternimm</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPres2+Imp</InfClass> <Frequency>11</Frequency> </BaseStem>
+<BaseStem> <Lemma>unternehm</Lemma> <Stem>unternomm</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPP-en</InfClass> <Frequency>11</Frequency> </BaseStem>
+<BaseStem> <Lemma>unterricht</Lemma> <Stem>unterricht</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>12</Frequency> </BaseStem>
+<BaseStem> <Lemma>untersag</Lemma> <Stem>untersag</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>13</Frequency> </BaseStem>
+<BaseStem> <Lemma>unterschätz</Lemma> <Stem>unterschätz</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>13</Frequency> </BaseStem>
+<BaseStem> <Lemma>unterscheid</Lemma> <Stem>unterscheid</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPres</InfClass> <Frequency>11</Frequency> </BaseStem>
+<BaseStem> <Lemma>unterscheid</Lemma> <Stem>unterschied</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastIndStr</InfClass> <Frequency>11</Frequency> </BaseStem>
+<BaseStem> <Lemma>unterscheid</Lemma> <Stem>unterschied</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastKonjStr</InfClass> <Frequency>11</Frequency> </BaseStem>
+<BaseStem> <Lemma>unterscheid</Lemma> <Stem>unterschied</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPP-en</InfClass> <Frequency>11</Frequency> </BaseStem>
+<BaseStem> <Lemma>unterschlag</Lemma> <Stem>unterschlag</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPP-en</InfClass> <Frequency>15</Frequency> </BaseStem>
+<BaseStem> <Lemma>unterschlag</Lemma> <Stem>unterschlag</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPres1+Imp</InfClass> <Frequency>15</Frequency> </BaseStem>
+<BaseStem> <Lemma>unterschlag</Lemma> <Stem>unterschläg</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPres2</InfClass> <Frequency>15</Frequency> </BaseStem>
+<BaseStem> <Lemma>unterschlag</Lemma> <Stem>unterschlug</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastIndStr</InfClass> <Frequency>15</Frequency> </BaseStem>
+<BaseStem> <Lemma>unterschlag</Lemma> <Stem>unterschlüg</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastKonjStr</InfClass> <Frequency>15</Frequency> </BaseStem>
+<BaseStem> <Lemma>unterschreib</Lemma> <Stem>unterschreib</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPres</InfClass> <Frequency>12</Frequency> </BaseStem>
+<BaseStem> <Lemma>unterschreib</Lemma> <Stem>unterschrieb</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastStr</InfClass> <Frequency>12</Frequency> </BaseStem>
+<BaseStem> <Lemma>unterschreib</Lemma> <Stem>unterschrieb</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPP-en</InfClass> <Frequency>12</Frequency> </BaseStem>
+<BaseStem> <Lemma>unterschreit</Lemma> <Stem>unterschreit</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPres</InfClass> <Frequency>15</Frequency> </BaseStem>
+<BaseStem> <Lemma>unterschreit</Lemma> <Stem>unterschritt</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastStr</InfClass> <Frequency>15</Frequency> </BaseStem>
+<BaseStem> <Lemma>unterschreit</Lemma> <Stem>unterschritt</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPP-en</InfClass> <Frequency>15</Frequency> </BaseStem>
+<BaseStem> <Lemma>untersteh</Lemma> <Stem>unterstand</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastIndStr</InfClass> <Frequency>14</Frequency> </BaseStem>
+<BaseStem> <Lemma>untersteh</Lemma> <Stem>unterstand</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPP-en</InfClass> <Frequency>None</Frequency> </BaseStem>
+<BaseStem> <Lemma>untersteh</Lemma> <Stem>unterständ</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastKonjStr</InfClass> <Frequency>14</Frequency> </BaseStem>
+<BaseStem> <Lemma>untersteh</Lemma> <Stem>untersteh</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPres</InfClass> <Frequency>14</Frequency> </BaseStem>
+<BaseStem> <Lemma>unterstell</Lemma> <Stem>unterstell</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>13</Frequency> </BaseStem>
+<BaseStem> <Lemma>unterstreich</Lemma> <Stem>unterstreich</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPres</InfClass> <Frequency>12</Frequency> </BaseStem>
+<BaseStem> <Lemma>unterstreich</Lemma> <Stem>unterstrich</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastStr</InfClass> <Frequency>12</Frequency> </BaseStem>
+<BaseStem> <Lemma>unterstreich</Lemma> <Stem>unterstrich</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPP-en</InfClass> <Frequency>12</Frequency> </BaseStem>
+<BaseStem> <Lemma>unterstütz</Lemma> <Stem>unterstütz</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>10</Frequency> </BaseStem>
+<BaseStem> <Lemma>untersuch</Lemma> <Stem>untersuch</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>11</Frequency> </BaseStem>
+<BaseStem> <Lemma>unterteil</Lemma> <Stem>unterteil</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>15</Frequency> </BaseStem>
+<BaseStem> <Lemma>unterwander</Lemma> <Stem>unterwander</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg-el/er</InfClass> <Frequency>16</Frequency> </BaseStem>
+<BaseStem> <Lemma>unterwerf</Lemma> <Stem>unterwarf</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastIndStr</InfClass> <Frequency>13</Frequency> </BaseStem>
+<BaseStem> <Lemma>unterwerf</Lemma> <Stem>unterwerf</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPres1</InfClass> <Frequency>13</Frequency> </BaseStem>
+<BaseStem> <Lemma>unterwerf</Lemma> <Stem>unterwirf</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPres2+Imp</InfClass> <Frequency>13</Frequency> </BaseStem>
+<BaseStem> <Lemma>unterwerf</Lemma> <Stem>unterworf</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPP-en</InfClass> <Frequency>13</Frequency> </BaseStem>
+<BaseStem> <Lemma>unterwerf</Lemma> <Stem>unterwürf</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastKonjStr</InfClass> <Frequency>13</Frequency> </BaseStem>
+<BaseStem> <Lemma>unterzeichn</Lemma> <Stem>unterzeichn</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>12</Frequency> </BaseStem>
+<BaseStem> <Lemma>unterzieh</Lemma> <Stem>unterzieh</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPres</InfClass> <Frequency>13</Frequency> </BaseStem>
+<BaseStem> <Lemma>unterzieh</Lemma> <Stem>unterzog</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastIndStr</InfClass> <Frequency>13</Frequency> </BaseStem>
+<BaseStem> <Lemma>unterzieh</Lemma> <Stem>unterzog</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPP-en</InfClass> <Frequency>13</Frequency> </BaseStem>
+<BaseStem> <Lemma>unterzieh</Lemma> <Stem>unterzög</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastKonjStr</InfClass> <Frequency>13</Frequency> </BaseStem>
+<BaseStem> <Lemma>unwirklich</Lemma> <Stem>unwirklich</Stem> <Pos>ADJ</Pos><Origin>nativ</Origin> <InfClass>Adj+</InfClass> <Frequency>16</Frequency> </BaseStem>
 <BaseStem> <Lemma>veränder</Lemma> <Stem>veränder</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg-el/er</InfClass> <Frequency>11</Frequency> </BaseStem>
+<BaseStem> <Lemma>verbind</Lemma> <Stem>verband</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastIndStr</InfClass> <Frequency>10</Frequency> </BaseStem>
+<BaseStem> <Lemma>verbind</Lemma> <Stem>verbänd</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastKonjStr</InfClass> <Frequency>10</Frequency> </BaseStem>
+<BaseStem> <Lemma>verbind</Lemma> <Stem>verbind</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPres</InfClass> <Frequency>10</Frequency> </BaseStem>
+<BaseStem> <Lemma>verbind</Lemma> <Stem>verbund</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPP-en</InfClass> <Frequency>10</Frequency> </BaseStem>
+<BaseStem> <Lemma>verleugn</Lemma> <Stem>verleugn</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>15</Frequency> </BaseStem>
+<BaseStem> <Lemma>verlieb</Lemma> <Stem>verlieb</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>16</Frequency> </BaseStem>
 <BaseStem> <Lemma>versetz</Lemma> <Stem>versetz</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>12</Frequency> </BaseStem>
 <BaseStem> <Lemma>vertrau</Lemma> <Stem>vertrau</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>14</Frequency> </BaseStem>
+<BaseStem> <Lemma>verurteil</Lemma> <Stem>verurteil</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>10</Frequency> </BaseStem>
 <BaseStem> <Lemma>verwirklich</Lemma> <Stem>verwirklich</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>12</Frequency> </BaseStem>
+<BaseStem> <Lemma>wahrhaftig</Lemma> <Stem>wahrhaftig</Stem> <Pos>ADJ</Pos><Origin>nativ</Origin> <InfClass>Adj+</InfClass> <Frequency>15</Frequency> </BaseStem>
+<BaseStem> <Lemma>wirklich</Lemma> <Stem>wirklich</Stem> <Pos>ADJ</Pos><Origin>nativ</Origin> <InfClass>AdjPos</InfClass> <Frequency>9</Frequency> </BaseStem>
+<BaseStem> <Lemma>zuständig</Lemma> <Stem>zuständig</Stem> <Pos>ADJ</Pos><Origin>nativ</Origin> <InfClass>Adj+</InfClass> <Frequency>10</Frequency> </BaseStem>
+	
+	<!-- müssen -->
+	
+	<BaseStem>
+		<Lemma>müssen</Lemma>
+		<Stem>müsst</Stem>
+		<Pos>V</Pos>
+		<Origin>nativ</Origin>
+		<InfClass>VPastKonjStr</InfClass>
+	</BaseStem>
+	<BaseStem>
+		<Lemma>müssen</Lemma>
+		<Stem>gemusst</Stem>
+		<Pos>V</Pos>
+		<Origin>nativ</Origin>
+		<InfClass>VPPast</InfClass>
+	</BaseStem>
+	<BaseStem>
+		<Lemma>müssen</Lemma>
+		<Stem>müssen</Stem>
+		<Pos>V</Pos>
+		<Origin>nativ</Origin>
+		<InfClass>VInf+PPres</InfClass>
+	</BaseStem>
+	<BaseStem>
+		<Lemma>müssen</Lemma>
+		<Stem>musst</Stem>
+		<Pos>V</Pos>
+		<Origin>nativ</Origin>
+		<InfClass>VAPres2SgInd</InfClass>
+	</BaseStem>
+	<BaseStem>
+		<Lemma>müssen</Lemma>
+		<Stem>muss</Stem>
+		<Pos>V</Pos>
+		<Origin>nativ</Origin>
+		<InfClass>VAPres3SgInd</InfClass>
+	</BaseStem>
+	<BaseStem>
+		<Lemma>müssen</Lemma>
+		<Stem>muss</Stem>
+		<Pos>V</Pos>
+		<Origin>nativ</Origin>
+		<InfClass>VAPres1SgInd</InfClass>
+	</BaseStem>
+	<BaseStem>
+		<Lemma>müssen</Lemma>
+		<Stem>müssen</Stem>
+		<Pos>V</Pos>
+		<Origin>nativ</Origin>
+		<InfClass>VAPres1/3PlInd</InfClass>
+	</BaseStem>
+	<BaseStem>
+		<Lemma>müssen</Lemma>
+		<Stem>müsst</Stem>
+		<Pos>V</Pos>
+		<Origin>nativ</Origin>
+		<InfClass>VAPres2PlInd</InfClass>
+	</BaseStem>
+	<BaseStem>
+		<Lemma>müssen</Lemma>
+		<Stem>muss</Stem>
+		<Pos>V</Pos>
+		<Origin>nativ</Origin>
+		<InfClass>VPastIndReg</InfClass> 
+	</BaseStem>
+	<BaseStem>
+		<Lemma>müssen</Lemma>
+		<Stem>müss</Stem>
+		<Pos>V</Pos>
+		<Origin>nativ</Origin>
+		<InfClass>VPresKonj</InfClass>
+	</BaseStem>
+	<BaseStem>
+		<Lemma>müssen</Lemma>
+		<Stem>müsse</Stem>
+		<Pos>V</Pos>
+		<Origin>nativ</Origin>
+		<InfClass>VAImpSg</InfClass>
+	</BaseStem>
+	<BaseStem>
+		<Lemma>müssen</Lemma>
+		<Stem>müsst</Stem>
+		<Pos>V</Pos>
+		<Origin>nativ</Origin>
+		<InfClass>VAImpPl</InfClass>
+	</BaseStem>
+	
+	<!-- müssen, old spelling -->
+	
+	<BaseStem>
+		<Lemma>müssen</Lemma>
+		<Stem>gemußt</Stem>
+		<Pos>V</Pos>
+		<Origin>nativ</Origin>
+		<InfClass>VPPast</InfClass>
+	</BaseStem>
+	<BaseStem>
+		<Lemma>müssen</Lemma>
+		<Stem>mußt</Stem>
+		<Pos>V</Pos>
+		<Origin>nativ</Origin>
+		<InfClass>VAPres2SgInd</InfClass>
+	</BaseStem>
+	<BaseStem>
+		<Lemma>müssen</Lemma>
+		<Stem>muß</Stem>
+		<Pos>V</Pos>
+		<Origin>nativ</Origin>
+		<InfClass>VAPres3SgInd</InfClass>
+	</BaseStem>
+	<BaseStem>
+		<Lemma>müssen</Lemma>
+		<Stem>muß</Stem>
+		<Pos>V</Pos>
+		<Origin>nativ</Origin>
+		<InfClass>VAPres1SgInd</InfClass>
+	</BaseStem>
+	<BaseStem>
+		<Lemma>müssen</Lemma>
+		<Stem>müßt</Stem>
+		<Pos>V</Pos>
+		<Origin>nativ</Origin>
+		<InfClass>VAPres2PlInd</InfClass>
+	</BaseStem>
+	<BaseStem>
+		<Lemma>müssen</Lemma>
+		<Stem>muß</Stem>
+		<Pos>V</Pos>
+		<Origin>nativ</Origin>
+		<InfClass>VPastIndReg</InfClass> 
+	</BaseStem>
+	<BaseStem>
+		<Lemma>müssen</Lemma>
+		<Stem>müßt</Stem>
+		<Pos>V</Pos>
+		<Origin>nativ</Origin>
+		<InfClass>VPastKonjStr</InfClass>
+	</BaseStem>
+	<BaseStem>
+		<Lemma>müssen</Lemma>
+		<Stem>müßt</Stem>
+		<Pos>V</Pos>
+		<Origin>nativ</Origin>
+		<InfClass>VAImpPl</InfClass>
+	</BaseStem>
 </smor>
