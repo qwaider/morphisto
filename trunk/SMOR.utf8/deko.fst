@@ -245,6 +245,7 @@ $FILTER$ = \
 	{<ADJ><fremd>}:{<>}    $ANY$ <ADJ>$bdk$ <fremd>  |\
 	{<V><nativ>}:{<>}      $ANY$ <V>  $bdk$ <nativ>   |\
 	{<V><nativ>}:{<>}      $ANY$ <V>  $bdk$ $NS$ |\
+	{<V><fremd>}:{<>}      $ANY$ <V>  $bdk$ <fremd> |\
 	{<ADJ><klassisch>}:{<>}$ANY$ <ADJ>$bdk$ $klassisch$ |\
 	{<NN><klassisch>}:{<>} $ANY$ <NN> $bdk$ $klassisch$ |\
 	{<V><klassisch>}:{<>}  $ANY$ <V>  $bdk$ $klassisch$))
