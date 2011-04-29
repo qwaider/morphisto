@@ -65,6 +65,11 @@ _morphisto_ is an open-source lexicon for the morphological analysis of German. 
     Regarding the first question:
 The idea to exclude base stems for which a compound stem has been defined appeals to me. However, would it still be possible to analyze _Zeitalter_ or _Zeitalterbestimmung_ then?
 
+  * Derivation of complex verbs in different forms
+    Comparing the analyses of "ernstmachen" und "ernstgemacht" shows that morphisto/SFST lacks ways to construct infinitives for (NN|ADJ)V constructions. The analysis with "ernst" as prefix seems to serve as a fallback but is (at least in my opinion and the one expressed in Fleischer/Barz) not correct. Two steps are two be taken:
+    # Find out of the construction of complex verbs from a free morphem and a base verb form is (still) a constructive one.
+    # If this is the case, add a rule similar to the past participle for infinitives. If not, add an entry for "ernstmachen" and similar forms to the lexicon and remove the means for constructing "ernst-ADJ-gemacht-V" from deko.fst.
+
 = Resolved questions =
 
 
