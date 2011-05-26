@@ -19,7 +19,7 @@ $C2$ = [\!-\~¡-ÿ<n><e><d><~n><Ge-Nom><UL><SS><FB><Suff_Stems>]
 $C3$ = [\!-\~¡-ÿ<n><e><d><~n><ge><Ge-Nom><UL><SS><FB> \
 <ABK><ADJ><ADV><CARD><DIGCARD><NE><NN><PRO><V><ORD><OTHER> \
 <base><deriv><kompos> \
-<nativ><frei><gebunden><kurz><lang><fremd><klassisch> \
+<nativ><frei><gebunden><kurz><lang><fremd><klassisch><prefnoge> \
 <NSNeut_es_e><NSFem_0_n><NSFem_0_en><NSMasc_es_e><NSMasc_es_$e> \
 <NSMasc-s/$sse>]
 
@@ -92,6 +92,7 @@ $FILTER$ = (\
 	<kurz>:<>    <Suff_Stems> <kurz>:<> |\
 	<lang>:<>    <Suff_Stems> <lang>:<> |\
 	<fremd>:<>   <Suff_Stems> <fremd>:<> |\
+	<prefnoge>:<>   <Suff_Stems> <prefnoge>:<> |\
 	<NSFem_0_en>:<>	<Suff_Stems>	<NSFem_0_en>:<> |\
 	<NSFem_0_n>:<>	<Suff_Stems>	<NSFem_0_n>:<> |\
 	<NSMasc-s/$sse>:<>	<Suff_Stems>	<NSMasc-s/$sse>:<> |\
@@ -245,6 +246,8 @@ $FILTER$ = \
 	{<ADJ><fremd>}:{<>}    $ANY$ <ADJ>$bdk$ <fremd>  |\
 	{<V><nativ>}:{<>}      $ANY$ <V>  $bdk$ <nativ>   |\
 	{<V><nativ>}:{<>}      $ANY$ <V>  $bdk$ $NS$ |\
+	{<V><fremd>}:{<>}      $ANY$ <V>  $bdk$ <fremd> |\
+	{<V><prefnoge>}:{<>}   $ANY$ <V>  $bdk$ <prefnoge> |\
 	{<ADJ><klassisch>}:{<>}$ANY$ <ADJ>$bdk$ $klassisch$ |\
 	{<NN><klassisch>}:{<>} $ANY$ <NN> $bdk$ $klassisch$ |\
 	{<V><klassisch>}:{<>}  $ANY$ <V>  $bdk$ $klassisch$))
@@ -265,14 +268,14 @@ ALPHABET = [\!-\~¡-ÿ<n><e><d><~n><Ge-Nom><SS><FB>] \
 % category features
 [<ABK><ADJ><ADV><CARD><DIGCARD><NE><NN><ORD><PRO><V><OTHER>]:<> \
 % Herkunft features
-[<nativ><frei><gebunden><kurz><lang><fremd><klassisch>]:<> \
+[<nativ><frei><gebunden><kurz><lang><fremd><klassisch><prefnoge>]:<> \
 % other features
 <ge> <NoPref>:<>
 
 $ANY2$  = .*
 $ANY$ = (. | <kompos>:<>)*
 
-$hk$ = [<nativ><frei><gebunden><kurz><lang><fremd><klassisch>]:<>
+$hk$ = [<nativ><frei><gebunden><kurz><lang><fremd><klassisch><prefnoge>]:<>
 
 $KOMPOSFILTER$ = \
 	(<Initial>:<> | <NoHy> | <NoDef>)? \
