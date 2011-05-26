@@ -42,7 +42,7 @@ ALPHABET = [\!-\~¡-ÿ] <FB><SS><n><~n><e><d><Ge-Nom><UL> \
 % stem type features
 <base><deriv><kompos> \
 % Herkunft features
-<nativ><frei><gebunden><kurz><lang><fremd><klassisch> \
+<nativ><frei><gebunden><kurz><lang><fremd><klassisch><prefnoge> \
 % inflection classes
 <Abk_ADJ><Abk_ADV><Abk_ART><Abk_DPRO><Abk_KONJ><Abk_NE-Low><Abk_NE> \
 <Abk_NN-Low><Abk_NN><Abk_PREP><Abk_VPPAST><Abk_VPPRES><Adj$><Adj$e><Adj+(e)> \
@@ -95,7 +95,7 @@ $ANY$ = .*
 $I$ = [<Initial><NoHy><ge><no-ge><NoPref>]
 
 % Herkunft features
-$HK$ = [<nativ><frei><gebunden><kurz><lang><fremd><klassisch>]
+$HK$ = [<nativ><frei><gebunden><kurz><lang><fremd><klassisch><prefnoge>]
 
 $NoDef2NULL$ = ($ANY$ | $HK$ | $I$ | <NoDef>:<> |\
 	[<Base_Stems><Deriv_Stems><Kompos_Stems><Pref_Stems><Suff_Stems>])*

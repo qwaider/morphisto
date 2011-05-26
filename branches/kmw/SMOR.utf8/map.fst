@@ -29,7 +29,7 @@ ALPHABET = [\!-\~¡-ÿ] <SS><FB> n:<n> e:<e> d:<d> <>:<~n> <Ge-Nom> <>:<UL> \
 % marker for ge prefix
 <>:<ge> |\
 % Herkunft features
-<>:[<nativ><frei><gebunden><kurz><lang><fremd><klassisch> \
+<>:[<nativ><frei><gebunden><kurz><lang><fremd><klassisch><prefnoge> \
 <NSNeut_es_e><NSFem_0_n><NSFem_0_en><NSMasc_es_e><NSMasc_es_$e> \
 <NSMasc-s/$sse> \
 <NGeo-$er-NMasc_s_0><NGeo-$er-Adj0-Up><NGeo-$isch-Adj+><NGeo-0-Name-Fem_0>\
@@ -133,7 +133,7 @@ ALPHABET = [\!-\~¡-ÿ]<SS><FB><n><e><d><~n><Ge-Nom> <UL> \
 % marker for ge prefix
 <ge> |\
 % Herkunft features
-<nativ><frei><gebunden><kurz><lang><fremd><klassisch> \
+<nativ><frei><gebunden><kurz><lang><fremd><klassisch><prefnoge> \
 <NSNeut_es_e><NSFem_0_n><NSFem_0_en><NSMasc_es_e><NSMasc_es_$e> \
 <NSMasc-s/$sse> \
 <NGeo-$er-NMasc_s_0><NGeo-$er-Adj0-Up><NGeo-$isch-Adj+><NGeo-0-Name-Fem_0>\
