@@ -7,37 +7,6 @@ _morphisto_ is an open-source lexicon for the morphological analysis of German. 
 
 = Open questions =
 
-  * Prefix + Noun
-    (Arbitrary)Combinations of prefix + noun are not possible in SMOR:
-{{{
-    Absicht<+NN>:<><Fem>:<><Nom>:<><Sg>:<>
-    Aufsicht<+NN>:<><Fem>:<><Nom>:<><Sg>:<>
-    Hinsicht<+NN>:<><Fem>:<><Nom>:<><Sg>:<>
-}}}
-    But:
-{{{
-    Durch<OTHER>:<>S:sicht<+NN>:<><Fem>:<><Nom>:<><Sg>:<>
-    Durch<OTHER>:<>D:durch<OTHER>:<>S:sicht<+NN>:<><Fem>:<><Nom>:<><Sg>:<>
-}}}
-
-    Solution a: Add productive noun prefixation in SMOR (deko.fst).
-
-    Solution b: Add 'ab', 'auf' etc. as 'OTHER' to morphisto.
-    
-    Comments by *CWRSimon*:
-    I do like the ideas, but I am wondering, whether prefixation is     productive enough for German nouns in general: E.g., Morphisto already  analyzes "Durchhund" and "Durchstuhl". Of course, one could argue that  only nouns with a certain semantic feature can be prefixed with a prefix  that embodies the same feature (e.g. Durch[+direction] and  Gang[+direction] can form Durchgang). But then again, is prefixation  really a process that applies to German nouns? I don't know what the  literature says, but I would imagine the following: Prefixation is  process that typically applies to verbs: durchgehen, durchsehen,  hingehen, absehen, etc. And Durchgang, Aufsicht, Hinsicht, etc. are just the nominalizations of theses verbs. I do concede that I don't know, how to tell an FST-based morphology about German etymological wordformation processes....
-
-     Comments by *wuerzner*:
-     You are absolutely right: According to Fleischer/Barz, prefixation of nouns is a rare phenomenon. Nouns as 'Durchgang' should then be analysed as deverbal:
-{{{
-    <CAP>durch<PREF>gehen<V><SUFF><+NN><Masc><Nom><Sg>
-}}}
-     Are we able to implement that with SFST?
-     
-     Comments by *CWRSimon*:
-     With FST-based technologies possibly, but not necessarily in the framework of Morphisto. What we need is a means of defining conversion rules from one POS class to another.
-
-
   * Relation between Base- and KomposStem
     Despite of defining a KomposStem for a base entry, it is still possible to infer compounds from that base.
 {{{
@@ -72,6 +41,38 @@ The idea to exclude base stems for which a compound stem has been defined appeal
 
 = Resolved questions =
 
+* Prefix + Noun
+    (Arbitrary)Combinations of prefix + noun are not possible in SMOR:
+{{{
+    Absicht<+NN>:<><Fem>:<><Nom>:<><Sg>:<>
+    Aufsicht<+NN>:<><Fem>:<><Nom>:<><Sg>:<>
+    Hinsicht<+NN>:<><Fem>:<><Nom>:<><Sg>:<>
+}}}
+    But:
+{{{
+    Durch<OTHER>:<>S:sicht<+NN>:<><Fem>:<><Nom>:<><Sg>:<>
+    Durch<OTHER>:<>D:durch<OTHER>:<>S:sicht<+NN>:<><Fem>:<><Nom>:<><Sg>:<>
+}}}
+
+    Solution a: Add productive noun prefixation in SMOR (deko.fst).
+
+    Solution b: Add 'ab', 'auf' etc. as 'OTHER' to morphisto.
+    
+    Comments by *CWRSimon*:
+    I do like the ideas, but I am wondering, whether prefixation is     productive enough for German nouns in general: E.g., Morphisto already  analyzes "Durchhund" and "Durchstuhl". Of course, one could argue that  only nouns with a certain semantic feature can be prefixed with a prefix  that embodies the same feature (e.g. Durch[+direction] and  Gang[+direction] can form Durchgang). But then again, is prefixation  really a process that applies to German nouns? I don't know what the  literature says, but I would imagine the following: Prefixation is  process that typically applies to verbs: durchgehen, durchsehen,  hingehen, absehen, etc. And Durchgang, Aufsicht, Hinsicht, etc. are just the nominalizations of theses verbs. I do concede that I don't know, how to tell an FST-based morphology about German etymological wordformation processes....
+
+     Comments by *wuerzner*:
+     You are absolutely right: According to Fleischer/Barz, prefixation of nouns is a rare phenomenon. Nouns as 'Durchgang' should then be analysed as deverbal:
+{{{
+    <CAP>durch<PREF>gehen<V><SUFF><+NN><Masc><Nom><Sg>
+}}}
+     Are we able to implement that with SFST?
+     
+     Comments by *CWRSimon*:
+     With FST-based technologies possibly, but not necessarily in the framework of Morphisto. What we need is a means of defining conversion rules from one POS class to another.
+
+     Closing Remark by *wuerzner*:
+     We can use <DerivStem> to implement this conversion. Have a look at the entry "fahren" in derivates.xml: The trick is to add the inflection class as origin and voilà "Ausfahrt" can be traced to "fahren"! It also works with compositions like "Freifahrt".
 
 * Verb participle to adjective conversion
     The following example shows that an adjective reading is only available for base verbs not for complex ones.
