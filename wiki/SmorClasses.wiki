@@ -2,40 +2,54 @@ Flexionsklassen SMOR
 
 Tags im SMOR-Lexikon und was sie bedeuten könnten....
 
-<NFem-Deriv>
+`<NFem-Deriv>`
 feminine, gebunde Derivationsmorpheme ("-ität","-heit", etc.)
 feminin, freie lexikalische Morpheme, die vermutlich nur in Verbindung stehen (Legion, Begabung)
 
-<NFem-a/en>
+`<NFem-a/en>`
 feminin, a/-en-Alternation: Veranda-Veranden, Agenda-Agenden, Tumba-Tumben
-<NFem-in>
+
+`<NFem-in>`
 Suffixmarkierung für feminine Substantiva auf "-in"
-<NFem-is/en>
+
+`<NFem-is/en>`
 feminin, is-en-Alternation:Amaryllis-Amaryllen
-<NFem-is/iden>
+
+`<NFem-is/iden>`
 feminin, is-iden-Alternation: Meningitis-Meningiten
-<NFem-s/$sse>
+
+`<NFem-s/$sse>`
 feminin, -s/-ss-Alternation mit Umlaut im Plural, Nuss-> Nüsse
-<NFem-s/sse>
+
+`<NFem-s/sse>`
 feminin, -s/-ss-Alternation ohne Umlaut im Plural, Erlaubnis-Erlaubnisse
-<NFem-s/ssen>
+
+`<NFem-s/ssen>`
 feminin, -s/-ssen-Alternation, Stewardeß-Stewardessen
-<NFem/Pl>
+
+`<NFem/Pl>`
 Feminina, die im Plural nicht flektieren, aber durchaus eine Singular-Form als Lemma haben können: Workbenches, Lire, Gruften, Divas, etc.
-<NFem/Sg>
+
+`<NFem/Sg>`
 feminin, nur Singular: Malaria, Haggada
-<NFem_0_$>
+
+`<NFem_0_$>`
 feminin, keine Flexion im Singular, Umlautung im Plural
 Tochter-Töchter
-<NFem_0_$e>
+
+`<NFem_0_$e>`
 feminin, keine Flexion im Singular, Umlautung+e im Plural, Magd-Mägde
-<NFem_0_e>
+
+`<NFem_0_e>`
 feminin, keine Flexion im Singular, e-Suffix im Plural, Peninsula-Peninsulae-Peninsulaen (DatPl)
-<NFem_0_en>
+
+`<NFem_0_en>`
 feminin, keien Flexion im Singular, -en-Suffix im Plura, freie und Derivationsmorpheme: Architektonik, Sekunde, -ur, -enz
-<NFem_0_n>
+
+`<NFem_0_n>`
 feminin, keine Flexion im Singular, -n-Suffix im Plural, freie und Derivationsmorpheme: Gabe-Gaben, Police-Policen, -ive, -ie, -se
-<NFem_0_s>
+
+`<NFem_0_s>`
 feminin, keine Flexion im Singular, -s-Suffix im Plural, Tonika-Tonikas, Zamba-Zambas
 <NFem_0_x>
 feminin, Singular und Plural formidentisch, vermutlich für Singular- bzw. Pluralia-Tantum, Viktualien, Jeans, Brasil
