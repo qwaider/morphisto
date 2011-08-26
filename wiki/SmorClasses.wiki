@@ -51,72 +51,106 @@ feminin, keine Flexion im Singular, -n-Suffix im Plural, freie und Derivationsmo
 
 `<NFem_0_s>`
 feminin, keine Flexion im Singular, -s-Suffix im Plural, Tonika-Tonikas, Zamba-Zambas
-<NFem_0_x>
+
+`<NFem_0_x>`
 feminin, Singular und Plural formidentisch, vermutlich für Singular- bzw. Pluralia-Tantum, Viktualien, Jeans, Brasil
-<N?/Pl_x>
+
+`<N?/Pl_x>`
 geschlechtslos, Pluralia-Tantum, ohne Affixe, Trichogramma, Salmoniden, Memoiren
-<N?/Pl_0>
+
+`<N?/Pl_0>`
 geschlechtslos, Pluralia-Tantum, mit Null-Endung, Leute-Leuten (DatPl), Umschweife-Umschweifen (DatPl)
-<NMasc-Adj>
+
+`<NMasc-Adj>`
 maskulin, substantivierte Adjektive, der Zuspätkommende
-<NMasc-es_e>
+
+`<NMasc-es_e>`
 angeblich Anis,funktioniert aber nicht
-<NMasc-ns>
+
+`<NMasc-ns>`
 maskulin, -ns-Genitiv-Suffix, -n-Plural-Suffix, Buchstabe
-<NMasc-s/$sse>
+
+`<NMasc-s/$sse>`
 maskulin, -es-Genitiv, -sse-Plural, Umlautung, Bass-Bässe
-<NSMasc-s/$sse>
+
+`<NSMasc-s/$sse>`
 wie oben, aber für Derivationsstämme, z. B. Abgüsse, Ablässe
-<NMasc-s/Sg>
-maskulin, -es-Genitiv, nur Singular, Hass,Passus 
-<NMasc-s/sse>
+
+`<NMasc-s/Sg>`
+maskulin, -es-Genitiv, nur Singular, Hass,Passus
+
+`<NMasc-s/sse>`
 maskulin, -es-Genitiv, -sse-Plural, Kürbis-Kürbisse
-<NMasc-s0/sse>
+
+`<NMasc-s0/sse>`
 maskulin, keine Genitivendung, -sse-Plural, Albatros, Primas
-<NMasc-us/en>
+
+`<NMasc-us/en>`
 maskulin, Endung auf -us/-os, -ses-Genitiv, Mythos-Mythosses-Mythen, Algorithmus-Algorithmusses-Algorithmen
-<NMasc-us/i>
+
+`<NMasc-us/i>`
 wie oben, nur mit -i-Plural, Intimus-Intimusses-Intimi
-<NMasc/Pl>
+
+`<NMasc/Pl>`
 feste Pluralstämme, nicht deklinierbar, keine Angabe zum Singular außer Lemma, Topi, Switches, Signori
-<NMasc/Sg_0>
+
+`<NMasc/Sg_0>`
 maskulin, Singularia Tantum ohne Genitivsuffix, Beelzebub, Pence, Reverend
-<NMasc/Sg_es>
+
+`<NMasc/Sg_es>`
 maskulin, -es/-s-Genitiv mitsamt Dativ-e, nur Singularformen
-<NMasc/Sg_s>
+
+`<NMasc/Sg_s>`
 maskulin, -s-Genitiv mitsamt Dativ-e, nur Singularformen, Salmiak, Weda, Yoga (bei den letzten beiden wird vermutlich durch andere Constraints Genitiv-s und Dativ-e verhindert)
-<NMasc_0_x>
+
+`<NMasc_0_x>`
 maskulin, in Plural und Singular alle Formen identisch, Fonds
-<NMasc_en_e>
+
+`<NMasc_en_e>`
 maskulin, Greif, aber keine Form analysierbar
-<NMasc_en_en>
+
+`<NMasc_en_en>`
 maskulin, -en-Genitiv, -en-Plural, Bub, Konfirmand, Kalif
-<NMasc_es_$e>
+
+`<NMasc_es_$e>`
 maskulin, -es/-s-Genitiv, -e-Plural mit Umlaut, Dativ-e, Kardinal
-<NMasc_es_$er>
+
+`<NMasc_es_$er>`
 maskulin, -es/-e-Genitiv, -er-Plural mit Umlaut (sofern möglich), Dativ-e, Leib (kein Umlaut möglich), Mann-Männer
-<NMasc_es_e>
+
+`<NMasc_es_e>`
 maskulin, -es/-s-Genitiv, -e-Plural ohne umlaut, Dativ-e, Fjord, Dieb
-<NMasc_es_en>
+
+`<NMasc_es_en>`
 maskulin, -es/-en-Genitiv, -e-Plural, Dativ-e, Psalm, Apostroph
-<NMasc_n_n>
+
+`<NMasc_n_n>`
 maskulin, -n-Genitiv, -n-Plural, Rabe, Skalde
-<NMasc_s_$>
+
+`<NMasc_s_$>`
 maskulin, -s-Genitiv, kein Plural-Suffix, Umlautung, Schnabel-Schnäbel-Schnäbenln
-<NMasc_s_$x>
+
+`<NMasc_s_$x>`
 maskulin, -s-Genitiv, kein Plural-Suffix, im Plural stets gleiche Formen, also kein Dativ-Pl-n! Graben-Gräben
-<NMasc_s_0>
+
+`<NMasc_s_0>`
 maskulin, -s-Genitiv, kein Plural-Suffix, aber Dativ-Plural ("Clinchn"!), Clinch, Triangel
-<NMasc_s_e>
+
+`<NMasc_s_e>`
 maskulin, -s-Genitiv, -e-Plural, Bastard, Sarkophag
-<NMasc_s_en>
+
+`<NMasc_s_en>`
 maskulin, -s-Genitiv, -en-Plural, Titans, Phänotyp, Zeh
-<NMasc_s_n>
+
+`<NMasc_s_n>`
 maskulin, -s-Genitiv, -n-Plural, See, Mogul
-<NMasc_s_s>
+
+`<NMasc_s_s>`
 maskulin, -s-Genitiv, -s-Plural, Radscha, Samba
-<NMasc_s_x>
+
+`<NMasc_s_x>`
 maskulin, Genitiv-s, ansonsten in Singular und Plural sämtliche Formen identisch, Hoden, Vordersteven
+
 <NNeut-0/ien>
 neutrum, -s-Genitiv, -ien-Plural, kein Dativ-e, Kleinod, Adverb
 <NNeut-Dimin>
