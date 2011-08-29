@@ -5,15 +5,20 @@ SCHEMA = smor.rng
 BUILDDIR = ../build
 
 	
-lexicon: basestems.xml adverbien.xml others.xml suff_stems.xml derivatives.xml prefixes.xml initials.xml aux_verbs.xml
+lexicon: basestems.xml basestems_new.xml basestems_corrected.xml adverbien.xml others.xml suff_stems.xml suff_stems_new.xml derivatives.xml derivatives_new.xml derivatives_corrected.xml prefixes.xml prefixes_new.xml initials.xml aux_verbs.xml
 	cat basestems.xml | sed '$$d' > $(TMPFILE)
 	tail -n +4 basestems_new.xml | sed '$$d' >> $(TMPFILE)
+	tail -n +4 basestems_corrected.xml | sed '$$d' >> $(TMPFILE)
 	tail -n +4 adverbien.xml | sed '$$d' >> $(TMPFILE)
 	tail -n +4 initials.xml | sed '$$d' >> $(TMPFILE)
 	tail -n +4 others.xml | sed '$$d' >> $(TMPFILE)
 	tail -n +4 derivatives.xml | sed '$$d' >> $(TMPFILE)
+	tail -n +4 derivatives_new.xml | sed '$$d' >> $(TMPFILE)
+	tail -n +4 derivatives_corrected.xml | sed '$$d' >> $(TMPFILE)
 	tail -n +4 prefixes.xml | sed '$$d' >> $(TMPFILE)
+	tail -n +4 prefixes_new.xml | sed '$$d' >> $(TMPFILE)
 	tail -n +4 aux_verbs.xml | sed '$$d' >> $(TMPFILE)
+	tail -n +4 suff_stems_new.xml | sed '$$d' >> $(TMPFILE)
 	tail -n +4 suff_stems.xml >> $(TMPFILE)
 	xmllint $(TMPFILE) --relaxng $(SCHEMA) --format > $(LEXICON)
 	xsltproc $(STYLESHEET) $(LEXICON) | python align.py >lexicon

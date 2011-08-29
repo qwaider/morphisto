@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'utf-8' ?>
+<?xml-stylesheet type="text/xsl" href="lexicon-transform.xslt"?>
+<smor>
+<PrefStem> <MorphMarker>no-ge</MorphMarker> <Upper>er</Upper> <Lower>er</Lower> <Pos>V</Pos><Origin>nativ</Origin> </PrefStem>
+<PrefStem>
+<Upper>ver</Upper>
+<Lower>ver</Lower>
+<Pos>V</Pos>
+<Origin>prefnoge</Origin>
+</PrefStem>
+</smor>

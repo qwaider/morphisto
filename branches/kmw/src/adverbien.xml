@@ -2774,14 +2774,6 @@
 	</BaseStem>
 	<BaseStem>
 		<MorphMarker>NoHy</MorphMarker>
-		<Lemma>ob</Lemma>
-		<Stem>ob</Stem>
-		<Pos>ADV</Pos>
-		<Origin>nativ</Origin>
-		<InfClass>Adv</InfClass>
-	</BaseStem>
-	<BaseStem>
-		<MorphMarker>NoHy</MorphMarker>
 		<Lemma>oben</Lemma>
 		<Stem>oben</Stem>
 		<Pos>ADV</Pos>
