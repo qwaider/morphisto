@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'utf-8' ?>
+<?xml-stylesheet type="text/xsl" href="lexicon-transform.xslt"?>
+<smor>
+<DerivStem><Upper>bauen</Upper><Lower>bau</Lower><Pos>V</Pos><Origin>NSMasc_es_e</Origin></DerivStem>
+<DerivStem><Upper>Zelt</Upper><Lower>zelt</Lower><Pos>NN</Pos><Origin>VVSReg</Origin></DerivStem>
+</smor>
