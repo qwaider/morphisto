@@ -680,6 +680,7 @@
 		<InfClass>VInf</InfClass>
 	</BaseStem>
 	<BaseStem>
+		<MorphMarker>ge</MorphMarker>
 		<Lemma>tun</Lemma>
 		<Stem>tat</Stem>
 		<Pos>V</Pos>
@@ -687,13 +688,15 @@
 		<InfClass>VPastIndStr</InfClass>
 	</BaseStem>
 	<BaseStem>
+		<MorphMarker>ge</MorphMarker>
 		<Lemma>tun</Lemma>
-		<Stem>getan</Stem>
+		<Stem>tan</Stem>
 		<Pos>V</Pos>
 		<Origin>nativ</Origin>
 		<InfClass>VPPast</InfClass>
 	</BaseStem>
 	<BaseStem>
+		<MorphMarker>ge</MorphMarker>
 		<Lemma>tun</Lemma>
 		<Stem>tät</Stem>
 		<Pos>V</Pos>
@@ -701,6 +704,7 @@
 		<InfClass>VPastKonjStr</InfClass>
 	</BaseStem>
 	<BaseStem>
+		<MorphMarker>ge</MorphMarker>
 		<Lemma>tun</Lemma>
 		<Stem>tuend</Stem>
 		<Pos>V</Pos>
@@ -708,6 +712,7 @@
 		<InfClass>VPPres</InfClass>
 	</BaseStem>
 	<BaseStem>
+		<MorphMarker>ge</MorphMarker>
 		<Lemma>tun</Lemma>
 		<Stem>tu</Stem>
 		<Pos>V</Pos>
@@ -747,6 +752,7 @@
 		<InfClass>VAPres3SgInd</InfClass>
 	</BaseStem>
 	<BaseStem>
+		<MorphMarker>ge</MorphMarker>
 		<Lemma>tun</Lemma>
 		<Stem>tun</Stem>
 		<Pos>V</Pos>
@@ -754,6 +760,7 @@
 		<InfClass>VAPres1/3PlInd</InfClass>
 	</BaseStem>
 	<BaseStem>
+		<MorphMarker>ge</MorphMarker>
 		<Lemma>tun</Lemma>
 		<Stem>tut</Stem>
 		<Pos>V</Pos>
@@ -761,6 +768,7 @@
 		<InfClass>VAPres2PlInd</InfClass>
 	</BaseStem>
 	<BaseStem>
+		<MorphMarker>ge</MorphMarker>
 		<Lemma>tun</Lemma>
 		<Stem>tu</Stem>
 		<Pos>V</Pos>
@@ -768,6 +776,7 @@
 		<InfClass>VAImpSg</InfClass>
 	</BaseStem>
 	<BaseStem>
+		<MorphMarker>ge</MorphMarker>
 		<Lemma>tun</Lemma>
 		<Stem>tut</Stem>
 		<Pos>V</Pos>
