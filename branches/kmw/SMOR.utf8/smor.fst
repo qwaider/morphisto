@@ -79,7 +79,7 @@ ALPHABET = [\!-\~¡-ÿ] <FB><SS><n><~n><e><d><Ge-Nom><UL> \
 <NGeo-istan-Name-Neut_s><NGeo-land-Name-Neut_s><NGeo-ner-NMasc_s_0> \
 <NGeo-ner-Adj0-Up><NGeo-nisch-Adj+> \
 <Postp-Akk><Postp-Dat><Postp-Gen><Pref/Adj> \
-<Pref/Adv><Pref/N><Pref/ProAdv><Pref/Sep><Pref/V><Prep-Akk><Prep-Dat> \
+<Pref/Adv><Pref/N><Pref/ProAdv><Pref/Sep><Pref/V><Prep-Akk><Prep-Dat><Prep-Nom> \
 <Prep-Gen><Prep/Art-m><Prep/Art-n><Prep/Art-r><Prep/Art-s><ProAdv><PInd-Invar><Ptkl-Adj> \
 <Ptkl-Ant><Ptkl-Neg><Ptkl-Zu><VAImpPl><VAImpSg><VAPastKonj2><VAPres1/3PlInd> \
 <VAPres1SgInd><VAPres2PlInd><VAPres2SgInd><VAPres3SgInd><VAPresKonjPl> \
