@@ -78,4 +78,46 @@
  		<Origin>nativ</Origin>
  		<InfClass>Konj-Sub</InfClass>
  	</BaseStem>
+	<BaseStem>
+		<Lemma>je</Lemma>
+		<Stem>je</Stem>
+		<Pos>OTHER</Pos>
+		<Origin>nativ</Origin>
+		<InfClass>Prep-Nom</InfClass>
+	</BaseStem>
+	<BaseStem>
+		<Lemma>je</Lemma>
+		<Stem>je</Stem>
+		<Pos>OTHER</Pos>
+		<Origin>nativ</Origin>
+		<InfClass>Prep-Akk</InfClass>
+	</BaseStem>
+	<BaseStem>
+		<Lemma>ab</Lemma>
+		<Stem>ab</Stem>
+		<Pos>OTHER</Pos>
+		<Origin>nativ</Origin>
+		<InfClass>Ptkl-Vz</InfClass>
+	</BaseStem>
+	<BaseStem>
+		<Lemma>an</Lemma>
+		<Stem>an</Stem>
+		<Pos>OTHER</Pos>
+		<Origin>nativ</Origin>
+		<InfClass>Ptkl-Vz</InfClass>
+	</BaseStem>
+	<BaseStem>
+		<Lemma>auf</Lemma>
+		<Stem>auf</Stem>
+		<Pos>OTHER</Pos>
+		<Origin>nativ</Origin>
+		<InfClass>Ptkl-Vz</InfClass>
+	</BaseStem>
+	<BaseStem>
+		<Lemma>aus</Lemma>
+		<Stem>aus</Stem>
+		<Pos>OTHER</Pos>
+		<Origin>nativ</Origin>
+		<InfClass>Ptkl-Vz</InfClass>
+	</BaseStem>
 </smor>
