@@ -857,20 +857,6 @@
 		<InfClass>Konj-Kon</InfClass>
 	</BaseStem>
 	<BaseStem>
-		<Lemma>dass</Lemma>
-		<Stem>dass</Stem>
-		<Pos>OTHER</Pos>
-		<Origin>nativ</Origin>
-		<InfClass>Konj-Kon</InfClass>
-	</BaseStem>
-	<BaseStem>
-		<Lemma>sodass</Lemma>
-		<Stem>sodass</Stem>
-		<Pos>OTHER</Pos>
-		<Origin>nativ</Origin>
-		<InfClass>Konj-Kon</InfClass>
-	</BaseStem>
-	<BaseStem>
 		<Lemma>sowas</Lemma>
 		<Stem>sowas</Stem>
 		<Pos>OTHER</Pos>

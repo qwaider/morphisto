@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'utf-8' ?>
+<?xml-stylesheet type="text/xsl" href="lexicon-transform.xslt"?>
+<smor>
+	<BaseStem>
+		<Lemma>dass</Lemma>
+		<Stem>dass</Stem>
+		<Pos>OTHER</Pos>
+		<Origin>nativ</Origin>
+		<InfClass>Konj-Kon</InfClass>
+	</BaseStem>
+	<BaseStem>
+		<Lemma>sodass</Lemma>
+		<Stem>sodass</Stem>
+		<Pos>OTHER</Pos>
+		<Origin>nativ</Origin>
+		<InfClass>Konj-Kon</InfClass>
+	</BaseStem>
+</smor>
