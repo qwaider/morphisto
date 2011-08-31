@@ -56,7 +56,7 @@ $FLEX$ = [<Abk_ADJ><Abk_ADV><Abk_ART><Abk_DPRO><Abk_KONJ><Abk_NE-Low><Abk_NE>\
 <NNeut_s_n><NNeut_s_s><NNeut_s_x><Name-Fem_0><Name-Fem_s><Name-Masc_0> \
 <Name-Masc_s><Name-Neut_s><Name-Neut_0><Name-Neut+Loc><Name-Invar> \
 <Postp-Akk><Postp-Dat><Postp-Gen><Pref/Adj> \
-<Pref/Adv><Pref/N><Pref/ProAdv><Pref/Sep><Pref/V><Prep-Akk><Prep-Dat> \
+<Pref/Adv><Pref/N><Pref/ProAdv><Pref/Sep><Pref/V><Prep-Akk><Prep-Dat><Prep-Nom> \
 <Prep-Gen><Prep/Art-m><Prep/Art-n><Prep/Art-r><Prep/Art-s><ProAdv><Ptkl-Adj> \
 <Ptkl-Ant><Ptkl-Neg><Ptkl-Zu><VAImpPl><VAImpSg><VAPastKonj2><VAPres1/3PlInd> \
 <VAPres1SgInd><VAPres2PlInd><VAPres2SgInd><VAPres3SgInd><VAPresKonjPl> \

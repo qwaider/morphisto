@@ -276,6 +276,8 @@ $Prep-Akk$ =	{<+PREP><Akk>}:{<>}	$Closed#$
 
 $Prep-Dat$ =	{<+PREP><Dat>}:{<>}	$Closed#$
 
+$Prep-Nom$ =	{<+PREP><Nom>}:{<>}	$Closed#$
+
 $Prep-Gen$ =	{<+PREP><Gen>}:{<>}	$Closed#$
 
 $Prep/Art-m$ = 	{<+PREP/ART><Masc><Dat><Sg>}:{<>}	$Closed#$ |\
@@ -1137,6 +1139,7 @@ $FLEXION$ = 	<>:<Abk_ADJ>		$Abk_ADJ$ |\
 		<>:<Postp-Gen>		$Postp-Gen$ |\
 		<>:<Prep-Akk>		$Prep-Akk$ |\
 		<>:<Prep-Dat>		$Prep-Dat$ |\
+		<>:<Prep-Nom>		$Prep-Nom$ |\
 		<>:<Prep-Gen>		$Prep-Gen$ |\
 		<>:<Pref/Adj>		$Pref/Adj$ |\
 		<>:<Pref/Adv>		$Pref/Adv$ |\
@@ -1371,6 +1374,7 @@ $FLEXFILTER$ = (<Abk_ADJ>:<>		<Abk_ADJ>:<> |\
 		<Pref/V>:<>		<Pref/V>:<>|\
 		<Prep-Akk>:<>		<Prep-Akk>:<> |\
 		<Prep-Dat>:<>		<Prep-Dat>:<> |\
+		<Prep-Nom>:<>		<Prep-Nom>:<> |\
 		<Prep-Gen>:<>		<Prep-Gen>:<> |\
 		<Prep/Art-m>:<>		<Prep/Art-m>:<> |\
 		<Prep/Art-n>:<>		<Prep/Art-n>:<> |\
