@@ -298,6 +298,8 @@ $Ptkl-Ant$ =	{<+PTKL><Ant>}:{<>}	$Closed#$
 
 $Ptkl-Neg$ =	{<+PTKL><Neg>}:{<>}	$Closed#$
 
+$Ptkl-Vz$ =	{<+PTKL><Vz>}:{<>}	$Closed#$
+
 $Ptkl-Zu$ =	{<+PTKL><zu>}:{<>}	$Closed#$
 
 $SpecChar$ =	{<+CHAR>}:{<>}		$Fix#$
@@ -1155,6 +1157,7 @@ $FLEXION$ = 	<>:<Abk_ADJ>		$Abk_ADJ$ |\
 		<>:<Ptkl-Adj>		$Ptkl-Adj$ |\
 		<>:<Ptkl-Ant>		$Ptkl-Ant$ |\
 		<>:<Ptkl-Neg>		$Ptkl-Neg$ |\
+		<>:<Ptkl-Vz>		$Ptkl-Vz$ |\
 		<>:<Ptkl-Zu>		$Ptkl-Zu$ |\
 		<>:<SpecChar>		$SpecChar$ |\
 		<>:<Symbol>		$Symbol$ |\
@@ -1384,6 +1387,7 @@ $FLEXFILTER$ = (<Abk_ADJ>:<>		<Abk_ADJ>:<> |\
 		<Ptkl-Adj>:<>		<Ptkl-Adj>:<> |\
 		<Ptkl-Ant>:<>		<Ptkl-Ant>:<> |\
 		<Ptkl-Neg>:<>		<Ptkl-Neg>:<> |\
+		<Ptkl-Vz>:<>		<Ptkl-Vz>:<> |\
 		<Ptkl-Zu>:<>		<Ptkl-Zu>:<> |\
 		<SpecChar>:<>		<SpecChar>:<> |\
 		<Symbol>:<>		<Symbol>:<> |\

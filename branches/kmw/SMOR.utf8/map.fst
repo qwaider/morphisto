@@ -83,7 +83,7 @@ ALPHABET = [\!-\~¡-ÿ] <SS><FB> n:<n> e:<e> d:<d> <>:<~n> <Ge-Nom> <>:<UL> \
 <Postp-Akk><Postp-Dat><Postp-Gen><Pref/Adj> \
 <Pref/Adv><Pref/N><Pref/ProAdv><Pref/Sep><Pref/V><Prep-Akk><Prep-Dat><Prep-Nom> \
 <Prep-Gen><Prep/Art-m><Prep/Art-n><Prep/Art-r><Prep/Art-s><ProAdv><PInd-Invar><Ptkl-Adj> \
-<Ptkl-Ant><Ptkl-Neg><Ptkl-Zu><VAImpPl><VAImpSg><VAPastKonj2><VAPres1/3PlInd> \
+<Ptkl-Ant><Ptkl-Neg><Ptkl-Vz><Ptkl-Zu><VAImpPl><VAImpSg><VAPastKonj2><VAPres1/3PlInd> \
 <VAPres1SgInd><VAPres2PlInd><VAPres2SgInd><VAPres3SgInd><VAPresKonjPl> \
 <VAPresKonjSg><VInf+PPres><VInf><VMPast><VMPastKonj><VMPresPl><VMPresSg> \
 <VPPast><VPPres><VPastIndReg><VPastIndStr><VPastKonjStr><VPresKonj><VPastIndStr-hatte> \
@@ -181,7 +181,7 @@ ALPHABET = [\!-\~¡-ÿ]<SS><FB><n><e><d><~n><Ge-Nom> <UL> \
 <Postp-Akk><Postp-Dat><Postp-Gen><Pref/Adj> \
 <Pref/Adv><Pref/N><Pref/ProAdv><Pref/Sep><Pref/V><Prep-Akk><Prep-Dat><Prep-Nom> \
 <Prep-Gen><Prep/Art-m><Prep/Art-n><Prep/Art-r><Prep/Art-s><ProAdv><PInd-Invar><Ptkl-Adj> \
-<Ptkl-Ant><Ptkl-Neg><Ptkl-Zu><VAImpPl><VAImpSg><VAPastKonj2><VAPres1/3PlInd> \
+<Ptkl-Ant><Ptkl-Neg><Ptkl-Vz><Ptkl-Zu><VAImpPl><VAImpSg><VAPastKonj2><VAPres1/3PlInd> \
 <VAPres1SgInd><VAPres2PlInd><VAPres2SgInd><VAPres3SgInd><VAPresKonjPl> \
 <VAPresKonjSg><VInf+PPres><VInf><VMPast><VMPastKonj><VMPresPl><VMPresSg> \
 <VPPast><VPPres><VPastIndReg><VPastIndStr><VPastKonjStr><VPresKonj><VPastIndStr-hatte> \
