@@ -9,8 +9,13 @@
 
 <BaseStem> <Lemma>Ähre</Lemma> <Stem>Ähre</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem_0_n</InfClass> <Frequency>16</Frequency> </BaseStem>
 <BaseStem> <Lemma>Ja</Lemma> <Stem>Ja</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NNeut_s_s</InfClass> <Frequency>16</Frequency> </BaseStem>
+<BaseStem> <Lemma>Mobil</Lemma> <Stem>Mobil</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NNeut_es_e</InfClass> <Frequency>13</Frequency> </BaseStem>
 <BaseStem> <Lemma>Molotow</Lemma> <Stem>Molotow</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_s_0</InfClass> <Frequency>12</Frequency> </BaseStem>
 <BaseStem> <Lemma>Nein</Lemma> <Stem>Nein</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NNeut_s_s</InfClass> <Frequency>16</Frequency> </BaseStem>
+<BaseStem> <Lemma>Physis</Lemma> <Stem>Physis</Stem> <Pos>NN</Pos><Origin>fremd</Origin> <InfClass>NFem/Sg</InfClass> <Frequency>15</Frequency> </BaseStem>
+<BaseStem> <Lemma>Präzedenz</Lemma> <Stem>Präzedenz</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem_0_en</InfClass> <Frequency>16</Frequency> </BaseStem>
+<BaseStem> <Lemma>Semit</Lemma> <Stem>Semit</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_en_en</InfClass> <Frequency>16</Frequency> </BaseStem>
+<BaseStem> <Lemma>Sopranist</Lemma> <Stem>Sopranist</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_en_en</InfClass> <Frequency>15</Frequency> </BaseStem>
 <BaseStem> <Lemma>Striemen</Lemma> <Stem>Striemen</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_s_x</InfClass> <Frequency>17</Frequency> </BaseStem>
 <BaseStem> <Lemma>Wermut</Lemma> <Stem>Wermut</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_s_s</InfClass> <Frequency>15</Frequency> </BaseStem>
 
@@ -23,6 +28,9 @@
 	</BaseStem>
 
 <BaseStem> <MorphMarker>ge</MorphMarker>
+<Lemma>asch</Lemma> <Stem>asch</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>14</Frequency> </BaseStem>
+<BaseStem> <Lemma>phrasier</Lemma> <Stem>phrasier</Stem> <Pos>V</Pos><Origin>prefnoge</Origin> <InfClass>VVReg</InfClass> <Frequency>14</Frequency> </BaseStem>
+<BaseStem> <MorphMarker>ge</MorphMarker>
 <Lemma>schiff</Lemma> <Stem>schiff</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>9</Frequency> </BaseStem>
 <BaseStem> <MorphMarker>ge</MorphMarker>
 <Lemma>schnurr</Lemma> <Stem>schnurr</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>14</Frequency> </BaseStem>
@@ -34,8 +42,10 @@
 <Lemma>zelt</Lemma> <Stem>zelt</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>14</Frequency> </BaseStem>
 
 <BaseStem> <Lemma>wahr</Lemma> <Stem>wahr</Stem> <Pos>ADJ</Pos><Origin>nativ</Origin> <InfClass>Adj+</InfClass> <Frequency>10</Frequency> </BaseStem>
+<BaseStem> <Lemma>nüchtern</Lemma> <Stem>nüchtern</Stem> <Pos>ADJ</Pos><Origin>nativ</Origin> <InfClass>Adj+</InfClass> <Frequency>10</Frequency> </BaseStem>
 
 <KomposStem> <Upper>Bote</Upper> <Lower>Bot</Lower> <Pos>NN</Pos><Origin>nativ</Origin> <Frequency>0</Frequency> </KomposStem>
 <KomposStem> <Upper>Bund</Upper> <Lower>Bundes</Lower> <Pos>NN</Pos><Origin>nativ</Origin> <Frequency>0</Frequency> </KomposStem>
+<KomposStem> <Upper>Pfingsten</Upper> <Lower>Pfingst</Lower> <Pos>NN</Pos><Origin>nativ</Origin> <Frequency>0</Frequency> </KomposStem>
 
 </smor>
