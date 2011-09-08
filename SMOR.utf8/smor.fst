@@ -121,6 +121,21 @@ $PrefDerivSuffStems$ = $LEX$ || ($I$ <Suff_Stems><prefderiv>:<> $ANY$)
 % derivation suffixes which combine with a number and a simplex stem
 $QuantSuffStems$ = $LEX$ || (<QUANT>:<> $I$ <Suff_Stems><simplex>:<> $ANY$)
 
+%**************************************************************************
+% create base entries for separable prefixes
+%**************************************************************************
+
+$SepPrefixes$ = [^<no-ge>] $ANY$
+
+ALPHABET = [\!-\~¡-ÿ<PrefStems><V><nativ>] <+VPRE>:<PREF>
+$SwitchCat$ =	<+VPRE> <=> <PREF>
+
+$SepPrefStems$ = $SwitchCat$ || $PrefStems$ || $SepPrefixes$
+
+$T$ =	[<nativ><V><Pref_Stems>]:<>
+
+$SepPrefStems$ = $SepPrefStems$ <>:<Low#> \
+		|| <>:<NoHy> $T$* [A-Za-zÄÖÜäöüß]+ $T$* [<Low#>]
 
 #include "deko.fst"
 #include "flexion.fst"
@@ -140,7 +155,6 @@ $Suffs2$ = ($PrefDerivSuffStems$ $SuffDerivSuffStems$*)?
 % suffixes for "Dreifarbigkeit"
 $QSuffs$ = $QuantSuffStems$ $SuffDerivSuffStems$*
 
-
 % dreistündig, 3stündig, 3-stündig, Mehrfarbigkeit
 $Sx$ = $Quant$ ($BDKStems$ $QSuffs$ || $SUFFFILTER$)
 
@@ -154,7 +168,6 @@ $TMP$ = $S0$ | $S1$ | $Sx$
 
 $TMP$ = $TMP$+ || $KOMPOSFILTER$
 
-
 %**************************************************************************
 % add inflection and filter out incorrect combinations of stems and infl.
 %**************************************************************************
@@ -164,11 +177,14 @@ $ANY$ = [\!-\~¡-ÿ <FB><SS><n><~n><e><d><Ge-Nom><UL> <NoHy><ge><no-ge><CB><VADJ
 
 $BASE$ = $TMP$ $FLEXION$ || $ANY$ $FLEXFILTER$ || $INFIXFILTER$
 
+%**************************************************************************
+% load fixes and pronouns
+%**************************************************************************
 
 #include "FIX.fst"
 #include "PRO.fst"
 
-$BASE$ = $Fix_Stems$ | $Pro_Stems$ | $BASE$
+$BASE$ = $Fix_Stems$ | $Pro_Stems$ | $SepPrefStems$ | $BASE$
 
 $BASE$ = $BASE$ || $UPLOW$
 
