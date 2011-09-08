@@ -2334,6 +2334,21 @@
 		<InfClass>Ptkl-Ant</InfClass>
 	</BaseStem>
 	<BaseStem>
+		<Lemma>dank</Lemma>
+		<Stem>dank</Stem>
+		<Pos>OTHER</Pos>
+		<Origin>nativ</Origin>
+		<InfClass>Prep-Dat</InfClass>
+	</BaseStem>
+	<BaseStem>
+		<Lemma>dank</Lemma>
+		<Stem>dank</Stem>
+		<Pos>OTHER</Pos>
+		<Origin>nativ</Origin>
+		<InfClass>Prep-Gen</InfClass>
+	</BaseStem>
+	
+	<BaseStem>
 		<Lemma>danke</Lemma>
 		<Stem>danke</Stem>
 		<Pos>OTHER</Pos>
