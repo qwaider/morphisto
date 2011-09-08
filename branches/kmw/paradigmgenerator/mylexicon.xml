@@ -1,18 +1,117 @@
 <smor>
-<PrefStem>
-<Upper>ab</Upper>
-<Lower>ab</Lower>
-<Pos>NN</Pos>
-<Origin>nativ</Origin>
-</PrefStem>
 
-<BaseStem>
-<Upper>Luft</Upper>
-<Lower>Luft</Lower>
-<Pos>NN</Pos>
-<Origin>nativ</Origin>
-</BaseStem>
-
+	<BaseStem>
+		<MorphMarker>ge</MorphMarker>
+		<Lemma>tun</Lemma>
+		<Stem>tun</Stem>
+		<Pos>V</Pos>
+		<Origin>nativ</Origin>
+		<InfClass>VInf</InfClass>
+	</BaseStem>
+	<BaseStem>
+		<MorphMarker>ge</MorphMarker>
+		<Lemma>tun</Lemma>
+		<Stem>tat</Stem>
+		<Pos>V</Pos>
+		<Origin>nativ</Origin>
+		<InfClass>VPastIndStr</InfClass>
+	</BaseStem>
+	<BaseStem>
+		<MorphMarker>ge</MorphMarker>
+		<Lemma>tun</Lemma>
+		<Stem>tan</Stem>
+		<Pos>V</Pos>
+		<Origin>nativ</Origin>
+		<InfClass>VPPast</InfClass>
+	</BaseStem>
+	<BaseStem>
+		<MorphMarker>ge</MorphMarker>
+		<Lemma>tun</Lemma>
+		<Stem>tät</Stem>
+		<Pos>V</Pos>
+		<Origin>nativ</Origin>
+		<InfClass>VPastKonjStr</InfClass>
+	</BaseStem>
+	<BaseStem>
+		<MorphMarker>ge</MorphMarker>
+		<Lemma>tun</Lemma>
+		<Stem>tuend</Stem>
+		<Pos>V</Pos>
+		<Origin>nativ</Origin>
+		<InfClass>VPPres</InfClass>
+	</BaseStem>
+	<BaseStem>
+		<MorphMarker>ge</MorphMarker>
+		<Lemma>tun</Lemma>
+		<Stem>tu</Stem>
+		<Pos>V</Pos>
+		<Origin>nativ</Origin>
+		<InfClass>VPresKonj</InfClass>
+	</BaseStem>
+	<BaseStem>
+		<MorphMarker>ge</MorphMarker>
+		<Lemma>tun</Lemma>
+		<Stem>tue</Stem>
+		<Pos>V</Pos>
+		<Origin>nativ</Origin>
+		<InfClass>VAPres1SgInd</InfClass>
+	</BaseStem>
+	<BaseStem>
+		<MorphMarker>ge</MorphMarker>
+		<Lemma>tun</Lemma>
+		<Stem>tu</Stem>
+		<Pos>V</Pos>
+		<Origin>nativ</Origin>
+		<InfClass>VAPres1SgInd</InfClass>
+	</BaseStem>
+	<BaseStem>
+		<MorphMarker>ge</MorphMarker>
+		<Lemma>tun</Lemma>
+		<Stem>tust</Stem>
+		<Pos>V</Pos>
+		<Origin>nativ</Origin>
+		<InfClass>VAPres2SgInd</InfClass>
+	</BaseStem>
+	<BaseStem>
+		<MorphMarker>ge</MorphMarker>
+		<Lemma>tun</Lemma>
+		<Stem>tut</Stem>
+		<Pos>V</Pos>
+		<Origin>nativ</Origin>
+		<InfClass>VAPres3SgInd</InfClass>
+	</BaseStem>
+	<BaseStem>
+		<MorphMarker>ge</MorphMarker>
+		<Lemma>tun</Lemma>
+		<Stem>tun</Stem>
+		<Pos>V</Pos>
+		<Origin>nativ</Origin>
+		<InfClass>VAPres1/3PlInd</InfClass>
+	</BaseStem>
+	<BaseStem>
+		<MorphMarker>ge</MorphMarker>
+		<Lemma>tun</Lemma>
+		<Stem>tut</Stem>
+		<Pos>V</Pos>
+		<Origin>nativ</Origin>
+		<InfClass>VAPres2PlInd</InfClass>
+	</BaseStem>
+	<BaseStem>
+		<MorphMarker>ge</MorphMarker>
+		<Lemma>tun</Lemma>
+		<Stem>tu</Stem>
+		<Pos>V</Pos>
+		<Origin>nativ</Origin>
+		<InfClass>VAImpSg</InfClass>
+	</BaseStem>
+	<BaseStem>
+		<MorphMarker>ge</MorphMarker>
+		<Lemma>tun</Lemma>
+		<Stem>tut</Stem>
+		<Pos>V</Pos>
+		<Origin>nativ</Origin>
+		<InfClass>VAImpPl</InfClass>
+	</BaseStem>
 
 
 
