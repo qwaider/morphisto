@@ -385,6 +385,7 @@
       <value>Ptkl-Neg</value>
       <value>Ptkl-Ant</value>
       <value>Ptkl-Adj</value>
+      <value>Ptkl-Vz</value>
       <value>ProAdv</value>
       <value>WAdv</value>
       <value>Konj-Inf</value>
@@ -394,6 +395,7 @@
       <value>Prep-Dat</value>
       <value>Prep-Akk</value>
       <value>Prep-Gen</value>
+      <value>Prep-Nom</value>
       <value>Postp-Gen</value>
       <value>Postp-Akk</value>
       <value>Postp-Dat</value>
