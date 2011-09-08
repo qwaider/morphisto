@@ -815,6 +815,13 @@
 		<InfClass>Konj-Kon</InfClass>
 	</BaseStem>
 	<BaseStem>
+		<Lemma>respektive</Lemma>
+		<Stem>respektive</Stem>
+		<Pos>OTHER</Pos>
+		<Origin>nativ</Origin>
+		<InfClass>Konj-Kon</InfClass>
+	</BaseStem>
+	<BaseStem>
 		<Lemma>desto</Lemma>
 		<Stem>desto</Stem>
 		<Pos>OTHER</Pos>
