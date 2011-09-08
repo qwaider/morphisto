@@ -2780,7 +2780,7 @@
 <BaseStem> <Lemma>Geräusch</Lemma> <Stem>Geräusch</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_es_e</InfClass> <Frequency>13</Frequency> </BaseStem>
 <BaseStem> <Lemma>Geräusch</Lemma> <Stem>Geräusch</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NNeut_es_e</InfClass> <Frequency>13</Frequency> </BaseStem>
 <BaseStem> <Lemma>Gerechtigkeit</Lemma> <Stem>Gerechtigkeit</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem_0_en</InfClass> <Frequency>12</Frequency> </BaseStem>
-<BaseStem> <Lemma>Gericht</Lemma> <Stem>Gericht</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_s_e</InfClass> <Frequency>9</Frequency> </BaseStem>
+<BaseStem> <Lemma>Gericht</Lemma> <Stem>Gericht</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_es_e</InfClass> <Frequency>9</Frequency> </BaseStem>
 <BaseStem> <Lemma>Germane</Lemma> <Stem>Germane</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_n_n</InfClass> <Frequency>16</Frequency> </BaseStem>
 <BaseStem> <Lemma>Germania</Lemma> <Stem>Germania</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>Name-Fem_s</InfClass> <Frequency>14</Frequency> </BaseStem>
 <BaseStem> <Lemma>Germanist</Lemma> <Stem>Germanist</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_en_en</InfClass> <Frequency>15</Frequency> </BaseStem>
