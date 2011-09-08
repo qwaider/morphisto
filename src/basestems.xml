@@ -2272,8 +2272,9 @@
 <BaseStem> <Lemma>Feldbluse</Lemma> <Stem>Feldbluse</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem_0_n</InfClass> <Frequency>None</Frequency> </BaseStem>
 <BaseStem> <Lemma>Felge</Lemma> <Stem>Felge</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem_0_n</InfClass> <Frequency>16</Frequency> </BaseStem>
 <BaseStem> <Lemma>Fell</Lemma> <Stem>Fell</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NNeut_es_e</InfClass> <Frequency>14</Frequency> </BaseStem>
-<BaseStem> <Lemma>Fels</Lemma> <Stem>Fels</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_en_en</InfClass> <Frequency>14</Frequency> </BaseStem>
-<BaseStem> <Lemma>Felsen</Lemma> <Stem>Felsen</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NNeut_s_x</InfClass> <Frequency>14</Frequency> </BaseStem>
+<BaseStem> <Lemma>Fels</Lemma> <Stem>Fels</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc/Sg_0</InfClass> <Frequency>14</Frequency> </BaseStem>
+<BaseStem> <Lemma>Fels</Lemma> <Stem>Felsen</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc/Pl</InfClass> <Frequency>14</Frequency> </BaseStem>
+<BaseStem> <Lemma>Felsen</Lemma> <Stem>Felsen</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_s_x</InfClass> <Frequency>14</Frequency> </BaseStem>
 <BaseStem> <Lemma>Feminismus</Lemma> <Stem>Feminismus</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc/Sg_0</InfClass> <Frequency>15</Frequency> </BaseStem>
 <BaseStem> <Lemma>Feminist</Lemma> <Stem>Feminist</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_en_en</InfClass> <Frequency>15</Frequency> </BaseStem>
 <BaseStem> <Lemma>Fenster</Lemma> <Stem>Fenster</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NNeut_s_0</InfClass> <Frequency>11</Frequency> </BaseStem>
@@ -9673,10 +9674,7 @@
 <BaseStem> <Lemma>bestück</Lemma> <Stem>bestück</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>14</Frequency> </BaseStem>
 <BaseStem> <Lemma>bestürz</Lemma> <Stem>bestürz</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>16</Frequency> </BaseStem>
 <BaseStem> <Lemma>besuch</Lemma> <Stem>besuch</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>11</Frequency> </BaseStem>
-<BaseStem> <Lemma>bet</Lemma> <Stem>bat</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastIndStr</InfClass> <Frequency>10</Frequency> </BaseStem>
-<BaseStem> <MorphMarker>ge</MorphMarker>
-<Lemma>bet</Lemma> <Stem>bet</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>13</Frequency> </BaseStem>
-<BaseStem> <Lemma>bet</Lemma> <Stem>böt</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastKonjStr</InfClass> <Frequency>10</Frequency> </BaseStem>
+<BaseStem> <Lemma>bet</Lemma> <Stem>bet</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>13</Frequency> </BaseStem>
 <BaseStem> <Lemma>betätig</Lemma> <Stem>betätig</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>14</Frequency> </BaseStem>
 <BaseStem> <Lemma>betäub</Lemma> <Stem>betäub</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>15</Frequency> </BaseStem>
 <BaseStem> <Lemma>beteilig</Lemma> <Stem>beteilig</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>10</Frequency> </BaseStem>
