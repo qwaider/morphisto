@@ -48,5 +48,6 @@
 <KomposStem> <Upper>Bote</Upper> <Lower>Bot</Lower> <Pos>NN</Pos><Origin>nativ</Origin> <Frequency>0</Frequency> </KomposStem>
 <KomposStem> <Upper>Bund</Upper> <Lower>Bundes</Lower> <Pos>NN</Pos><Origin>nativ</Origin> <Frequency>0</Frequency> </KomposStem>
 <KomposStem> <Upper>Pfingsten</Upper> <Lower>Pfingst</Lower> <Pos>NN</Pos><Origin>nativ</Origin> <Frequency>0</Frequency> </KomposStem>
+<KomposStem> <Upper>Rücken</Upper> <Lower>Rück</Lower> <Pos>NN</Pos><Origin>nativ</Origin> <Frequency>0</Frequency> </KomposStem>
 
 </smor>

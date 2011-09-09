@@ -13,6 +13,7 @@
 <DerivStem><Upper>fangen</Upper><Lower>fang</Lower><Pos>V</Pos><Origin>NSMasc_es_$e</Origin></DerivStem>
 <DerivStem><Upper>fließen</Upper><Lower>fluss</Lower><Pos>V</Pos><Origin>NSMasc_es_$e</Origin></DerivStem>
 <DerivStem><Upper>fließen</Upper><Lower>fluß</Lower><Pos>V</Pos><Origin>NSMasc-s/$sse</Origin></DerivStem>
+<DerivStem><Upper>folgen</Upper><Lower>folg</Lower><Pos>V</Pos><Origin>NSFem_0_n</Origin></DerivStem>
 <DerivStem><Upper>fragen</Upper><Lower>frag</Lower><Pos>V</Pos><Origin>NSFem_0_n</Origin></DerivStem>
 <DerivStem><Upper>geben</Upper><Lower>gab</Lower><Pos>V</Pos><Origin>NSFem_0_n</Origin></DerivStem>
 <DerivStem><Upper>gehen</Upper><Lower>gang</Lower><Pos>V</Pos><Origin>NSMasc_es_$e</Origin></DerivStem>

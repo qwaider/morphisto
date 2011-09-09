@@ -93,31 +93,31 @@
 		<InfClass>Prep-Akk</InfClass>
 	</BaseStem>
 	<BaseStem>
-		<Lemma>ab</Lemma>
-		<Stem>ab</Stem>
-		<Pos>OTHER</Pos>
-		<Origin>nativ</Origin>
-		<InfClass>Ptkl-Vz</InfClass>
-	</BaseStem>
+ 		<Lemma>dank</Lemma>
+ 		<Stem>dank</Stem>
+ 		<Pos>OTHER</Pos>
+ 		<Origin>nativ</Origin>
+ 		<InfClass>Prep-Dat</InfClass>
+ 	</BaseStem>
+ 	<BaseStem>
+ 		<Lemma>dank</Lemma>
+ 		<Stem>dank</Stem>
+ 		<Pos>OTHER</Pos>
+ 		<Origin>nativ</Origin>
+ 		<InfClass>Prep-Gen</InfClass>
+ 	</BaseStem>
 	<BaseStem>
-		<Lemma>an</Lemma>
-		<Stem>an</Stem>
-		<Pos>OTHER</Pos>
-		<Origin>nativ</Origin>
-		<InfClass>Ptkl-Vz</InfClass>
-	</BaseStem>
+ 		<Lemma>aber</Lemma>
+ 		<Stem>aber</Stem>
+ 		<Pos>OTHER</Pos>
+ 		<Origin>nativ</Origin>
+ 		<InfClass>Konj-Kon</InfClass>
+ 	</BaseStem>
 	<BaseStem>
-		<Lemma>auf</Lemma>
-		<Stem>auf</Stem>
-		<Pos>OTHER</Pos>
-		<Origin>nativ</Origin>
-		<InfClass>Ptkl-Vz</InfClass>
-	</BaseStem>
-	<BaseStem>
-		<Lemma>aus</Lemma>
-		<Stem>aus</Stem>
-		<Pos>OTHER</Pos>
-		<Origin>nativ</Origin>
-		<InfClass>Ptkl-Vz</InfClass>
-	</BaseStem>
+ 		<Lemma>denn</Lemma>
+ 		<Stem>denn</Stem>
+ 		<Pos>OTHER</Pos>
+ 		<Origin>nativ</Origin>
+ 		<InfClass>Konj-Kon</InfClass>
+ 	</BaseStem>
 </smor>
