@@ -276,6 +276,8 @@ $Prep-Akk$ =	{<+PREP><Akk>}:{<>}	$Closed#$
 
 $Prep-Dat$ =	{<+PREP><Dat>}:{<>}	$Closed#$
 
+$Prep-Nom$ =	{<+PREP><Nom>}:{<>}	$Closed#$
+
 $Prep-Gen$ =	{<+PREP><Gen>}:{<>}	$Closed#$
 
 $Prep/Art-m$ = 	{<+PREP/ART><Masc><Dat><Sg>}:{<>}	$Closed#$ |\
@@ -295,6 +297,8 @@ $Ptkl-Adj$ =	{<+PTKL><Adj>}:{<>}	$Closed#$
 $Ptkl-Ant$ =	{<+PTKL><Ant>}:{<>}	$Closed#$
 
 $Ptkl-Neg$ =	{<+PTKL><Neg>}:{<>}	$Closed#$
+
+$Ptkl-Vz$ =	{<+PTKL><Vz>}:{<>}	$Closed#$
 
 $Ptkl-Zu$ =	{<+PTKL><zu>}:{<>}	$Closed#$
 
@@ -1137,6 +1141,7 @@ $FLEXION$ = 	<>:<Abk_ADJ>		$Abk_ADJ$ |\
 		<>:<Postp-Gen>		$Postp-Gen$ |\
 		<>:<Prep-Akk>		$Prep-Akk$ |\
 		<>:<Prep-Dat>		$Prep-Dat$ |\
+		<>:<Prep-Nom>		$Prep-Nom$ |\
 		<>:<Prep-Gen>		$Prep-Gen$ |\
 		<>:<Pref/Adj>		$Pref/Adj$ |\
 		<>:<Pref/Adv>		$Pref/Adv$ |\
@@ -1152,6 +1157,7 @@ $FLEXION$ = 	<>:<Abk_ADJ>		$Abk_ADJ$ |\
 		<>:<Ptkl-Adj>		$Ptkl-Adj$ |\
 		<>:<Ptkl-Ant>		$Ptkl-Ant$ |\
 		<>:<Ptkl-Neg>		$Ptkl-Neg$ |\
+		<>:<Ptkl-Vz>		$Ptkl-Vz$ |\
 		<>:<Ptkl-Zu>		$Ptkl-Zu$ |\
 		<>:<SpecChar>		$SpecChar$ |\
 		<>:<Symbol>		$Symbol$ |\
@@ -1371,6 +1377,7 @@ $FLEXFILTER$ = (<Abk_ADJ>:<>		<Abk_ADJ>:<> |\
 		<Pref/V>:<>		<Pref/V>:<>|\
 		<Prep-Akk>:<>		<Prep-Akk>:<> |\
 		<Prep-Dat>:<>		<Prep-Dat>:<> |\
+		<Prep-Nom>:<>		<Prep-Nom>:<> |\
 		<Prep-Gen>:<>		<Prep-Gen>:<> |\
 		<Prep/Art-m>:<>		<Prep/Art-m>:<> |\
 		<Prep/Art-n>:<>		<Prep/Art-n>:<> |\
@@ -1380,6 +1387,7 @@ $FLEXFILTER$ = (<Abk_ADJ>:<>		<Abk_ADJ>:<> |\
 		<Ptkl-Adj>:<>		<Ptkl-Adj>:<> |\
 		<Ptkl-Ant>:<>		<Ptkl-Ant>:<> |\
 		<Ptkl-Neg>:<>		<Ptkl-Neg>:<> |\
+		<Ptkl-Vz>:<>		<Ptkl-Vz>:<> |\
 		<Ptkl-Zu>:<>		<Ptkl-Zu>:<> |\
 		<SpecChar>:<>		<SpecChar>:<> |\
 		<Symbol>:<>		<Symbol>:<> |\

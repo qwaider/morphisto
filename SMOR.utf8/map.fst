@@ -29,7 +29,7 @@ ALPHABET = [\!-\~¡-ÿ] <SS><FB> n:<n> e:<e> d:<d> <>:<~n> <Ge-Nom> <>:<UL> \
 % marker for ge prefix
 <>:<ge> |\
 % Herkunft features
-<>:[<nativ><frei><gebunden><kurz><lang><fremd><klassisch> \
+<>:[<nativ><frei><gebunden><kurz><lang><fremd><klassisch><prefnoge> \
 <NSNeut_es_e><NSFem_0_n><NSFem_0_en><NSMasc_es_e><NSMasc_es_$e> \
 <NSMasc-s/$sse> \
 <NGeo-$er-NMasc_s_0><NGeo-$er-Adj0-Up><NGeo-$isch-Adj+><NGeo-0-Name-Fem_0>\
@@ -81,9 +81,9 @@ ALPHABET = [\!-\~¡-ÿ] <SS><FB> n:<n> e:<e> d:<d> <>:<~n> <Ge-Nom> <>:<UL> \
 <NNeut_s_n><NNeut_s_s><NNeut_s_x><Name-Fem_0><Name-Fem_s><Name-Masc_0> \
 <Name-Masc_s><Name-Neut_s><Name-Neut_0><Name-Neut+Loc><Name-Invar> \
 <Postp-Akk><Postp-Dat><Postp-Gen><Pref/Adj> \
-<Pref/Adv><Pref/N><Pref/ProAdv><Pref/Sep><Pref/V><Prep-Akk><Prep-Dat> \
+<Pref/Adv><Pref/N><Pref/ProAdv><Pref/Sep><Pref/V><Prep-Akk><Prep-Dat><Prep-Nom> \
 <Prep-Gen><Prep/Art-m><Prep/Art-n><Prep/Art-r><Prep/Art-s><ProAdv><PInd-Invar><Ptkl-Adj> \
-<Ptkl-Ant><Ptkl-Neg><Ptkl-Zu><VAImpPl><VAImpSg><VAPastKonj2><VAPres1/3PlInd> \
+<Ptkl-Ant><Ptkl-Neg><Ptkl-Vz><Ptkl-Zu><VAImpPl><VAImpSg><VAPastKonj2><VAPres1/3PlInd> \
 <VAPres1SgInd><VAPres2PlInd><VAPres2SgInd><VAPres3SgInd><VAPresKonjPl> \
 <VAPresKonjSg><VInf+PPres><VInf><VMPast><VMPastKonj><VMPresPl><VMPresSg> \
 <VPPast><VPPres><VPastIndReg><VPastIndStr><VPastKonjStr><VPresKonj><VPastIndStr-hatte> \
@@ -133,7 +133,7 @@ ALPHABET = [\!-\~¡-ÿ]<SS><FB><n><e><d><~n><Ge-Nom> <UL> \
 % marker for ge prefix
 <ge> |\
 % Herkunft features
-<nativ><frei><gebunden><kurz><lang><fremd><klassisch> \
+<nativ><frei><gebunden><kurz><lang><fremd><klassisch><prefnoge> \
 <NSNeut_es_e><NSFem_0_n><NSFem_0_en><NSMasc_es_e><NSMasc_es_$e> \
 <NSMasc-s/$sse> \
 <NGeo-$er-NMasc_s_0><NGeo-$er-Adj0-Up><NGeo-$isch-Adj+><NGeo-0-Name-Fem_0>\
@@ -179,9 +179,9 @@ ALPHABET = [\!-\~¡-ÿ]<SS><FB><n><e><d><~n><Ge-Nom> <UL> \
 <NNeut_s_n><NNeut_s_s><NNeut_s_x><Name-Fem_0><Name-Fem_s><Name-Masc_0> \
 <Name-Masc_s><Name-Neut_s><Name-Neut_0><Name-Neut+Loc><Name-Invar> \
 <Postp-Akk><Postp-Dat><Postp-Gen><Pref/Adj> \
-<Pref/Adv><Pref/N><Pref/ProAdv><Pref/Sep><Pref/V><Prep-Akk><Prep-Dat> \
+<Pref/Adv><Pref/N><Pref/ProAdv><Pref/Sep><Pref/V><Prep-Akk><Prep-Dat><Prep-Nom> \
 <Prep-Gen><Prep/Art-m><Prep/Art-n><Prep/Art-r><Prep/Art-s><ProAdv><PInd-Invar><Ptkl-Adj> \
-<Ptkl-Ant><Ptkl-Neg><Ptkl-Zu><VAImpPl><VAImpSg><VAPastKonj2><VAPres1/3PlInd> \
+<Ptkl-Ant><Ptkl-Neg><Ptkl-Vz><Ptkl-Zu><VAImpPl><VAImpSg><VAPastKonj2><VAPres1/3PlInd> \
 <VAPres1SgInd><VAPres2PlInd><VAPres2SgInd><VAPres3SgInd><VAPresKonjPl> \
 <VAPresKonjSg><VInf+PPres><VInf><VMPast><VMPastKonj><VMPresPl><VMPresSg> \
 <VPPast><VPPres><VPastIndReg><VPastIndStr><VPastKonjStr><VPresKonj><VPastIndStr-hatte> \
