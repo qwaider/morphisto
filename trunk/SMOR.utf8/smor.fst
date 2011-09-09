@@ -42,7 +42,7 @@ ALPHABET = [\!-\~¡-ÿ] <FB><SS><n><~n><e><d><Ge-Nom><UL> \
 % stem type features
 <base><deriv><kompos> \
 % Herkunft features
-<nativ><frei><gebunden><kurz><lang><fremd><klassisch> \
+<nativ><frei><gebunden><kurz><lang><fremd><klassisch><prefnoge> \
 % inflection classes
 <Abk_ADJ><Abk_ADV><Abk_ART><Abk_DPRO><Abk_KONJ><Abk_NE-Low><Abk_NE> \
 <Abk_NN-Low><Abk_NN><Abk_PREP><Abk_VPPAST><Abk_VPPRES><Adj$><Adj$e><Adj+(e)> \
@@ -79,9 +79,9 @@ ALPHABET = [\!-\~¡-ÿ] <FB><SS><n><~n><e><d><Ge-Nom><UL> \
 <NGeo-istan-Name-Neut_s><NGeo-land-Name-Neut_s><NGeo-ner-NMasc_s_0> \
 <NGeo-ner-Adj0-Up><NGeo-nisch-Adj+> \
 <Postp-Akk><Postp-Dat><Postp-Gen><Pref/Adj> \
-<Pref/Adv><Pref/N><Pref/ProAdv><Pref/Sep><Pref/V><Prep-Akk><Prep-Dat> \
+<Pref/Adv><Pref/N><Pref/ProAdv><Pref/Sep><Pref/V><Prep-Akk><Prep-Dat><Prep-Nom> \
 <Prep-Gen><Prep/Art-m><Prep/Art-n><Prep/Art-r><Prep/Art-s><ProAdv><PInd-Invar><Ptkl-Adj> \
-<Ptkl-Ant><Ptkl-Neg><Ptkl-Zu><VAImpPl><VAImpSg><VAPastKonj2><VAPres1/3PlInd> \
+<Ptkl-Ant><Ptkl-Neg><Ptkl-Vz><Ptkl-Zu><VAImpPl><VAImpSg><VAPastKonj2><VAPres1/3PlInd> \
 <VAPres1SgInd><VAPres2PlInd><VAPres2SgInd><VAPres3SgInd><VAPresKonjPl> \
 <VAPresKonjSg><VInf+PPres><VInf><VMPast><VMPastKonj><VMPresPl><VMPresSg> \
 <VPPast><VPPres><VPastIndReg><VPastIndStr><VPastKonjStr><VPresKonj><VPastIndStr-hatte> \
@@ -95,7 +95,7 @@ $ANY$ = .*
 $I$ = [<Initial><NoHy><ge><no-ge><NoPref>]
 
 % Herkunft features
-$HK$ = [<nativ><frei><gebunden><kurz><lang><fremd><klassisch>]
+$HK$ = [<nativ><frei><gebunden><kurz><lang><fremd><klassisch><prefnoge>]
 
 $NoDef2NULL$ = ($ANY$ | $HK$ | $I$ | <NoDef>:<> |\
 	[<Base_Stems><Deriv_Stems><Kompos_Stems><Pref_Stems><Suff_Stems>])*
@@ -121,6 +121,21 @@ $PrefDerivSuffStems$ = $LEX$ || ($I$ <Suff_Stems><prefderiv>:<> $ANY$)
 % derivation suffixes which combine with a number and a simplex stem
 $QuantSuffStems$ = $LEX$ || (<QUANT>:<> $I$ <Suff_Stems><simplex>:<> $ANY$)
 
+%**************************************************************************
+% create base entries for separable prefixes
+%**************************************************************************
+
+$SepPrefixes$ = [^<no-ge>] $ANY$
+
+ALPHABET = [\!-\~¡-ÿ<PrefStems><V><nativ>] <+VPRE>:<PREF>
+$SwitchCat$ =	<+VPRE> <=> <PREF>
+
+$SepPrefStems$ = $SwitchCat$ || $PrefStems$ || $SepPrefixes$
+
+$T$ =	[<nativ><V><Pref_Stems>]:<>
+
+$SepPrefStems$ = $SepPrefStems$ <>:<Low#> \
+		|| <>:<NoHy> $T$* [A-Za-zÄÖÜäöüß]+ $T$* [<Low#>]
 
 #include "deko.fst"
 #include "flexion.fst"
@@ -140,7 +155,6 @@ $Suffs2$ = ($PrefDerivSuffStems$ $SuffDerivSuffStems$*)?
 % suffixes for "Dreifarbigkeit"
 $QSuffs$ = $QuantSuffStems$ $SuffDerivSuffStems$*
 
-
 % dreistündig, 3stündig, 3-stündig, Mehrfarbigkeit
 $Sx$ = $Quant$ ($BDKStems$ $QSuffs$ || $SUFFFILTER$)
 
@@ -154,7 +168,6 @@ $TMP$ = $S0$ | $S1$ | $Sx$
 
 $TMP$ = $TMP$+ || $KOMPOSFILTER$
 
-
 %**************************************************************************
 % add inflection and filter out incorrect combinations of stems and infl.
 %**************************************************************************
@@ -164,11 +177,14 @@ $ANY$ = [\!-\~¡-ÿ <FB><SS><n><~n><e><d><Ge-Nom><UL> <NoHy><ge><no-ge><CB><VADJ
 
 $BASE$ = $TMP$ $FLEXION$ || $ANY$ $FLEXFILTER$ || $INFIXFILTER$
 
+%**************************************************************************
+% load fixes and pronouns
+%**************************************************************************
 
 #include "FIX.fst"
 #include "PRO.fst"
 
-$BASE$ = $Fix_Stems$ | $Pro_Stems$ | $BASE$
+$BASE$ = $Fix_Stems$ | $Pro_Stems$ | $SepPrefStems$ | $BASE$
 
 $BASE$ = $BASE$ || $UPLOW$
 
