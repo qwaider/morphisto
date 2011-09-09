@@ -581,6 +581,8 @@
 <BaseStem> <Lemma>schreib</Lemma> <Stem>schrieb</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastStr</InfClass> <Frequency>9</Frequency> </BaseStem>
 <BaseStem> <Lemma>kurier</Lemma> <Stem>kurier</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>16</Frequency> </BaseStem>
 
+<BaseStem> <Lemma>dick</Lemma> <Stem>dick</Stem> <Pos>ADJ</Pos><Origin>nativ</Origin> <InfClass>Adj+e</InfClass> <Frequency>11</Frequency> </BaseStem>
+
 <BaseStem> <Lemma>Balken</Lemma> <Stem>Balken</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NNeut_s_x</InfClass> <Frequency>15</Frequency> </BaseStem>
 <BaseStem> <Lemma>Ballen</Lemma> <Stem>Ballen</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NNeut_s_x</InfClass> <Frequency>0</Frequency> </BaseStem>
 <BaseStem> <Lemma>Barren</Lemma> <Stem>Barren</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NNeut_s_x</InfClass> <Frequency>16</Frequency> </BaseStem>
@@ -601,6 +603,7 @@
 <BaseStem> <Lemma>Galgen</Lemma> <Stem>Galgen</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NNeut_s_x</InfClass> <Frequency>16</Frequency> </BaseStem>
 <BaseStem> <Lemma>Gaumen</Lemma> <Stem>Gaumen</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NNeut_s_x</InfClass> <Frequency>15</Frequency> </BaseStem>
 <BaseStem> <Lemma>Gefallen</Lemma> <Stem>Gefallen</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NNeut_s_x</InfClass> <Frequency>14</Frequency> </BaseStem>
+<BaseStem> <Lemma>Grien</Lemma> <Stem>Grien</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NNeut_s_e</InfClass> <Frequency>0</Frequency> </BaseStem>
 <BaseStem> <Lemma>Gulden</Lemma> <Stem>Gulden</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NNeut_s_x</InfClass> <Frequency>14</Frequency> </BaseStem>
 <BaseStem> <Lemma>Haken</Lemma> <Stem>Haken</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NNeut_s_x</InfClass> <Frequency>14</Frequency> </BaseStem>
 <BaseStem> <Lemma>Happen</Lemma> <Stem>Happen</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NNeut_s_x</InfClass> <Frequency>0</Frequency> </BaseStem>

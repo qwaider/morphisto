@@ -1350,7 +1350,7 @@
 		<NewStem stem_type="base">
 			<Pos>NN</Pos>
 			<Origin>nativ</Origin>
-			<InfClass>NNeut_s_x</InfClass>
+			<InfClass>NNeut/Sg_s</InfClass>
 		</NewStem>
 	</SuffStem>
 	<SuffStem>
