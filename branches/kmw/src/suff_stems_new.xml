@@ -1,4 +1,18 @@
 <?xml version = '1.0' encoding = 'utf-8' ?>
 <?xml-stylesheet type="text/xsl" href="lexicon-transform.xslt"?>
 <smor>
+	<SuffStem>
+		<PrevStem stem_type="deriv">
+			<Complexity>prefderiv</Complexity>
+			<Origin>NSDFem_0_en</Origin>
+			<Pos>V</Pos>
+		</PrevStem>
+		<Upper>0</Upper>
+		<Lower>0</Lower>
+		<NewStem stem_type="base">
+			<Pos>NN</Pos>
+			<Origin>nativ</Origin>
+			<InfClass>NFem_0_en</InfClass>
+		</NewStem>
+	</SuffStem>
 </smor>
