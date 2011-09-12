@@ -68,6 +68,8 @@ ALPHABET = [\!-\~¡-ÿ] <FB><SS><n><~n><e><d><Ge-Nom><UL> \
 <Name-Masc_s><Name-Neut_s><Name-Neut_0><Name-Neut+Loc><Name-Invar> \
 <NSNeut_es_e><NSFem_0_n><NSFem_0_en><NSMasc_es_e><NSMasc_es_$e> \
 <NSMasc-s/$sse> \
+<NSDFem_0_en> \
+<VVSReg> \
 <NGeo-$er-NMasc_s_0><NGeo-$er-Adj0-Up><NGeo-$isch-Adj+><NGeo-0-Name-Fem_0>\
 <NGeo-0-Name-Masc_s><NGeo-0-Name-Neut_s><NGeo-a-Name-Fem_s> \
 <NGeo-a-Name-Neut_s><NGeo-aner-NMasc_s_0><NGeo-aner-Adj0-Up> \
@@ -176,6 +178,7 @@ $ANY$ = [\!-\~¡-ÿ <FB><SS><n><~n><e><d><Ge-Nom><UL> <NoHy><ge><no-ge><CB><VADJ
 	<Base_Stems><Deriv_Stems><Kompos_Stems><Pref_Stems><Suff_Stems>]*
 
 $BASE$ = $TMP$ $FLEXION$ || $ANY$ $FLEXFILTER$ || $INFIXFILTER$
+%$BASE$ = $TMP$ $FLEXION$ || $ANY$ $FLEXFILTER$
 
 %**************************************************************************
 % load fixes and pronouns
@@ -200,30 +203,30 @@ $BASE$ = <>:<WB> $BASE$ <>:<WB> || $PHON$
 %  whole word in upper case
 %**************************************************************************
 
-$TMP$ = ([a-zà-þ]:[A-ZÀ-Þ] | [\!-`\{-ß] | {ß}:{SS})*
-$TMP$ = <NoHy>:<>? $TMP$ [a-zà-þ]:[A-ZÀ-Þ] $TMP$
-$UC$ = <UC>:<> ($BASE$ || $TMP$)
+%$TMP$ = ([a-zà-þ]:[A-ZÀ-Þ] | [\!-`\{-ß] | {ß}:{SS})*
+%$TMP$ = <NoHy>:<>? $TMP$ [a-zà-þ]:[A-ZÀ-Þ] $TMP$
+%$UC$ = <UC>:<> ($BASE$ || $TMP$)
 
 
 %**************************************************************************
 %  capitalisation
 %**************************************************************************
 
-$TMP$ = <NoHy>:<>? [a-zà-þ]:[A-ZÀ-Þ] [\!-\~¡-ÿ]*
-$CAP$ = <CAP>:<> ($BASE$ || $TMP$)
+%$TMP$ = <NoHy>:<>? [a-zà-þ]:[A-ZÀ-Þ] [\!-\~¡-ÿ]*
+%$CAP$ = <CAP>:<> ($BASE$ || $TMP$)
 
 
 %**************************************************************************
 %  hyphenated words
 %**************************************************************************
 
-$Pref$ = \{:<> [\!-\,\.-ÿ]+ \}:<> \-
-$TMP$ =  <NoHy>:<>? (\- [A-ZÀ-Þ]:[a-zà-þ])? [\!-\~¡-ÿ]*
+%$Pref$ = \{:<> [\!-\,\.-ÿ]+ \}:<> \-
+%$TMP$ =  <NoHy>:<>? (\- [A-ZÀ-Þ]:[a-zà-þ])? [\!-\~¡-ÿ]*
 
-$BASE$ = \
-(\-? $Pref$* \
-$BASE$ || $TMP$ \
-) | $Pref$+ <+TRUNC>:<>
+%$BASE$ = \
+%(\-? $Pref$* \
+%$BASE$ || $TMP$ \
+%) | $Pref$+ <+TRUNC>:<>
 
-$CAP$ | $UC$ | \
+%$CAP$ | $UC$ | \
 $BASE$

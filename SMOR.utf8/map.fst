@@ -32,6 +32,8 @@ ALPHABET = [\!-\~¡-ÿ] <SS><FB> n:<n> e:<e> d:<d> <>:<~n> <Ge-Nom> <>:<UL> \
 <>:[<nativ><frei><gebunden><kurz><lang><fremd><klassisch><prefnoge> \
 <NSNeut_es_e><NSFem_0_n><NSFem_0_en><NSMasc_es_e><NSMasc_es_$e> \
 <NSMasc-s/$sse> \
+<NSDFem_0_en> \
+<VVSReg> \
 <NGeo-$er-NMasc_s_0><NGeo-$er-Adj0-Up><NGeo-$isch-Adj+><NGeo-0-Name-Fem_0>\
 <NGeo-0-Name-Masc_s><NGeo-0-Name-Neut_s><NGeo-a-Name-Fem_s> \
 <NGeo-a-Name-Neut_s><NGeo-aner-NMasc_s_0><NGeo-aner-Adj0-Up> \
@@ -136,6 +138,8 @@ ALPHABET = [\!-\~¡-ÿ]<SS><FB><n><e><d><~n><Ge-Nom> <UL> \
 <nativ><frei><gebunden><kurz><lang><fremd><klassisch><prefnoge> \
 <NSNeut_es_e><NSFem_0_n><NSFem_0_en><NSMasc_es_e><NSMasc_es_$e> \
 <NSMasc-s/$sse> \
+<NSDFem_0_en> \
+<VVSReg> \
 <NGeo-$er-NMasc_s_0><NGeo-$er-Adj0-Up><NGeo-$isch-Adj+><NGeo-0-Name-Fem_0>\
 <NGeo-0-Name-Masc_s><NGeo-0-Name-Neut_s><NGeo-a-Name-Fem_s> \
 <NGeo-a-Name-Neut_s><NGeo-aner-NMasc_s_0><NGeo-aner-Adj0-Up> \

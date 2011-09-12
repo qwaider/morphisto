@@ -21,7 +21,7 @@ $C3$ = [\!-\~¡-ÿ<n><e><d><~n><ge><Ge-Nom><UL><SS><FB> \
 <base><deriv><kompos> \
 <nativ><frei><gebunden><kurz><lang><fremd><klassisch><prefnoge> \
 <NSNeut_es_e><NSFem_0_n><NSFem_0_en><NSMasc_es_e><NSMasc_es_$e> \
-<NSMasc-s/$sse>]
+<NSMasc-s/$sse><NSDFem_0_en><VVSReg>]
 
 $FLEX$ = [<Abk_ADJ><Abk_ADV><Abk_ART><Abk_DPRO><Abk_KONJ><Abk_NE-Low><Abk_NE>\
 <Abk_NN-Low><Abk_NN><Abk_PREP><Abk_VPPAST><Abk_VPPRES><Adj$><Adj$e><Adj+(e)> \
@@ -99,6 +99,8 @@ $FILTER$ = (\
 	<NSMasc_es_$e>:<>	<Suff_Stems>	<NSMasc_es_$e>:<> |\
 	<NSMasc_es_e>:<>	<Suff_Stems>	<NSMasc_es_e>:<> |\
 	<NSNeut_es_e>:<>	<Suff_Stems>	<NSNeut_es_e>:<> |\
+	<NSDFem_0_en>:<>	<Suff_Stems>	<NSDFem_0_en>:<> |\
+	<VVSReg>:<>		<Suff_Stems>	<VVSReg>:<> |\
 	<NGeo-$er-NMasc_s_0>:<>	<Suff_Stems>	<NGeo-$er-NMasc_s_0>:<> |\
 	<NGeo-$er-Adj0-Up>:<>	<Suff_Stems>	<NGeo-$er-Adj0-Up>:<> |\
 	<NGeo-$isch-Adj+>:<>	<Suff_Stems>	<NGeo-$isch-Adj+>:<> |\
@@ -230,7 +232,9 @@ $ANY$ = .*
 $bdk$ = [<base><deriv><kompos>]
 $klassisch$ = [<frei><gebunden><kurz><lang>]
 $NS$ = [<NSNeut_es_e><NSFem_0_n><NSFem_0_en><NSMasc_es_e><NSMasc_es_$e>\
-	<NSMasc-s/$sse>]
+	<NSMasc-s/$sse><NSDFem_0_en>]
+
+$VS$ = [<VVSReg>]
 
 $FILTER$ = \
 % prefixes like "ver" delete the <ge> marker
@@ -245,6 +249,7 @@ $FILTER$ = \
 	{<NE><fremd>}:{<>}     $ANY$ <NE> $bdk$ <fremd>  |\
 	{<ADJ><fremd>}:{<>}    $ANY$ <ADJ>$bdk$ <fremd>  |\
 	{<V><nativ>}:{<>}      $ANY$ <V>  $bdk$ <nativ>   |\
+	{<NN><nativ>}:{<>}     $ANY$ <NN> $bdk$ $VS$ |\
 	{<V><nativ>}:{<>}      $ANY$ <V>  $bdk$ $NS$ |\
 	{<V><fremd>}:{<>}      $ANY$ <V>  $bdk$ <fremd> |\
 	{<V><prefnoge>}:{<>}   $ANY$ <V>  $bdk$ <prefnoge> |\
@@ -302,6 +307,7 @@ $C2$ = $C1$|[<Base_Stems><Deriv_Stems><Kompos_Stems><Pref_Stems><Suff_Stems>]
 $GE$ =  $C2$* |\
 	$C2$* <ge>:<> <Base_Stems>? {<>}:{ge} $C1$* <^pp>:<> $C1$* |\
 	$C2$* <ge>:<> <Deriv_Stems>? {<>}:{ge} $C1$* <Suff_Stems><Ge-Nom>:<> $C1$* |\
+	$C2$* <Deriv_Stems> {<>}:{ge} $C1$* <Suff_Stems> $C1$* <^pp>:<> $C1$*  |\
 	$C2$* <ge>:<> <Base_Stems>? $C1$* |\
 	$C2$* <Base_Stems> $C1$* <^pp>:<> $C1$*
 
@@ -319,7 +325,8 @@ $C2$ = $C1$|[<Base_Stems><Deriv_Stems><Kompos_Stems><Pref_Stems><Suff_Stems>]
 
 $ZU$ =  $C2$* |\
 %	<Base_Stems> $C1$* <^zz>:<> $C1$* |\
-	$C2$* <Pref_Stems> $C1$* <Base_Stems> {<>}:{zu} $C1$* <^zz>:<> $C1$*
+	$C2$* <Pref_Stems> $C1$* <Base_Stems> {<>}:{zu} $C1$* <^zz>:<> $C1$* |\
+	$C2$* <Pref_Stems> $C1$* <Deriv_Stems> {<>}:{zu} $C1$* <Suff_Stems> $C1$* <^zz>:<> $C1$*
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
