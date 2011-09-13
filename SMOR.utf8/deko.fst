@@ -340,8 +340,8 @@ $C2$ = $C1$ | [<Base_Stems><Deriv_Stems><Kompos_Stems>]:<CB> \
 	    | [<Pref_Stems><Suff_Stems>]:<CB>
 
 
-$IMP$ =  $C2$* | <Base_Stems>:<CB> $C1$* <^imp>:<> $C1$*
-
+%$IMP$ =  $C2$* | <Base_Stems>:<CB> $C1$* <^imp>:<> $C1$*
+$IMP$ =  $C2$*
 
 $INFIXFILTER$ = $GE$ || $ZU$ || $IMP$
 

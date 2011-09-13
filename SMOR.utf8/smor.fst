@@ -106,6 +106,7 @@ $NoDef2NULL$ = ($ANY$ | $HK$ | $I$ | <NoDef>:<> |\
 $I$ = ($I$ | <NoDef>)*
 $BDKStems$ = $LEX$ || ($I$ [<Base_Stems><Deriv_Stems><Kompos_Stems>] $ANY$)
 $BaseStems$ = $BDKStems$ || ($I$ <Base_Stems> $ANY$)
+$DerivStems$ = $BDKStems$ || ($I$ <Deriv_Stems> $ANY$)
 
 % prefix morphems
 $PrefStems$ = $LEX$ || ($I$ <Pref_Stems> $ANY$)
@@ -168,6 +169,21 @@ $S1$ = $P1$ $Suffs2$ || $SUFFFILTER$
 
 $TMP$ = $S0$ | $S1$ | $Sx$
 
+#include "defaults2.fst"
+
+% dreistündig, 3stündig, 3-stündig, Mehrfarbigkeit
+$Sx2$ = $Quant$ ($BDKStems2$ $QSuffs$ || $SUFFFILTER$)
+
+$S02$ = $BDKStems2$ $Suffs1$ || $SUFFFILTER$
+
+$P12$ = $PrefStems$ $S02$ || $PREFFILTER$
+
+$S12$ = $P12$ $Suffs2$ || $SUFFFILTER$
+
+$TMP2$ = $S02$ | $S12$ | $Sx2$
+
+$TMP$ = $TMP$ | $TMP2$
+
 $TMP$ = $TMP$+ || $KOMPOSFILTER$
 
 %**************************************************************************
@@ -179,24 +195,27 @@ $ANY$ = [\!-\~¡-ÿ <FB><SS><n><~n><e><d><Ge-Nom><UL> <NoHy><ge><no-ge><CB><VADJ
 
 $BASE$ = $TMP$ $FLEXION$ || $ANY$ $FLEXFILTER$ || $INFIXFILTER$
 %$BASE$ = $TMP$ $FLEXION$ || $ANY$ $FLEXFILTER$
+%$BASE$ = $TMP$ $FLEXION$
+
+% no imp in this case!
 
 %**************************************************************************
 % load fixes and pronouns
 %**************************************************************************
 
-#include "FIX.fst"
-#include "PRO.fst"
+%#include "FIX.fst"
+%#include "PRO.fst"
 
-$BASE$ = $Fix_Stems$ | $Pro_Stems$ | $SepPrefStems$ | $BASE$
+%$BASE$ = $Fix_Stems$ | $Pro_Stems$ | $SepPrefStems$ | $BASE$
 
-$BASE$ = $BASE$ || $UPLOW$
+%$BASE$ = $BASE$ || $UPLOW$
 
 
 %**************************************************************************
 %  application of phonological rules
 %**************************************************************************
 
-$BASE$ = <>:<WB> $BASE$ <>:<WB> || $PHON$
+%$BASE$ = <>:<WB> $BASE$ <>:<WB> || $PHON$
 
 
 %**************************************************************************
