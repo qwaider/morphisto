@@ -203,19 +203,19 @@ $BASE$ = $TMP$ $FLEXION$ || $ANY$ $FLEXFILTER$ || $INFIXFILTER$
 % load fixes and pronouns
 %**************************************************************************
 
-%#include "FIX.fst"
-%#include "PRO.fst"
+#include "FIX.fst"
+#include "PRO.fst"
 
-%$BASE$ = $Fix_Stems$ | $Pro_Stems$ | $SepPrefStems$ | $BASE$
+$BASE$ = $Fix_Stems$ | $Pro_Stems$ | $SepPrefStems$ | $BASE$
 
-%$BASE$ = $BASE$ || $UPLOW$
+$BASE$ = $BASE$ || $UPLOW$
 
 
 %**************************************************************************
 %  application of phonological rules
 %**************************************************************************
 
-%$BASE$ = <>:<WB> $BASE$ <>:<WB> || $PHON$
+$BASE$ = <>:<WB> $BASE$ <>:<WB> || $PHON$
 
 
 %**************************************************************************
