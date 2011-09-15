@@ -16,7 +16,6 @@
 <BaseStem> <Lemma>Abenteuer</Lemma> <Stem>Abenteuer</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NNeut_s_0</InfClass> <Frequency>12</Frequency> </BaseStem>
 <BaseStem> <Lemma>Abenteurer</Lemma> <Stem>Abenteurer</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_s_0</InfClass> <Frequency>15</Frequency> </BaseStem>
 <BaseStem> <Lemma>Aberglauben</Lemma> <Stem>Aberglauben</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc/Sg_s</InfClass> <Frequency>16</Frequency> </BaseStem>
-<BaseStem> <Lemma>Abfuhr</Lemma> <Stem>Abfuhr</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem_0_en</InfClass> <Frequency>15</Frequency> </BaseStem>
 <BaseStem> <Lemma>Abgänger</Lemma> <Stem>Abgänger</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_s_0</InfClass> <Frequency>0</Frequency> </BaseStem>
 <BaseStem> <Lemma>Abgas</Lemma> <Stem>Abgas</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NNeut_es_e</InfClass> <Frequency>14</Frequency> </BaseStem>
 <BaseStem> <Lemma>Abgesang</Lemma> <Stem>Abgesang</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_es_$e</InfClass> <Frequency>16</Frequency> </BaseStem>
@@ -24,16 +23,13 @@
 <BaseStem> <Lemma>Abi</Lemma> <Stem>Abi</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NNeut_s_s</InfClass> <Frequency>16</Frequency> </BaseStem>
 <BaseStem> <Lemma>Abitur</Lemma> <Stem>Abitur</Stem> <Pos>NN</Pos><Origin>fremd</Origin> <InfClass>NNeut/Sg_s</InfClass> <Frequency>13</Frequency> </BaseStem>
 <BaseStem> <Lemma>Abiturient</Lemma> <Stem>Abiturient</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_en_en</InfClass> <Frequency>15</Frequency> </BaseStem>
-<BaseStem> <Lemma>Abkehr</Lemma> <Stem>Abkehr</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem/Sg</InfClass> <Frequency>14</Frequency> </BaseStem>
 <BaseStem> <Lemma>Abluft</Lemma> <Stem>Abluft</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem_0_$e</InfClass> <Frequency>14</Frequency> </BaseStem>
-<BaseStem> <Lemma>Abnahme</Lemma> <Stem>Abnahme</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem_0_n</InfClass> <Frequency>15</Frequency> </BaseStem>
 <BaseStem> <Lemma>Abo</Lemma> <Stem>Abo</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NNeut_s_s</InfClass> <Frequency>14</Frequency> </BaseStem>
 <BaseStem> <Lemma>Abonnement</Lemma> <Stem>Abonnement</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NNeut_s_s</InfClass> <Frequency>15</Frequency> </BaseStem>
 <BaseStem> <Lemma>Abonnent</Lemma> <Stem>Abonnent</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_en_en</InfClass> <Frequency>14</Frequency> </BaseStem>
 <BaseStem> <Lemma>Abraham</Lemma> <Stem>Abraham</Stem> <Pos>NN</Pos><Origin>fremd</Origin> <InfClass>Name-Masc_s</InfClass> <Frequency>14</Frequency> </BaseStem>
 <BaseStem> <Lemma>Abreise</Lemma> <Stem>Abreise</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem_0_n</InfClass> <Frequency>0</Frequency> </BaseStem>
 <BaseStem> <Lemma>Abscheu</Lemma> <Stem>Abscheu</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem/Sg</InfClass> <Frequency>16</Frequency> </BaseStem>
-<BaseStem> <Lemma>Abschied</Lemma> <Stem>Abschied</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_es_e</InfClass> <Frequency>11</Frequency> </BaseStem>
 <BaseStem> <Lemma>Abseits</Lemma> <Stem>Abseits</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NNeut/Sg_0</InfClass> <Frequency>14</Frequency> </BaseStem>
 <BaseStem> <Lemma>Absolvent</Lemma> <Stem>Absolvent</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_en_en</InfClass> <Frequency>13</Frequency> </BaseStem>
 <BaseStem> <Lemma>Absorption</Lemma> <Stem>Absorption</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem_0_en</InfClass> <Frequency>15</Frequency> </BaseStem>
@@ -11915,8 +11911,6 @@
 <Lemma>strahl</Lemma> <Stem>strahl</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>13</Frequency> </BaseStem>
 <BaseStem> <MorphMarker>ge</MorphMarker>
 <Lemma>strampel</Lemma> <Stem>strampel</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg-el/er</InfClass> <Frequency>16</Frequency> </BaseStem>
-<BaseStem> <MorphMarker>ge</MorphMarker>
-<Lemma>strand</Lemma> <Stem>strand</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>16</Frequency> </BaseStem>
 <BaseStem> <Lemma>strapazier</Lemma> <Stem>strapazier</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>15</Frequency> </BaseStem>
 <BaseStem> <MorphMarker>ge</MorphMarker>
 <Lemma>sträub</Lemma> <Stem>sträub</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>15</Frequency> </BaseStem>

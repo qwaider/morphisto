@@ -62,6 +62,12 @@
 <DerivStem><Upper>werfen</Upper><Lower>wurf</Lower><Pos>V</Pos><Origin>NSMasc_es_$e</Origin></DerivStem>
 <DerivStem><Upper>ziehen</Upper><Lower>zug</Lower><Pos>V</Pos><Origin>NSMasc_es_$e</Origin></DerivStem>
 
+<DerivStem><Upper>fahren</Upper><Lower>fuhr</Lower><Pos>V</Pos><Origin>NSDFem_0_en</Origin></DerivStem>
+<DerivStem><Upper>kehren</Upper><Lower>kehr</Lower><Pos>V</Pos><Origin>NSDFem/Sg</Origin></DerivStem>
+<DerivStem><Upper>nehmen</Upper><Lower>nahm</Lower><Pos>V</Pos><Origin>NSDFem_0_n</Origin></DerivStem>
+<DerivStem><Upper>scheiden</Upper><Lower>schied</Lower><Pos>V</Pos><Origin>NSDMasc_es_e</Origin></DerivStem>
+
 <DerivStem><Upper>eigen</Upper><Lower>eigent</Lower><Pos>ADJ</Pos><Origin>nativ</Origin></DerivStem>
 
+<DerivStem> <MorphMarker>ge</MorphMarker><Upper>Strand</Upper><Lower>strand</Lower><Pos>NN</Pos><Origin>VVSReg</Origin></DerivStem>
 </smor>

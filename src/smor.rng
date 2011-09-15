@@ -195,6 +195,9 @@
         <value>NSMasc_es_e</value>
         <value>NSNeut_es_e</value>
         <value>NSDFem_0_en</value>
+        <value>NSDFem_0_n</value>
+        <value>NSDFem/Sg</value>
+        <value>NSDMasc_es_e</value>
         <value>VVSReg</value>
         <value>NGeo-nisch-Adj+</value>
         <value>NGeo-ner-NMasc_s_0</value>

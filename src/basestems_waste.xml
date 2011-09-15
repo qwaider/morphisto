@@ -9,15 +9,19 @@
 <BaseStem> <Lemma>Abfluß</Lemma> <Stem>Abfluß</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc-s/$sse</InfClass> <Frequency>16</Frequency> </BaseStem>
 <BaseStem> <Lemma>Abfolge</Lemma> <Stem>Abfolge</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem_0_n</InfClass> <Frequency>15</Frequency> </BaseStem>
 <BaseStem> <Lemma>Abfrage</Lemma> <Stem>Abfrage</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem_0_n</InfClass> <Frequency>16</Frequency> </BaseStem>
+<BaseStem> <Lemma>Abfuhr</Lemma> <Stem>Abfuhr</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem_0_en</InfClass> <Frequency>15</Frequency> </BaseStem>
 <BaseStem> <Lemma>Abgang</Lemma> <Stem>Abgang</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_es_$e</InfClass> <Frequency>13</Frequency> </BaseStem>
 <BaseStem> <Lemma>Abhilfe</Lemma> <Stem>Abhilfe</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem/Sg</InfClass> <Frequency>14</Frequency> </BaseStem>
+<BaseStem> <Lemma>Abkehr</Lemma> <Stem>Abkehr</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem/Sg</InfClass> <Frequency>14</Frequency> </BaseStem>
 <BaseStem> <Lemma>Abkommen</Lemma> <Stem>Abkommen</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NNeut_s_x</InfClass> <Frequency>11</Frequency> </BaseStem>
 <BaseStem> <Lemma>Ablage</Lemma> <Stem>Ablage</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem_0_n</InfClass> <Frequency>16</Frequency> </BaseStem>
 <BaseStem> <Lemma>Ablauf</Lemma> <Stem>Ablauf</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_es_$e</InfClass> <Frequency>12</Frequency> </BaseStem>
 <BaseStem> <Lemma>Ablaut</Lemma> <Stem>Ablaut</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_es_e</InfClass> <Frequency>10</Frequency> </BaseStem>
+<BaseStem> <Lemma>Abnahme</Lemma> <Stem>Abnahme</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem_0_n</InfClass> <Frequency>15</Frequency> </BaseStem>
 <BaseStem> <Lemma>Abriss</Lemma> <Stem>Abriss</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_es_e</InfClass> <Frequency>0</Frequency> </BaseStem>
 <BaseStem> <Lemma>Abriß</Lemma> <Stem>Abriß</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc-s/sse</InfClass> <Frequency>0</Frequency> </BaseStem>
 <BaseStem> <Lemma>Absatz</Lemma> <Stem>Absatz</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_es_$e</InfClass> <Frequency>12</Frequency> </BaseStem>
+<BaseStem> <Lemma>Abschied</Lemma> <Stem>Abschied</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_es_e</InfClass> <Frequency>11</Frequency> </BaseStem>
 <BaseStem> <Lemma>Abschluss</Lemma> <Stem>Abschluss</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_es_$e</InfClass> <Frequency>11</Frequency> </BaseStem>
 <BaseStem> <Lemma>Abschluß</Lemma> <Stem>Abschluß</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc-s/$sse</InfClass> <Frequency>10</Frequency> </BaseStem>
 <BaseStem> <Lemma>Abschnitt</Lemma> <Stem>Abschnitt</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_es_e</InfClass> <Frequency>12</Frequency> </BaseStem>
@@ -471,6 +475,9 @@
 <BaseStem> <Lemma>Zuordnung</Lemma> <Stem>Zuordnung</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem_0_en</InfClass> <Frequency>15</Frequency> </BaseStem>
 <BaseStem> <Lemma>Zustimmung</Lemma> <Stem>Zustimmung</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem_0_en</InfClass> <Frequency>11</Frequency> </BaseStem>
 <BaseStem> <Lemma>Zuwendung</Lemma> <Stem>Zuwendung</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem_0_en</InfClass> <Frequency>13</Frequency> </BaseStem>
+
+<BaseStem> <MorphMarker>ge</MorphMarker>
+<Lemma>strand</Lemma> <Stem>strand</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>16</Frequency> </BaseStem>
 
 <BaseStem> <Lemma>eigentümlich</Lemma> <Stem>eigentümlich</Stem> <Pos>ADJ</Pos><Origin>nativ</Origin> <InfClass>Adj+</InfClass> <Frequency>14</Frequency> </BaseStem>
 <BaseStem> <Lemma>eigenwillig</Lemma> <Stem>eigenwillig</Stem> <Pos>ADJ</Pos><Origin>nativ</Origin> <InfClass>Adj+</InfClass> <Frequency>13</Frequency> </BaseStem>

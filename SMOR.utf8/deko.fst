@@ -21,7 +21,9 @@ $C3$ = [\!-\~¡-ÿ<n><e><d><~n><ge><Ge-Nom><UL><SS><FB> \
 <base><deriv><kompos> \
 <nativ><frei><gebunden><kurz><lang><fremd><klassisch><prefnoge> \
 <NSNeut_es_e><NSFem_0_n><NSFem_0_en><NSMasc_es_e><NSMasc_es_$e> \
-<NSMasc-s/$sse><NSDFem_0_en><VVSReg>]
+<NSMasc-s/$sse> \
+<NSDFem_0_en><NSDFem_0_n><NSDFem/Sg><NSDMasc_es_e> \
+<VVSReg>]
 
 $FLEX$ = [<Abk_ADJ><Abk_ADV><Abk_ART><Abk_DPRO><Abk_KONJ><Abk_NE-Low><Abk_NE>\
 <Abk_NN-Low><Abk_NN><Abk_PREP><Abk_VPPAST><Abk_VPPRES><Adj$><Adj$e><Adj+(e)> \
@@ -100,6 +102,9 @@ $FILTER$ = (\
 	<NSMasc_es_e>:<>	<Suff_Stems>	<NSMasc_es_e>:<> |\
 	<NSNeut_es_e>:<>	<Suff_Stems>	<NSNeut_es_e>:<> |\
 	<NSDFem_0_en>:<>	<Suff_Stems>	<NSDFem_0_en>:<> |\
+	<NSDFem_0_n>:<>		<Suff_Stems>	<NSDFem_0_n>:<> |\
+	<NSDFem/Sg>:<>		<Suff_Stems>	<NSDFem/Sg>:<> |\
+	<NSDMasc_es_e>:<>	<Suff_Stems>	<NSDMasc_es_e>:<> |\
 	<VVSReg>:<>		<Suff_Stems>	<VVSReg>:<> |\
 	<NGeo-$er-NMasc_s_0>:<>	<Suff_Stems>	<NGeo-$er-NMasc_s_0>:<> |\
 	<NGeo-$er-Adj0-Up>:<>	<Suff_Stems>	<NGeo-$er-Adj0-Up>:<> |\
@@ -231,8 +236,8 @@ $ANY$ = .*
 
 $bdk$ = [<base><deriv><kompos>]
 $klassisch$ = [<frei><gebunden><kurz><lang>]
-$NS$ = [<NSNeut_es_e><NSFem_0_n><NSFem_0_en><NSMasc_es_e><NSMasc_es_$e>\
-	<NSMasc-s/$sse><NSDFem_0_en>]
+$NS$ = [<NSNeut_es_e><NSFem_0_n><NSFem_0_en><NSMasc_es_e><NSMasc_es_$e><NSMasc-s/$sse> \
+<NSDFem_0_en><NSDFem_0_n<NSDFem/Sg><NSDMasc_es_e>]
 
 $VS$ = [<VVSReg>]
 
@@ -307,9 +312,11 @@ $C2$ = $C1$|[<Base_Stems><Deriv_Stems><Kompos_Stems><Pref_Stems><Suff_Stems>]
 $GE$ =  $C2$* |\
 	$C2$* <ge>:<> <Base_Stems>? {<>}:{ge} $C1$* <^pp>:<> $C1$* |\
 	$C2$* <ge>:<> <Deriv_Stems>? {<>}:{ge} $C1$* <Suff_Stems><Ge-Nom>:<> $C1$* |\
-	$C2$* <Deriv_Stems> {<>}:{ge} $C1$* <Suff_Stems> $C1$* <^pp>:<> $C1$*  |\
+	$C2$* <ge>:<> <Deriv_Stems> {<>}:{ge} $C1$* <Suff_Stems> $C1$* <^pp>:<> $C1$*  |\
 	$C2$* <ge>:<> <Base_Stems>? $C1$* |\
-	$C2$* <Base_Stems> $C1$* <^pp>:<> $C1$*
+	$C2$* <ge>:<> <Deriv_Stems> $C1$* <Suff_Stems> $C1$*  |\
+	$C2$* <Base_Stems> $C1$* <^pp>:<> $C1$* |\
+	$C2$* <Deriv_Stems>  $C1$* <Suff_Stems> $C1$* <^pp>:<> $C1$*
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -340,8 +347,9 @@ $C2$ = $C1$ | [<Base_Stems><Deriv_Stems><Kompos_Stems>]:<CB> \
 	    | [<Pref_Stems><Suff_Stems>]:<CB>
 
 
-$IMP$ =  $C2$* | <Base_Stems>:<CB> $C1$* <^imp>:<> $C1$*
-%$IMP$ =  $C2$*
+$IMP$ =  $C2$* |\
+         <Base_Stems>:<CB> $C1$* <^imp>:<> $C1$* |\
+         <Deriv_Stems>:<CB> $C2$* <^imp>:<> $C2$* 
 
 $INFIXFILTER$ = $GE$ || $ZU$ || $IMP$
 
