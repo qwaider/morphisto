@@ -26,7 +26,7 @@ $TMPL$ = <>:<WB> $TMPL$ <>:<WB> || $PHON$
 % default adjective base stems
 
 $DefBaseADJ2$ = \
-  (([\!-\~¡-ÿ<PREF>]* <NN><SUFF> en <V>:<+V><zu>?<PPast> ||\
+  (([\!-\~¡-ÿ<PREF><ge>]* <NN><SUFF> en <V>:<+V><zu>?<PPast> ||\
    $TMPL$ || $NoDef2NULL$ t) <>:<ADJ><SUFF>:<><>:<base><>:<nativ><>:<Adj+e>) |\
   (([\!-\~¡-ÿ<PREF>]* <NN><SUFF> en <V>:<+V><zu>?[<PPres><PPast>] ||\
    $TMPL$ || $NoDef2NULL$ (en|nd)) <>:<ADJ><SUFF>:<><>:<base><>:<nativ><>:<Adj+>)
