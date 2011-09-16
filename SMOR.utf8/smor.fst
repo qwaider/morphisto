@@ -193,11 +193,9 @@ $TMP$ = $TMP$+ || $KOMPOSFILTER$
 $ANY$ = [\!-\~¡-ÿ <FB><SS><n><~n><e><d><Ge-Nom><UL> <NoHy><ge><no-ge><CB><VADJ> \
 	<Base_Stems><Deriv_Stems><Kompos_Stems><Pref_Stems><Suff_Stems>]*
 
+%$BASE$ = $P1$
 $BASE$ = $TMP$ $FLEXION$ || $ANY$ $FLEXFILTER$ || $INFIXFILTER$
-%$BASE$ = $TMP$ $FLEXION$ || $ANY$ $FLEXFILTER$
-%$BASE$ = $TMP$ $FLEXION$
 
-% no imp in this case!
 
 %**************************************************************************
 % load fixes and pronouns
