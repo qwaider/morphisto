@@ -4,6 +4,7 @@
 <DerivStem><Upper>antworten</Upper><Lower>antwort</Lower><Pos>V</Pos><Origin>NSFem_0_en</Origin></DerivStem>
 <DerivStem><Upper>bauen</Upper><Lower>bau</Lower><Pos>V</Pos><Origin>NSMasc_es_e</Origin></DerivStem>
 <DerivStem><Upper>blicken</Upper><Lower>blick</Lower><Pos>V</Pos><Origin>NSMasc_es_e</Origin></DerivStem>
+<DerivStem><Upper>brechen</Upper><Lower>brech</Lower><Pos>V</Pos><Origin>NSFem_0_n</Origin></DerivStem>
 <DerivStem><Upper>fallen</Upper><Lower>fall</Lower><Pos>V</Pos><Origin>NSMasc_es_$e</Origin></DerivStem>
 <DerivStem><Upper>brechen</Upper><Lower>bruch</Lower><Pos>V</Pos><Origin>NSMasc_es_$e</Origin></DerivStem>
 <DerivStem><Upper>dringen</Upper><Lower>drang</Lower><Pos>V</Pos><Origin>NSMasc_es_$e</Origin></DerivStem>
@@ -44,6 +45,7 @@
 <DerivStem><Upper>schließen</Upper><Lower>schluß</Lower><Pos>V</Pos><Origin>NSMasc-s/$sse</Origin></DerivStem>
 <DerivStem><Upper>schießen</Upper><Lower>schuss</Lower><Pos>V</Pos><Origin>NSMasc_es_$e</Origin></DerivStem>
 <DerivStem><Upper>schießen</Upper><Lower>schuß</Lower><Pos>V</Pos><Origin>NSMasc-s/$sse</Origin></DerivStem>
+<DerivStem><Upper>schreiben</Upper><Lower>schrift</Lower><Pos>V</Pos><Origin>NSFem_0_en</Origin></DerivStem>
 <DerivStem><Upper>schreien</Upper><Lower>schrei</Lower><Pos>V</Pos><Origin>NSMasc_es_e</Origin></DerivStem>
 <DerivStem><Upper>schwingen</Upper><Lower>schwung</Lower><Pos>V</Pos><Origin>NSMasc_es_$e</Origin></DerivStem>
 <DerivStem><Upper>sehen</Upper><Lower>sicht</Lower><Pos>V</Pos><Origin>NSFem_0_en</Origin></DerivStem>
@@ -69,5 +71,9 @@
 
 <DerivStem><Upper>eigen</Upper><Lower>eigent</Lower><Pos>ADJ</Pos><Origin>nativ</Origin></DerivStem>
 
+<DerivStem> <MorphMarker>ge</MorphMarker><Upper>Camp</Upper><Lower>camp</Lower><Pos>NN</Pos><Origin>VVSReg</Origin></DerivStem>
+<DerivStem> <MorphMarker>ge</MorphMarker><Upper>Dampf</Upper><Lower>dampf</Lower><Pos>NN</Pos><Origin>VVSReg</Origin></DerivStem>
+<DerivStem> <MorphMarker>ge</MorphMarker><Upper>Design</Upper><Lower>design</Lower><Pos>NN</Pos><Origin>VVSReg</Origin></DerivStem>
+<DerivStem> <MorphMarker>ge</MorphMarker><Upper>Schwarm</Upper><Lower>schw�rm</Lower><Pos>NN</Pos><Origin>VVSReg</Origin></DerivStem>
 <DerivStem> <MorphMarker>ge</MorphMarker><Upper>Strand</Upper><Lower>strand</Lower><Pos>NN</Pos><Origin>VVSReg</Origin></DerivStem>
 </smor>
