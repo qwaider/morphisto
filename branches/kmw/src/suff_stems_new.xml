@@ -76,4 +76,41 @@
 			<InfClass>VVReg</InfClass>
 		</NewStem>
 	</SuffStem>
+
+	<SuffStem>
+		<PrevStem stem_type="deriv">
+			<Complexity>prefderiv</Complexity>
+			<Complexity>simplex</Complexity>
+			<Origin>VVSReg</Origin>
+			<Pos>ADJ</Pos>
+		</PrevStem>
+		<Upper>0</Upper>
+		<Lower>0</Lower>
+		<NewStem stem_type="base">
+			<Pos>V</Pos>
+			<Origin>nativ</Origin>
+			<InfClass>VVReg</InfClass>
+		</NewStem>
+	</SuffStem>
+
+	<SuffStem>
+		<PrevStem stem_type="deriv">
+			<Complexity>prefderiv</Complexity>
+			<Complexity>simplex</Complexity>
+			<Complexity>suffderiv</Complexity>
+			<Origin>fremd</Origin>
+			<Origin>nativ</Origin>
+			<Pos>ADV</Pos>
+			<Pos>NE</Pos>
+			<Pos>NN</Pos>
+			<Pos>V</Pos>
+		</PrevStem>
+		<Upper>ig</Upper>
+		<Lower>ig</Lower>
+		<NewStem stem_type="base">
+			<Pos>ADJ</Pos>
+			<Origin>nativ</Origin>
+			<InfClass>Adj+</InfClass>
+		</NewStem>
+	</SuffStem>
 </smor>

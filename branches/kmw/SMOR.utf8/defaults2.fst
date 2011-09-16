@@ -23,12 +23,20 @@ $TMPL$ = $TMPL$ || $UPLOW$
 
 $TMPL$ = <>:<WB> $TMPL$ <>:<WB> || $PHON$
 
+% default noun derivation stems
+
+$DefDerivNN2$ = (\
+([\!-\~¡-ÿ]* \
+ [<V><ADJ>]<SUFF> \
+ <>:<+NN> <>:[<Masc><Fem><Neut><NoGend>] <>:<Nom> <>:<Sg> || $TMPL$) \
+<NN>) || $Del-e$ || $Uml$
+
 % default adjective base stems
 
 $DefBaseADJ2$ = \
-  (([\!-\~¡-ÿ<PREF><ge>]* <NN><SUFF> en <V>:<+V><zu>?<PPast> ||\
+  (([\!-\~¡-ÿ<PREF><ge>]* [<NN><ADJ>]<SUFF> en <V>:<+V><zu>?<PPast> ||\
    $TMPL$ || $NoDef2NULL$ t) <>:<ADJ><SUFF>:<><>:<base><>:<nativ><>:<Adj+e>) |\
-  (([\!-\~¡-ÿ<PREF>]* <NN><SUFF> en <V>:<+V><zu>?[<PPres><PPast>] ||\
+  (([\!-\~¡-ÿ<PREF>]* [<NN><ADJ>]<SUFF> en <V>:<+V><zu>?[<PPres><PPast>] ||\
    $TMPL$ || $NoDef2NULL$ (en|nd)) <>:<ADJ><SUFF>:<><>:<base><>:<nativ><>:<Adj+>)
 
 % default adjective composition and derivation stems
@@ -39,8 +47,18 @@ $DefKomposADJ2$ = (\
 
 $DefDerivADJ2$ = $DefKomposADJ2$
 
+% default verb composition stems
+
+$DefKomposV2$ = ([\!-\~¡-ÿ<PREF><ge>]* [<NN><ADJ>]<SUFF> en {<>}:{<+V><Inf>} || $TMP$) <V> ||\
+	[\!-\~¡-ÿ]* ({en}:{<>} | e[rlg]n:<>) <V>
+
+% default verb derivation stems
+
+$DefDerivV2$ = ([\!-\~¡-ÿ<PREF><ge>]* [<NN><ADJ>]<SUFF> en {<>}:{<+V><Inf>} || $TMPL$) <V> ||\
+	<NoDef>:<>? [\!-\~¡-ÿ]* ({en}:{<>} | e:<e> [rl] n:<>) <V> || $Uml$
+
 $BDKStems2$ = <>:<Base_Stems> $DefBaseADJ2$ |\
-(<>:<Deriv_Stems> ($DefDerivADJ2$)\
+(<>:<Deriv_Stems> ($DefDerivV2$ | $DefDerivADJ2$ | $DefDerivNN2$)\
  <>:<deriv> |\
- <>:<Kompos_Stems> ($DefKomposADJ2$) <>:<kompos>)\
+ <>:<Kompos_Stems> ($DefKomposADJ2$ |$DefKomposV2$) <>:<kompos>)\
 <>:<nativ>

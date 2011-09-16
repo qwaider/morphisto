@@ -246,21 +246,24 @@ $FILTER$ = \
 (<no-ge>:<> <Pref_Stems> [\!-\~¡-ÿ<n><e><d><~n>]* \
 	{<V><nativ>}:{<>} <NoDef>? <ge>:<> $ANY$ <V> $bdk$<nativ>) |\
 (<Pref_Stems> [\!-\~¡-ÿ<n><e><d><~n><Ge-Nom><SS><FB>]* (\
-	{<ADJ><nativ>}:{<>}    $ANY$ <ADJ>$bdk$ <nativ> |\
-	{<ABK><nativ>}:{<>}    $ANY$ <ABK>$bdk$ <nativ> |\
-	{<NN><nativ>}:{<>}     $ANY$ <NN> $bdk$ <nativ>  |\
-	{<NN><fremd>}:{<>}     $ANY$ <NN> $bdk$ <fremd>  |\
-	{<NE><nativ>}:{<>}     $ANY$ <NE> $bdk$ <nativ>  |\
-	{<NE><fremd>}:{<>}     $ANY$ <NE> $bdk$ <fremd>  |\
-	{<ADJ><fremd>}:{<>}    $ANY$ <ADJ>$bdk$ <fremd>  |\
-	{<V><nativ>}:{<>}      $ANY$ <V>  $bdk$ <nativ>   |\
-	{<NN><nativ>}:{<>}     $ANY$ <NN> $bdk$ $VS$ |\
-	{<V><nativ>}:{<>}      $ANY$ <V>  $bdk$ $NS$ |\
-	{<V><fremd>}:{<>}      $ANY$ <V>  $bdk$ <fremd> |\
-	{<V><prefnoge>}:{<>}   $ANY$ <V>  $bdk$ <prefnoge> |\
-	{<ADJ><klassisch>}:{<>}$ANY$ <ADJ>$bdk$ $klassisch$ |\
-	{<NN><klassisch>}:{<>} $ANY$ <NN> $bdk$ $klassisch$ |\
-	{<V><klassisch>}:{<>}  $ANY$ <V>  $bdk$ $klassisch$))
+	{<ADJ><nativ>}:{<>}    $ANY$ <ADJ>	$bdk$ <nativ> |\
+	{<ABK><nativ>}:{<>}    $ANY$ <ABK>	$bdk$ <nativ> |\
+	{<NN><nativ>}:{<>}     $ANY$ <NN> 	$bdk$ <nativ>  |\
+	{<NN><fremd>}:{<>}     $ANY$ <NN> 	$bdk$ <fremd>  |\
+	{<NE><nativ>}:{<>}     $ANY$ <NE> 	$bdk$ <nativ>  |\
+	{<NE><fremd>}:{<>}     $ANY$ <NE> 	$bdk$ <fremd>  |\
+	{<ADJ><fremd>}:{<>}    $ANY$ <ADJ>	$bdk$ <fremd>  |\
+	{<V><nativ>}:{<>}      $ANY$ <V>  	$bdk$ <nativ>   |\
+	{<NN><nativ>}:{<>}     $ANY$ <NN> 	$bdk$ $VS$ |\
+	{<ADJ><nativ>}:{<>}    $ANY$ <ADJ> 	$bdk$ $VS$ |\
+	{<V><nativ>}:{<>}      $ANY$ <V>  	$bdk$ $NS$ |\
+	{<V><fremd>}:{<>}      $ANY$ <V>  	$bdk$ <fremd> |\
+	{<V><prefnoge>}:{<>}   $ANY$ <V>  	$bdk$ <prefnoge> |\
+	{<ADJ><klassisch>}:{<>}$ANY$ <ADJ>	$bdk$ $klassisch$ |\
+	{<NN><klassisch>}:{<>} $ANY$ <NN> 	$bdk$ $klassisch$ |\
+	{<V><klassisch>}:{<>}  $ANY$ <V>  	$bdk$ $klassisch$)) |\
+(<no-ge>:<> <Pref_Stems> [\!-\~¡-ÿ<n><e><d><~n><Ge-Nom><SS><FB>]* (\
+	{<V><nativ>}:{<>}      $ANY$ <V>  	$bdk$ $NS$))
 
 $PREFFILTER$ = $FILTER$ $FLEX$?
 
