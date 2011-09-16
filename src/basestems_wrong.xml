@@ -659,3 +659,4 @@
 
 <BaseStem> <Lemma>Tropf</Lemma> <Stem>Tropf</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_en_en</InfClass> <Frequency>16</Frequency> </BaseStem>
 <BaseStem> <Lemma>Gericht</Lemma> <Stem>Gericht</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_s_e</InfClass> <Frequency>9</Frequency> </BaseStem>
+<BaseStem> <Lemma>Charlottenburger</Lemma> <Stem>Charlottenburg</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>Name-Neut_s</InfClass> <Frequency>15</Frequency> </BaseStem>

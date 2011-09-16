@@ -136,6 +136,17 @@
 <BaseStem> <Lemma>Beilage</Lemma> <Stem>Beilage</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem_0_n</InfClass> <Frequency>15</Frequency> </BaseStem>
 <BaseStem> <Lemma>Beistand</Lemma> <Stem>Beistand</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_es_$e</InfClass> <Frequency>14</Frequency> </BaseStem>
 <BaseStem> <Lemma>Beitritt</Lemma> <Stem>Beitritt</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_es_e</InfClass> <Frequency>11</Frequency> </BaseStem>
+<BaseStem> <Lemma>Herausgabe</Lemma> <Stem>Herausgabe</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem_0_n</InfClass> <Frequency>14</Frequency> </BaseStem>
+<BaseStem> <Lemma>Hingabe</Lemma> <Stem>Hingabe</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem_0_n</InfClass> <Frequency>15</Frequency> </BaseStem>
+<BaseStem> <Lemma>Übergabe</Lemma> <Stem>Übergabe</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem/Sg</InfClass> <Frequency>13</Frequency> </BaseStem>
+<BaseStem> <Lemma>Vergabe</Lemma> <Stem>Vergabe</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem/Sg</InfClass> <Frequency>13</Frequency> </BaseStem>
+<BaseStem> <Lemma>Vorgabe</Lemma> <Stem>Vorgabe</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem_0_n</InfClass> <Frequency>12</Frequency> </BaseStem>
+<BaseStem> <Lemma>Zugabe</Lemma> <Stem>Zugabe</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem_0_n</InfClass> <Frequency>13</Frequency> </BaseStem>
+
+
+
+<BaseStem> <Lemma>Schrift</Lemma> <Stem>Schrift</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem_0_en</InfClass> <Frequency>12</Frequency> </BaseStem>
+
 
 <BaseStem> <Lemma>Abordnung</Lemma> <Stem>Abordnung</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem_0_en</InfClass> <Frequency>15</Frequency> </BaseStem>
 <BaseStem> <Lemma>Abrechnung</Lemma> <Stem>Abrechnung</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem_0_en</InfClass> <Frequency>13</Frequency> </BaseStem>
@@ -223,6 +234,13 @@
 <BaseStem> <Lemma>Bestehen</Lemma> <Stem>Bestehen</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NNeut/Sg_s</InfClass> <Frequency>14</Frequency> </BaseStem>
 <BaseStem> <Lemma>Bestellung</Lemma> <Stem>Bestellung</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem_0_en</InfClass> <Frequency>13</Frequency> </BaseStem>
 <BaseStem> <Lemma>Boxen</Lemma> <Stem>Boxen</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NNeut/Sg_s</InfClass> <Frequency>14</Frequency> </BaseStem>
+<BaseStem> <Lemma>Brandenburger</Lemma> <Stem>Brandenburger</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_s_0</InfClass> <Frequency>12</Frequency> </BaseStem>
+<BaseStem> <Lemma>Breche</Lemma> <Stem>Breche</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem_0_n</InfClass> <Frequency>16</Frequency> </BaseStem>
+<BaseStem> <Lemma>Brecher</Lemma> <Stem>Brecher</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_s_0</InfClass> <Frequency>0</Frequency> </BaseStem>
+<BaseStem> <Lemma>Bregenzer</Lemma> <Stem>Bregenzer</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_s_0</InfClass> <Frequency>14</Frequency> </BaseStem>
+<BaseStem> <Lemma>Bregenzerwald</Lemma> <Stem>Bregenzerwald</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>Name-Masc_s</InfClass> <Frequency>15</Frequency> </BaseStem>
+<BaseStem> <Lemma>Brötchen</Lemma> <Stem>Brötchen</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NNeut_s_x</InfClass> <Frequency>14</Frequency> </BaseStem>
+<BaseStem> <Lemma>Buchhalter</Lemma> <Stem>Buchhalter</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_s_0</InfClass> <Frequency>15</Frequency> </BaseStem>
 <BaseStem> <Lemma>Bundesbank</Lemma> <Stem>Bundesbank</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem_0_en</InfClass> <Frequency>13</Frequency> </BaseStem>
 <BaseStem> <Lemma>Bundeskanzler</Lemma> <Stem>Bundeskanzler</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_s_0</InfClass> <Frequency>11</Frequency> </BaseStem>
 <BaseStem> <Lemma>Bundesland</Lemma> <Stem>Bundesland</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NNeut_es_$er</InfClass> <Frequency>10</Frequency> </BaseStem>
@@ -233,6 +251,14 @@
 <BaseStem> <Lemma>Bundestag</Lemma> <Stem>Bundestag</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc/Sg_s</InfClass> <Frequency>10</Frequency> </BaseStem>
 <BaseStem> <Lemma>Bundesverfassungsgericht</Lemma> <Stem>Bundesverfassungsgericht</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NNeut/Sg_s</InfClass> <Frequency>12</Frequency> </BaseStem>
 <BaseStem> <Lemma>Bündnisgrüne</Lemma> <Stem>Bündnisgrüne</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>Name-Pl_x</InfClass> <Frequency>13</Frequency> </BaseStem>
+<BaseStem> <Lemma>Camper</Lemma> <Stem>Camper</Stem> <Pos>NN</Pos><Origin>fremd</Origin> <InfClass>NMasc_s_0</InfClass> <Frequency>16</Frequency> </BaseStem>
+<BaseStem> <Lemma>Center</Lemma> <Stem>Center</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NNeut_s_s</InfClass> <Frequency>15</Frequency> </BaseStem>
+<BaseStem> <Lemma>Champagner</Lemma> <Stem>Champagner</Stem> <Pos>NN</Pos><Origin>fremd</Origin> <InfClass>NMasc/Sg_s</InfClass> <Frequency>14</Frequency> </BaseStem>
+<BaseStem> <Lemma>Champagnermarke</Lemma> <Stem>Champagnermarke</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem_0_n</InfClass> <Frequency>None</Frequency> </BaseStem>
+<BaseStem> <Lemma>Chemierevier</Lemma> <Stem>Chemierevier</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NNeut_s_e</InfClass> <Frequency>None</Frequency> </BaseStem>
+<BaseStem> <Lemma>Dämmung</Lemma> <Stem>Dämmung</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem_0_en</InfClass> <Frequency>0</Frequency> </BaseStem>
+<BaseStem> <Lemma>Dampfer</Lemma> <Stem>Dampfer</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_s_0</InfClass> <Frequency>16</Frequency> </BaseStem>
+<BaseStem> <Lemma>Designer</Lemma> <Stem>Designer</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_s_0</InfClass> <Frequency>13</Frequency> </BaseStem>
 <BaseStem> <Lemma>Eignung</Lemma> <Stem>Eignung</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem_0_en</InfClass> <Frequency>15</Frequency> </BaseStem>
 <BaseStem> <Lemma>Einigkeit</Lemma> <Stem>Einigkeit</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem/Sg</InfClass> <Frequency>13</Frequency> </BaseStem>
 <BaseStem> <Lemma>Einordnung</Lemma> <Stem>Einordnung</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem_0_en</InfClass> <Frequency>16</Frequency> </BaseStem>
@@ -274,6 +300,7 @@
 <BaseStem> <Lemma>Lastzug</Lemma> <Stem>Lastzug</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_es_$e</InfClass> <Frequency>16</Frequency> </BaseStem>
 <BaseStem> <Lemma>Lehrerin</Lemma> <Stem>Lehrerin</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem-in</InfClass> <Frequency>12</Frequency> </BaseStem>
 <BaseStem> <Lemma>Lieb</Lemma> <Stem>Lieb</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NNeut/Sg_s</InfClass> <Frequency>15</Frequency> </BaseStem>
+<BaseStem> <Lemma>Londoner</Lemma> <Stem>Londoner</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_s_0</InfClass> <Frequency>12</Frequency> </BaseStem>
 <BaseStem> <Lemma>Mahnung</Lemma> <Stem>Mahnung</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem_0_en</InfClass> <Frequency>14</Frequency> </BaseStem>
 <BaseStem> <Lemma>Malerin</Lemma> <Stem>Malerin</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem-in</InfClass> <Frequency>14</Frequency> </BaseStem>
 <BaseStem> <Lemma>Mieterin</Lemma> <Stem>Mieterin</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem-in</InfClass> <Frequency>15</Frequency> </BaseStem>
@@ -315,10 +342,14 @@
 <BaseStem> <Lemma>Österreicher</Lemma> <Stem>Österreicher</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_s_0</InfClass> <Frequency>11</Frequency> </BaseStem>
 <BaseStem> <Lemma>Orientierung</Lemma> <Stem>Orientierung</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem_0_en</InfClass> <Frequency>13</Frequency> </BaseStem>
 <BaseStem> <Lemma>Packung</Lemma> <Stem>Packung</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem_0_en</InfClass> <Frequency>14</Frequency> </BaseStem>
+<BaseStem> <Lemma>Pariser</Lemma> <Stem>Pariser</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_s_0</InfClass> <Frequency>12</Frequency> </BaseStem>
 <BaseStem> <Lemma>Parkplatz</Lemma> <Stem>Parkplatz</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_es_$e</InfClass> <Frequency>11</Frequency> </BaseStem>
 <BaseStem> <Lemma>Parteichef</Lemma> <Stem>Parteichef</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_s_s</InfClass> <Frequency>12</Frequency> </BaseStem>
 <BaseStem> <Lemma>Parteinahme</Lemma> <Stem>Parteinahme</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem_0_n</InfClass> <Frequency>16</Frequency> </BaseStem>
 <BaseStem> <Lemma>Parteitag</Lemma> <Stem>Parteitag</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_es_e</InfClass> <Frequency>12</Frequency> </BaseStem>
+<BaseStem> <Lemma>Passauer</Lemma> <Stem>Passauer</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_s_0</InfClass> <Frequency>16</Frequency> </BaseStem>
+<BaseStem> <Lemma>Patentamt</Lemma> <Stem>Patentamt</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NNeut_es_$er</InfClass> <Frequency>8</Frequency> </BaseStem>
+<BaseStem> <Lemma>Pekinger</Lemma> <Stem>Pekinger</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_s_0</InfClass> <Frequency>15</Frequency> </BaseStem>
 <BaseStem> <Lemma>Personalcomputer</Lemma> <Stem>Personalcomputer</Stem> <Pos>NN</Pos><Origin>fremd</Origin> <InfClass>NMasc_s_0</InfClass> <Frequency>16</Frequency> </BaseStem>
 <BaseStem> <Lemma>Pfingstmontag</Lemma> <Stem>Pfingstmontag</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_s_e</InfClass> <Frequency>16</Frequency> </BaseStem>
 <BaseStem> <Lemma>Pfingstsonntag</Lemma> <Stem>Pfingstsonntag</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_s_e</InfClass> <Frequency>16</Frequency> </BaseStem>
@@ -359,6 +390,10 @@
 <BaseStem> <Lemma>Schreibung</Lemma> <Stem>Schreibung</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem_0_en</InfClass> <Frequency>0</Frequency> </BaseStem>
 <BaseStem> <Lemma>Schriftsteller</Lemma> <Stem>Schriftsteller</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_s_0</InfClass> <Frequency>11</Frequency> </BaseStem>
 <BaseStem> <Lemma>Schriftstück</Lemma> <Stem>Schriftstück</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NNeut_es_e</InfClass> <Frequency>15</Frequency> </BaseStem>
+<BaseStem> <Lemma>Schulrat</Lemma> <Stem>Schulrat</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_es_$e</InfClass> <Frequency>14</Frequency> </BaseStem>
+<BaseStem> <Lemma>Schulterschluss</Lemma> <Stem>Schulterschluss</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_es_$e</InfClass> <Frequency>15</Frequency> </BaseStem>
+<BaseStem> <Lemma>Schutzwand</Lemma> <Stem>Schutzwand</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem_0_$e</InfClass> <Frequency>0</Frequency> </BaseStem>
+<BaseStem> <Lemma>Schwärmer</Lemma> <Stem>Schwärmer</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_s_0</InfClass> <Frequency>0</Frequency> </BaseStem>
 <BaseStem> <Lemma>Schwingung</Lemma> <Stem>Schwingung</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem_0_en</InfClass> <Frequency>15</Frequency> </BaseStem>
 <BaseStem> <Lemma>Segnung</Lemma> <Stem>Segnung</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem_0_en</InfClass> <Frequency>15</Frequency> </BaseStem>
 <BaseStem> <Lemma>Sendung</Lemma> <Stem>Sendung</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem_0_en</InfClass> <Frequency>11</Frequency> </BaseStem>
@@ -469,6 +504,9 @@
 <BaseStem> <Lemma>Wohnung</Lemma> <Stem>Wohnung</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem_0_en</InfClass> <Frequency>9</Frequency> </BaseStem>
 <BaseStem> <Lemma>Wohnungsbau</Lemma> <Stem>Wohnungsbau</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_s_e</InfClass> <Frequency>13</Frequency> </BaseStem>
 <BaseStem> <Lemma>Zeichnung</Lemma> <Stem>Zeichnung</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem_0_en</InfClass> <Frequency>12</Frequency> </BaseStem>
+<BaseStem> <Lemma>Zeitraum</Lemma> <Stem>Zeitraum</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_es_$e</InfClass> <Frequency>12</Frequency> </BaseStem>
+<BaseStem> <Lemma>Zeitschrift</Lemma> <Stem>Zeitschrift</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem_0_en</InfClass> <Frequency>11</Frequency> </BaseStem>
+<BaseStem> <Lemma>Zeller</Lemma> <Stem>Zeller</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_s_0</InfClass> <Frequency>14</Frequency> </BaseStem>
 <BaseStem> <Lemma>Zelten</Lemma> <Stem>Zelten</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc/Sg_s</InfClass> <Frequency>15</Frequency> </BaseStem>
 <BaseStem> <Lemma>Zündung</Lemma> <Stem>Zündung</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem_0_en</InfClass> <Frequency>0</Frequency> </BaseStem>
 <BaseStem> <Lemma>Zuneigung</Lemma> <Stem>Zuneigung</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem_0_en</InfClass> <Frequency>14</Frequency> </BaseStem>
@@ -476,6 +514,10 @@
 <BaseStem> <Lemma>Zustimmung</Lemma> <Stem>Zustimmung</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem_0_en</InfClass> <Frequency>11</Frequency> </BaseStem>
 <BaseStem> <Lemma>Zuwendung</Lemma> <Stem>Zuwendung</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem_0_en</InfClass> <Frequency>13</Frequency> </BaseStem>
 
+<BaseStem> <MorphMarker>ge</MorphMarker>
+<Lemma>dampf</Lemma> <Stem>dampf</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>15</Frequency> </BaseStem>
+<BaseStem> <MorphMarker>ge</MorphMarker>
+<Lemma>schwärm</Lemma> <Stem>schwärm</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>13</Frequency> </BaseStem>
 <BaseStem> <MorphMarker>ge</MorphMarker>
 <Lemma>strand</Lemma> <Stem>strand</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>16</Frequency> </BaseStem>
 

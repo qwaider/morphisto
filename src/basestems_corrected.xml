@@ -1200,5 +1200,6 @@
 <BaseStem> <Lemma>Zapfen</Lemma> <Stem>Zapfen</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_s_x</InfClass> <Frequency>0</Frequency> </BaseStem>
 
 <BaseStem> <Lemma>Tropf</Lemma> <Stem>Tropf</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_es_e</InfClass> <Frequency>16</Frequency> </BaseStem>
-<BaseStem> <Lemma>Gericht</Lemma> <Stem>Gericht</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_es_e</InfClass> <Frequency>9</Frequency> </BaseStem>
+<BaseStem> <Lemma>Gericht</Lemma> <Stem>Gericht</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NNeut_es_e</InfClass> <Frequency>9</Frequency> </BaseStem>
+<BaseStem> <Lemma>Charlottenburg</Lemma> <Stem>Charlottenburg</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>Name-Neut_s</InfClass> <Frequency>15</Frequency> </BaseStem>
 </smor>

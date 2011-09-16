@@ -4,6 +4,7 @@
 <BaseStem> <Lemma>Alien</Lemma> <Stem>Alien</Stem> <Pos>NN</Pos><Origin>fremd</Origin> <InfClass>NMasc_s_s</InfClass> <Frequency>15</Frequency> </BaseStem>
 <BaseStem> <Lemma>Andreas</Lemma> <Stem>Andreas</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>Name-Masc_s</InfClass> <Frequency>14</Frequency> </BaseStem>
 <BaseStem> <Lemma>Bamberg</Lemma> <Stem>Bamberg</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>Name-Neut_s</InfClass> <Frequency>11</Frequency> </BaseStem>
+<BaseStem> <Lemma>Champagne</Lemma> <Stem>Champagne</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>Name-Fem_0</InfClass> <Frequency>11</Frequency> </BaseStem>
 <BaseStem> <Lemma>Grüne</Lemma> <Stem>Grüne</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>Name-Pl_x</InfClass> <Frequency>13</Frequency> </BaseStem>
 <BaseStem> <Lemma>Paul</Lemma> <Stem>Paul</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>Name-Masc_s</InfClass> <Frequency>14</Frequency> </BaseStem>
 <BaseStem> <Lemma>Willy</Lemma> <Stem>Willy</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>Name-Masc_s</InfClass> <Frequency>14</Frequency> </BaseStem>
@@ -13,6 +14,7 @@
 <BaseStem> <Lemma>Mobil</Lemma> <Stem>Mobil</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NNeut_es_e</InfClass> <Frequency>13</Frequency> </BaseStem>
 <BaseStem> <Lemma>Molotow</Lemma> <Stem>Molotow</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_s_0</InfClass> <Frequency>12</Frequency> </BaseStem>
 <BaseStem> <Lemma>Nein</Lemma> <Stem>Nein</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NNeut_s_s</InfClass> <Frequency>16</Frequency> </BaseStem>
+<BaseStem> <Lemma>Passau</Lemma> <Stem>Passau</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>Name-Neut_s</InfClass> <Frequency>11</Frequency> </BaseStem>
 <BaseStem> <Lemma>Physis</Lemma> <Stem>Physis</Stem> <Pos>NN</Pos><Origin>fremd</Origin> <InfClass>NFem/Sg</InfClass> <Frequency>15</Frequency> </BaseStem>
 <BaseStem> <Lemma>Präzedenz</Lemma> <Stem>Präzedenz</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem_0_en</InfClass> <Frequency>16</Frequency> </BaseStem>
 <BaseStem> <Lemma>Semit</Lemma> <Stem>Semit</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_en_en</InfClass> <Frequency>16</Frequency> </BaseStem>
