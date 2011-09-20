@@ -20,6 +20,12 @@
 <Origin>klassisch</Origin>
 </PrefStem>
 <PrefStem>
+<Upper>ab</Upper>
+<Lower>ab</Lower>
+<Pos>NN</Pos>
+<Origin>NPab</Origin>
+</PrefStem>
+<PrefStem>
 <Upper>auto</Upper>
 <Lower>auto</Lower>
 <Pos>V</Pos>

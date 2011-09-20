@@ -66,10 +66,12 @@ ALPHABET = [\!-\~¡-ÿ] <FB><SS><n><~n><e><d><Ge-Nom><UL> \
 <NNeut_es_e><NNeut_es_en><NNeut_es_er><NNeut_s_$><NNeut_s_0><NNeut_s_e><NNeut_s_en> \
 <NNeut_s_n><NNeut_s_s><NNeut_s_x><Name-Fem_0><Name-Fem_s><Name-Masc_0> \
 <Name-Masc_s><Name-Neut_s><Name-Neut_0><Name-Neut+Loc><Name-Invar> \
+<NPab> \
 <NSNeut_es_e><NSFem_0_n><NSFem_0_en><NSMasc_es_e><NSMasc_es_$e> \
-<NSMasc-s/$sse> \
-<NSDFem_0_en><NSDFem_0_n><NSDFem/Sg><NSDMasc_es_e>  \
-<VVSReg> \
+<NSMasc-s/$sse><NSMasc/Sg_s> \
+<NSDFem_0_en><NSDFem_0_n><NSDFem/Sg><NSDMasc_es_e><NSDMasc_es_$e>  \
+<VVSReg><VVSReg-el/er> \
+<NSheit> \
 <NGeo-$er-NMasc_s_0><NGeo-$er-Adj0-Up><NGeo-$isch-Adj+><NGeo-0-Name-Fem_0>\
 <NGeo-0-Name-Masc_s><NGeo-0-Name-Neut_s><NGeo-a-Name-Fem_s> \
 <NGeo-a-Name-Neut_s><NGeo-aner-NMasc_s_0><NGeo-aner-Adj0-Up> \

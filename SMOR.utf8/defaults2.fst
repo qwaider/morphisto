@@ -26,8 +26,10 @@ $TMPL$ = <>:<WB> $TMPL$ <>:<WB> || $PHON$
 % default noun derivation stems
 
 $DefDerivNN2$ = (\
-([\!-\~¡-ÿ]* \
- [<V><ADJ>]<SUFF> \
+(\
+(([\!-\~¡-ÿ]* \
+ [<V>]<SUFF>) |\
+([\!-\~¡-ÿ]* <PREF> [\!-\~¡-ÿ]*)) \
  <>:<+NN> <>:[<Masc><Fem><Neut><NoGend>] <>:<Nom> <>:<Sg> || $TMPL$) \
 <NN>) || $Del-e$ || $Uml$
 

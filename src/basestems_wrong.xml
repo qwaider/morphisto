@@ -581,6 +581,9 @@
 <BaseStem> <Lemma>schreib</Lemma> <Stem>schrieb</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastStr</InfClass> <Frequency>9</Frequency> </BaseStem>
 <BaseStem> <Lemma>kurier</Lemma> <Stem>kurier</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>16</Frequency> </BaseStem>
 
+<BaseStem> <MorphMarker>ge</MorphMarker>
+<Lemma>eifer</Lemma> <Stem>eifer</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>7</Frequency> </BaseStem>
+
 <BaseStem> <Lemma>dick</Lemma> <Stem>dick</Stem> <Pos>ADJ</Pos><Origin>nativ</Origin> <InfClass>Adj+e</InfClass> <Frequency>11</Frequency> </BaseStem>
 
 <BaseStem> <Lemma>Balken</Lemma> <Stem>Balken</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NNeut_s_x</InfClass> <Frequency>15</Frequency> </BaseStem>
