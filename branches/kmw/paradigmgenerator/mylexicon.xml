@@ -1,94 +1,32 @@
 <smor>
-	<PrefStem><Upper>ab</Upper><Lower>ab</Lower><Pos>V</Pos><Origin>nativ</Origin></PrefStem>
+<PrefStem>
+<MorphMarker>no-ge</MorphMarker>
+<Upper>ver</Upper>
+<Lower>ver</Lower>
+<Pos>V</Pos>
+<Origin>nativ</Origin>
+</PrefStem>
 
-	<PrefStem><MorphMarker>no-ge</MorphMarker><Upper>ver</Upper><Lower>ver</Lower><Pos>V</Pos><Origin>nativ</Origin></PrefStem>
+<BaseStem> <MorphMarker>ge</MorphMarker>
+<Lemma>bieg</Lemma> <Stem>bieg</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPres</InfClass> <Frequency>14</Frequency> </BaseStem>
+<BaseStem> <MorphMarker>ge</MorphMarker>
+<Lemma>bieg</Lemma> <Stem>bog</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastIndStr</InfClass> <Frequency>14</Frequency> </BaseStem>
+<BaseStem> <MorphMarker>ge</MorphMarker>
+<Lemma>bieg</Lemma> <Stem>bög</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastKonjStr</InfClass> <Frequency>14</Frequency> </BaseStem>
 
-	
-	<DerivStem><Upper>geben</Upper><Lower>gab</Lower><Pos>V</Pos><Origin>NSFem_0_n</Origin></DerivStem>
+<BaseStem> <MorphMarker>ge</MorphMarker>
+<Lemma>lauf</Lemma> <Stem>lauf</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPP-en</InfClass> <Frequency>9</Frequency> </BaseStem>
+<BaseStem> <MorphMarker>ge</MorphMarker>
+<Lemma>lauf</Lemma> <Stem>läuf</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPres2</InfClass> <Frequency>9</Frequency> </BaseStem>
+<BaseStem> <MorphMarker>ge</MorphMarker>
+<Lemma>lauf</Lemma> <Stem>lief</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastStr</InfClass> <Frequency>9</Frequency> </BaseStem>
+<BaseStem> <MorphMarker>ge</MorphMarker>
+<Lemma>lauf</Lemma> <Stem>lauf</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPres1+Imp</InfClass> <Frequency>9</Frequency> </BaseStem>
 
-	<SuffStem>
-		<PrevStem stem_type="deriv">
-			<Complexity>prefderiv</Complexity>
-			<Complexity>simplex</Complexity>
-			<Complexity>suffderiv</Complexity>
-			<Origin>frei</Origin>
-			<Origin>nativ</Origin>
-			<Pos>V</Pos>
-		</PrevStem>
-		<Upper>ung</Upper>
-		<Lower>ung</Lower>
-		<NewStem stem_type="base">
-			<Pos>NN</Pos>
-			<Origin>nativ</Origin>
-			<InfClass>NFem-Deriv</InfClass>
-		</NewStem>
-	</SuffStem>
-	<SuffStem>
-		<PrevStem stem_type="deriv">
-			<Complexity>prefderiv</Complexity>
-			<Complexity>simplex</Complexity>
-			<Complexity>suffderiv</Complexity>
-			<Origin>frei</Origin>
-			<Origin>nativ</Origin>
-			<Pos>V</Pos>
-		</PrevStem>
-		<Upper>ung</Upper>
-		<Lower>ungs</Lower>
-		<NewStem stem_type="kompos">
-			<Pos>NN</Pos>
-			<Origin>nativ</Origin>
-		</NewStem>
-	</SuffStem>
-
-	<SuffStem>
-		<PrevStem stem_type="deriv">
-			<Complexity>prefderiv</Complexity>
-			<Complexity>simplex</Complexity>
-			<Complexity>suffderiv</Complexity>
-			<Origin>frei</Origin>
-			<Origin>fremd</Origin>
-			<Origin>nativ</Origin>
-			<Pos>ABK</Pos>
-			<Pos>ADJ</Pos>
-			<Pos>NE</Pos>
-			<Pos>NN</Pos>
-		</PrevStem>
-		<Upper>chen</Upper>
-		<Lower>chen</Lower>
-		<NewStem stem_type="base">
-			<Pos>NN</Pos>
-			<Origin>nativ</Origin>
-			<InfClass>NNeut-Dimin</InfClass>
-		</NewStem>
-	</SuffStem>
-
-	<SuffStem>
-		<PrevStem stem_type="deriv">
-			<Complexity>prefderiv</Complexity>
-			<Complexity>simplex</Complexity>
-			<Origin>NSFem_0_n</Origin>
-			<Pos>V</Pos>
-		</PrevStem>
-		<Upper>0</Upper>
-		<Lower>en</Lower>
-		<NewStem stem_type="kompos">
-			<Pos>NN</Pos>
-			<Origin>nativ</Origin>
-		</NewStem>
-	</SuffStem>
-	<SuffStem>
-		<PrevStem stem_type="deriv">
-			<Complexity>prefderiv</Complexity>
-			<Complexity>simplex</Complexity>
-			<Origin>NSFem_0_n</Origin>
-			<Pos>V</Pos>
-		</PrevStem>
-		<Upper>0</Upper>
-		<Lower>e</Lower>
-		<NewStem stem_type="base">
-			<Pos>NN</Pos>
-			<Origin>nativ</Origin>
-			<InfClass>NFem_0_n</InfClass>
-		</NewStem>
-	</SuffStem>
+<BaseStem> <MorphMarker>ge</MorphMarker>
+<Lemma>biet</Lemma> <Stem>biet</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>9</Frequency> </BaseStem>
+<BaseStem> <MorphMarker>ge</MorphMarker>
+<Lemma>biet</Lemma> <Stem>bot</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastIndStr</InfClass> <Frequency>9</Frequency> </BaseStem>
+<BaseStem> <MorphMarker>ge</MorphMarker>
+<Lemma>biet</Lemma> <Stem>böt</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastKonjStr</InfClass> <Frequency>9</Frequency> </BaseStem>
 </smor>

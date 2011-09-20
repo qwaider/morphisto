@@ -1,6 +1,7 @@
 <?xml version = '1.0' encoding = 'utf-8' ?>
 <?xml-stylesheet type="text/xsl" href="lexicon-transform.xslt"?>
 <smor>
+<!-- V->N conversion -->
 <DerivStem><Upper>antworten</Upper><Lower>antwort</Lower><Pos>V</Pos><Origin>NSFem_0_en</Origin></DerivStem>
 <DerivStem><Upper>bauen</Upper><Lower>bau</Lower><Pos>V</Pos><Origin>NSMasc_es_e</Origin></DerivStem>
 <DerivStem><Upper>blicken</Upper><Lower>blick</Lower><Pos>V</Pos><Origin>NSMasc_es_e</Origin></DerivStem>
@@ -10,12 +11,14 @@
 <DerivStem><Upper>dringen</Upper><Lower>drang</Lower><Pos>V</Pos><Origin>NSMasc_es_$e</Origin></DerivStem>
 <DerivStem><Upper>drucken</Upper><Lower>druck</Lower><Pos>V</Pos><Origin>NSMasc_es_$e</Origin></DerivStem>
 <DerivStem><Upper>drücken</Upper><Lower>druck</Lower><Pos>V</Pos><Origin>NSMasc_es_$e</Origin></DerivStem>
+<DerivStem><Upper>eifern</Upper><Lower>eifer</Lower><Pos>V</Pos><Origin>NSMasc/Sg_s</Origin></DerivStem>
 <DerivStem><Upper>fallen</Upper><Lower>fall</Lower><Pos>V</Pos><Origin>NSMasc_es_$e</Origin></DerivStem>
 <DerivStem><Upper>fangen</Upper><Lower>fang</Lower><Pos>V</Pos><Origin>NSMasc_es_$e</Origin></DerivStem>
 <DerivStem><Upper>fließen</Upper><Lower>fluss</Lower><Pos>V</Pos><Origin>NSMasc_es_$e</Origin></DerivStem>
 <DerivStem><Upper>fließen</Upper><Lower>fluß</Lower><Pos>V</Pos><Origin>NSMasc-s/$sse</Origin></DerivStem>
 <DerivStem><Upper>folgen</Upper><Lower>folg</Lower><Pos>V</Pos><Origin>NSFem_0_n</Origin></DerivStem>
 <DerivStem><Upper>fragen</Upper><Lower>frag</Lower><Pos>V</Pos><Origin>NSFem_0_n</Origin></DerivStem>
+<DerivStem><Upper>füllen</Upper><Lower>füll</Lower><Pos>V</Pos><Origin>NSFem_0_n</Origin></DerivStem>
 <DerivStem><Upper>geben</Upper><Lower>gab</Lower><Pos>V</Pos><Origin>NSFem_0_n</Origin></DerivStem>
 <DerivStem><Upper>gehen</Upper><Lower>gang</Lower><Pos>V</Pos><Origin>NSMasc_es_$e</Origin></DerivStem>
 <DerivStem><Upper>greifen</Upper><Lower>griff</Lower><Pos>V</Pos><Origin>NSMasc_es_e</Origin></DerivStem>
@@ -41,6 +44,7 @@
 <DerivStem><Upper>preisen</Upper><Lower>preis</Lower><Pos>V</Pos><Origin>NSMasc_es_e</Origin></DerivStem>
 <DerivStem><Upper>sagen</Upper><Lower>sag</Lower><Pos>V</Pos><Origin>NSFem_0_n</Origin></DerivStem>
 <DerivStem><Upper>schlagen</Upper><Lower>schlag</Lower><Pos>V</Pos><Origin>NSMasc_es_$e</Origin></DerivStem>
+<DerivStem><Upper>schließen</Upper><Lower>schließ</Lower><Pos>V</Pos><Origin>NSFem_0_n</Origin></DerivStem>
 <DerivStem><Upper>schließen</Upper><Lower>schluss</Lower><Pos>V</Pos><Origin>NSMasc_es_$e</Origin></DerivStem>
 <DerivStem><Upper>schließen</Upper><Lower>schluß</Lower><Pos>V</Pos><Origin>NSMasc-s/$sse</Origin></DerivStem>
 <DerivStem><Upper>schießen</Upper><Lower>schuss</Lower><Pos>V</Pos><Origin>NSMasc_es_$e</Origin></DerivStem>
@@ -60,20 +64,71 @@
 <DerivStem><Upper>wählen</Upper><Lower>wahl</Lower><Pos>V</Pos><Origin>NSFem_0_en</Origin></DerivStem>
 <DerivStem><Upper>wachsen</Upper><Lower>wachs</Lower><Pos>V</Pos><Origin>NSMasc_es_$e</Origin></DerivStem>
 <DerivStem><Upper>wachsen</Upper><Lower>wuchs</Lower><Pos>V</Pos><Origin>NSMasc_es_$e</Origin></DerivStem>
+<DerivStem><Upper>wehren</Upper><Lower>wehr</Lower><Pos>V</Pos><Origin>NSNeut_es_e</Origin></DerivStem>
+<DerivStem><Upper>wehren</Upper><Lower>wehr</Lower><Pos>V</Pos><Origin>NSFem_0_en</Origin></DerivStem>
 <DerivStem><Upper>weichen</Upper><Lower>weich</Lower><Pos>V</Pos><Origin>NSFem_0_n</Origin></DerivStem>
 <DerivStem><Upper>werfen</Upper><Lower>wurf</Lower><Pos>V</Pos><Origin>NSMasc_es_$e</Origin></DerivStem>
+<DerivStem><Upper>zanken</Upper><Lower>zank</Lower><Pos>V</Pos><Origin>NSMasc_es_e</Origin></DerivStem>
 <DerivStem><Upper>ziehen</Upper><Lower>zug</Lower><Pos>V</Pos><Origin>NSMasc_es_$e</Origin></DerivStem>
 
+<!-- V->N conversion, prefixed only -->
 <DerivStem><Upper>fahren</Upper><Lower>fuhr</Lower><Pos>V</Pos><Origin>NSDFem_0_en</Origin></DerivStem>
 <DerivStem><Upper>kehren</Upper><Lower>kehr</Lower><Pos>V</Pos><Origin>NSDFem/Sg</Origin></DerivStem>
 <DerivStem><Upper>nehmen</Upper><Lower>nahm</Lower><Pos>V</Pos><Origin>NSDFem_0_n</Origin></DerivStem>
 <DerivStem><Upper>scheiden</Upper><Lower>schied</Lower><Pos>V</Pos><Origin>NSDMasc_es_e</Origin></DerivStem>
+<DerivStem><Upper>wenden</Upper><Lower>wand</Lower><Pos>V</Pos><Origin>NSDMasc_es_$e</Origin></DerivStem>
 
-<DerivStem><Upper>eigen</Upper><Lower>eigent</Lower><Pos>ADJ</Pos><Origin>nativ</Origin></DerivStem>
-
+<!-- N->V conversion -->
 <DerivStem> <MorphMarker>ge</MorphMarker><Upper>Camp</Upper><Lower>camp</Lower><Pos>NN</Pos><Origin>VVSReg</Origin></DerivStem>
 <DerivStem> <MorphMarker>ge</MorphMarker><Upper>Dampf</Upper><Lower>dampf</Lower><Pos>NN</Pos><Origin>VVSReg</Origin></DerivStem>
 <DerivStem> <MorphMarker>ge</MorphMarker><Upper>Design</Upper><Lower>design</Lower><Pos>NN</Pos><Origin>VVSReg</Origin></DerivStem>
-<DerivStem> <MorphMarker>ge</MorphMarker><Upper>Schwarm</Upper><Lower>schw�rm</Lower><Pos>NN</Pos><Origin>VVSReg</Origin></DerivStem>
+<DerivStem> <MorphMarker>ge</MorphMarker><Upper>Glas</Upper><Lower>glas</Lower><Pos>NN</Pos><Origin>VVSReg</Origin></DerivStem>
+<DerivStem> <MorphMarker>ge</MorphMarker><Upper>Geige</Upper><Lower>geig</Lower><Pos>NN</Pos><Origin>VVSReg</Origin></DerivStem>
+<DerivStem> <MorphMarker>ge</MorphMarker><Upper>Puff</Upper><Lower>puff</Lower><Pos>NN</Pos><Origin>VVSReg</Origin></DerivStem>
+<DerivStem> <MorphMarker>ge</MorphMarker><Upper>Schwarm</Upper><Lower>schwärm</Lower><Pos>NN</Pos><Origin>VVSReg</Origin></DerivStem>
 <DerivStem> <MorphMarker>ge</MorphMarker><Upper>Strand</Upper><Lower>strand</Lower><Pos>NN</Pos><Origin>VVSReg</Origin></DerivStem>
+<DerivStem> <MorphMarker>ge</MorphMarker><Upper>Walze</Upper><Lower>walz</Lower><Pos>NN</Pos><Origin>VVSReg</Origin></DerivStem>
+<DerivStem> <MorphMarker>ge</MorphMarker><Upper>Wechsel</Upper><Lower>wechsel</Lower><Pos>NN</Pos><Origin>VVSReg-el/er</Origin></DerivStem>
+<DerivStem> <MorphMarker>ge</MorphMarker><Upper>Wedel</Upper><Lower>wedel</Lower><Pos>NN</Pos><Origin>VVSReg-el/er</Origin></DerivStem>
+
+<!-- N->V conversion, prefixed only -->
+
+<!-- N->N derivation with 'heit' -->
+<DerivStem><Upper>Mensch</Upper><Lower>Mensch</Lower><Pos>NN</Pos><Origin>NSheit</Origin></DerivStem>
+<DerivStem><Upper>Gott</Upper><Lower>Gott</Lower><Pos>NN</Pos><Origin>NSheit</Origin></DerivStem>
+<DerivStem><Upper>Kind</Upper><Lower>Kind</Lower><Pos>NN</Pos><Origin>NSheit</Origin></DerivStem>
+<DerivStem><Upper>Tor</Upper><Lower>Tor</Lower><Pos>NN</Pos><Origin>NSheit</Origin></DerivStem>
+<DerivStem><Upper>Christ</Upper><Lower>Christen</Lower><Pos>NN</Pos><Origin>NSheit</Origin></DerivStem>
+<DerivStem><Upper>Hexe</Upper><Lower>Hexen</Lower><Pos>NN</Pos><Origin>NSheit</Origin></DerivStem>
+<DerivStem><Upper>Narr</Upper><Lower>Narr</Lower><Pos>NN</Pos><Origin>NSheit</Origin></DerivStem>
+
+<!-- N->N derivation, prefixed -->
+<BaseStem> <Lemma>Bau</Lemma> <Stem>Bau</Stem> <Pos>NN</Pos><Origin>NPab</Origin> <InfClass>NMasc/Sg_s</InfClass> <Frequency>9</Frequency> </BaseStem>
+<BaseStem> <Lemma>Bau</Lemma> <Stem>Bauten</Stem> <Pos>NN</Pos><Origin>NPab</Origin> <InfClass>NMasc/Pl</InfClass> <Frequency>0</Frequency> </BaseStem>
+<BaseStem> <Lemma>Bild</Lemma> <Stem>Bild</Stem> <Pos>NN</Pos><Origin>NPab</Origin> <InfClass>NNeut_es_er</InfClass> <Frequency>8</Frequency> </BaseStem>
+<BaseStem> <Lemma>Gas</Lemma> <Stem>Gas</Stem> <Pos>NN</Pos><Origin>NPab</Origin> <InfClass>NNeut_es_e</InfClass> <Frequency>12</Frequency> </BaseStem>
+<BaseStem> <Lemma>Geld</Lemma> <Stem>Geld</Stem> <Pos>NN</Pos><Origin>NPab</Origin> <InfClass>NNeut_es_er</InfClass> <Frequency>8</Frequency> </BaseStem>
+<BaseStem> <Lemma>Gestalt</Lemma> <Stem>Gestalt</Stem> <Pos>NN</Pos><Origin>NPab</Origin> <InfClass>NFem_0_en</InfClass> <Frequency>12</Frequency> </BaseStem>
+<BaseStem> <Lemma>Glanz</Lemma> <Stem>Glanz</Stem> <Pos>NN</Pos><Origin>NPab</Origin> <InfClass>NMasc/Sg_es</InfClass> <Frequency>13</Frequency> </BaseStem>
+<BaseStem> <Lemma>Gott</Lemma> <Stem>Gott</Stem> <Pos>NN</Pos><Origin>NPab</Origin> <InfClass>NMasc_es_$er</InfClass> <Frequency>10</Frequency> </BaseStem>
+<BaseStem> <Lemma>Grund</Lemma> <Stem>Grund</Stem> <Pos>NN</Pos><Origin>NPab</Origin> <InfClass>NMasc_es_$e</InfClass> <Frequency>8</Frequency> </BaseStem>
+<BaseStem> <Lemma>Hitze</Lemma> <Stem>Hitze</Stem> <Pos>NN</Pos><Origin>NPab</Origin> <InfClass>NFem/Sg</InfClass> <Frequency>12</Frequency> </BaseStem>
+<BaseStem> <Lemma>Hub</Lemma> <Stem>Hub</Stem> <Pos>NN</Pos><Origin>NPab</Origin> <InfClass>NMasc_es_$e</InfClass> <Frequency>15</Frequency> </BaseStem>
+<BaseStem> <Lemma>Luft</Lemma> <Stem>Luft</Stem> <Pos>NN</Pos><Origin>NPab</Origin> <InfClass>NFem_0_$e</InfClass> <Frequency>10</Frequency> </BaseStem>
+<BaseStem> <Lemma>Marsch</Lemma> <Stem>Marsch</Stem> <Pos>NN</Pos><Origin>NPab</Origin> <InfClass>NMasc_es_$e</InfClass> <Frequency>13</Frequency> </BaseStem>
+<BaseStem> <Lemma>Raum</Lemma> <Stem>Raum</Stem> <Pos>NN</Pos><Origin>NPab</Origin> <InfClass>NMasc_es_$e</InfClass> <Frequency>9</Frequency> </BaseStem>
+<BaseStem> <Lemma>Schaum</Lemma> <Stem>Schaum</Stem> <Pos>NN</Pos><Origin>NPab</Origin> <InfClass>NMasc_es_$e</InfClass> <Frequency>15</Frequency> </BaseStem>
+<BaseStem> <Lemma>Scheu</Lemma> <Stem>Scheu</Stem> <Pos>NN</Pos><Origin>NPab</Origin> <InfClass>NFem/Sg</InfClass> <Frequency>15</Frequency> </BaseStem>
+<BaseStem> <Lemma>Seite</Lemma> <Stem>Seite</Stem> <Pos>NN</Pos><Origin>NPab</Origin> <InfClass>NFem_0_n</InfClass> <Frequency>8</Frequency> </BaseStem>
+<BaseStem> <Lemma>Waage</Lemma> <Stem>Waage</Stem> <Pos>NN</Pos><Origin>NPab</Origin> <InfClass>NFem_0_n</InfClass> <Frequency>13</Frequency> </BaseStem>
+<BaseStem> <Lemma>Wasser</Lemma> <Stem>Wasser</Stem> <Pos>NN</Pos><Origin>NPab</Origin> <InfClass>NNeut_s_$</InfClass> <Frequency>9</Frequency> </BaseStem>
+<BaseStem> <Lemma>Weg</Lemma> <Stem>Weg</Stem> <Pos>NN</Pos><Origin>NPab</Origin> <InfClass>NMasc_es_e</InfClass> <Frequency>8</Frequency> </BaseStem>
+<BaseStem> <Lemma>Wetter</Lemma> <Stem>Wetter</Stem> <Pos>NN</Pos><Origin>NPab</Origin> <InfClass>NNeut/Sg_s</InfClass> <Frequency>11</Frequency> </BaseStem>
+
+<!-- ADJ->V conversion -->
+<DerivStem> <MorphMarker>ge</MorphMarker><Upper>hart</Upper><Lower>härt</Lower><Pos>ADJ</Pos><Origin>VVSReg</Origin></DerivStem>
+
+
+<!-- other stuff -->
+<DerivStem><Upper>eigen</Upper><Lower>eigent</Lower><Pos>ADJ</Pos><Origin>nativ</Origin></DerivStem>
 </smor>

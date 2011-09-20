@@ -1125,7 +1125,11 @@
 <BaseStem> <MorphMarker>ge</MorphMarker>
 <Lemma>weich</Lemma> <Stem>weich</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPres</InfClass> <Frequency>14</Frequency> </BaseStem>
 
+<BaseStem> <MorphMarker>ge</MorphMarker>
+<Lemma>eifer</Lemma> <Stem>eifer</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg-el/er</InfClass> <Frequency>7</Frequency> </BaseStem>
+
 <BaseStem> <Lemma>dick</Lemma> <Stem>dick</Stem> <Pos>ADJ</Pos><Origin>nativ</Origin> <InfClass>Adj+(e)</InfClass> <Frequency>11</Frequency> </BaseStem>
+
 
 <BaseStem> <Lemma>Balken</Lemma> <Stem>Balken</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_s_x</InfClass> <Frequency>15</Frequency> </BaseStem>
 <BaseStem> <Lemma>Ballen</Lemma> <Stem>Ballen</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NMasc_s_x</InfClass> <Frequency>0</Frequency> </BaseStem>

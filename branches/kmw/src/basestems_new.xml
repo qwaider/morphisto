@@ -7,6 +7,7 @@
 <BaseStem> <Lemma>Champagne</Lemma> <Stem>Champagne</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>Name-Fem_0</InfClass> <Frequency>11</Frequency> </BaseStem>
 <BaseStem> <Lemma>Grüne</Lemma> <Stem>Grüne</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>Name-Pl_x</InfClass> <Frequency>13</Frequency> </BaseStem>
 <BaseStem> <Lemma>Paul</Lemma> <Stem>Paul</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>Name-Masc_s</InfClass> <Frequency>14</Frequency> </BaseStem>
+<BaseStem> <Lemma>Waadtland</Lemma> <Stem>Waadtland</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>Name-Neut_s</InfClass> <Frequency>16</Frequency> </BaseStem>
 <BaseStem> <Lemma>Willy</Lemma> <Stem>Willy</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>Name-Masc_s</InfClass> <Frequency>14</Frequency> </BaseStem>
 
 <BaseStem> <Lemma>Ähre</Lemma> <Stem>Ähre</Stem> <Pos>NN</Pos><Origin>nativ</Origin> <InfClass>NFem_0_n</InfClass> <Frequency>16</Frequency> </BaseStem>
@@ -32,6 +33,10 @@
 
 <BaseStem> <MorphMarker>ge</MorphMarker>
 <Lemma>asch</Lemma> <Stem>asch</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>14</Frequency> </BaseStem>
+<BaseStem> <MorphMarker>ge</MorphMarker>
+<Lemma>anker</Lemma> <Stem>anker</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg-el/er</InfClass> <Frequency>14</Frequency> </BaseStem>
+<BaseStem> <MorphMarker>ge</MorphMarker>
+<Lemma>netz</Lemma> <Stem>netz</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>14</Frequency> </BaseStem>
 <BaseStem> <Lemma>phrasier</Lemma> <Stem>phrasier</Stem> <Pos>V</Pos><Origin>prefnoge</Origin> <InfClass>VVReg</InfClass> <Frequency>14</Frequency> </BaseStem>
 <BaseStem> <MorphMarker>ge</MorphMarker>
 <Lemma>schiff</Lemma> <Stem>schiff</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>9</Frequency> </BaseStem>
@@ -40,7 +45,11 @@
 <BaseStem> <MorphMarker>ge</MorphMarker>
 <Lemma>schön</Lemma> <Stem>schön</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>14</Frequency> </BaseStem>
 <BaseStem> <MorphMarker>ge</MorphMarker>
+<Lemma>meng</Lemma> <Stem>meng</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>16</Frequency> </BaseStem>
+<BaseStem> <MorphMarker>ge</MorphMarker>
 <Lemma>wässer</Lemma> <Stem>wässer</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg-el/er</InfClass> <Frequency>9</Frequency> </BaseStem>
+<BaseStem> <MorphMarker>ge</MorphMarker>
+<Lemma>zank</Lemma> <Stem>zank</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>14</Frequency> </BaseStem>
 <BaseStem> <MorphMarker>ge</MorphMarker>
 <Lemma>zelt</Lemma> <Stem>zelt</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>14</Frequency> </BaseStem>
 
@@ -49,7 +58,12 @@
 
 <KomposStem> <Upper>Bote</Upper> <Lower>Bot</Lower> <Pos>NN</Pos><Origin>nativ</Origin> <Frequency>0</Frequency> </KomposStem>
 <KomposStem> <Upper>Bund</Upper> <Lower>Bundes</Lower> <Pos>NN</Pos><Origin>nativ</Origin> <Frequency>0</Frequency> </KomposStem>
+<KomposStem> <Upper>Ehre</Upper> <Lower>Ehr</Lower> <Pos>NN</Pos><Origin>nativ</Origin> <Frequency>0</Frequency> </KomposStem>
+<KomposStem> <Upper>Erbe</Upper> <Lower>Erb</Lower> <Pos>NN</Pos><Origin>nativ</Origin> <Frequency>0</Frequency> </KomposStem>
+<KomposStem> <Upper>Eiche</Upper> <Lower>Eich</Lower> <Pos>NN</Pos><Origin>nativ</Origin> <Frequency>0</Frequency> </KomposStem>
+<KomposStem> <Upper>Kunde</Upper> <Lower>Kund</Lower> <Pos>NN</Pos><Origin>nativ</Origin> <Frequency>0</Frequency> </KomposStem>
 <KomposStem> <Upper>Pfingsten</Upper> <Lower>Pfingst</Lower> <Pos>NN</Pos><Origin>nativ</Origin> <Frequency>0</Frequency> </KomposStem>
 <KomposStem> <Upper>Rücken</Upper> <Lower>Rück</Lower> <Pos>NN</Pos><Origin>nativ</Origin> <Frequency>0</Frequency> </KomposStem>
+<KomposStem> <Upper>Waage</Upper> <Lower>Waag</Lower> <Pos>NN</Pos><Origin>nativ</Origin> <Frequency>0</Frequency> </KomposStem>
 
 </smor>

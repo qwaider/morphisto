@@ -1,6 +1,23 @@
 <?xml version = '1.0' encoding = 'utf-8' ?>
 <?xml-stylesheet type="text/xsl" href="lexicon-transform.xslt"?>
 <smor>
+	<!-- NS... -->
+	<SuffStem>
+		<PrevStem stem_type="deriv">
+			<Complexity>prefderiv</Complexity>
+			<Origin>NSMasc/Sg_s</Origin>
+			<Pos>V</Pos>
+		</PrevStem>
+		<Upper>0</Upper>
+		<Lower>0</Lower>
+		<NewStem stem_type="base">
+			<Pos>NN</Pos>
+			<Origin>nativ</Origin>
+			<InfClass>NMasc/Sg_s</InfClass>
+		</NewStem>
+	</SuffStem>
+
+	<!-- NSD... -->
 	<SuffStem>
 		<PrevStem stem_type="deriv">
 			<Complexity>prefderiv</Complexity>
@@ -15,7 +32,6 @@
 			<InfClass>NFem_0_en</InfClass>
 		</NewStem>
 	</SuffStem>
-
 	<SuffStem>
 		<PrevStem stem_type="deriv">
 			<Complexity>prefderiv</Complexity>
@@ -30,7 +46,6 @@
 			<InfClass>NFem_0_n</InfClass>
 		</NewStem>
 	</SuffStem>
-
 	<SuffStem>
 		<PrevStem stem_type="deriv">
 			<Complexity>prefderiv</Complexity>
@@ -45,7 +60,6 @@
 			<InfClass>NFem/Sg</InfClass>
 		</NewStem>
 	</SuffStem>
-
 	<SuffStem>
 		<PrevStem stem_type="deriv">
 			<Complexity>prefderiv</Complexity>
@@ -58,6 +72,20 @@
 			<Pos>NN</Pos>
 			<Origin>nativ</Origin>
 			<InfClass>NMasc_es_e</InfClass>
+		</NewStem>
+	</SuffStem>
+	<SuffStem>
+		<PrevStem stem_type="deriv">
+			<Complexity>prefderiv</Complexity>
+			<Origin>NSDMasc_es_$e</Origin>
+			<Pos>V</Pos>
+		</PrevStem>
+		<Upper>0</Upper>
+		<Lower>0</Lower>
+		<NewStem stem_type="base">
+			<Pos>NN</Pos>
+			<Origin>nativ</Origin>
+			<InfClass>NMasc_es_$e</InfClass>
 		</NewStem>
 	</SuffStem>
 
@@ -74,6 +102,21 @@
 			<Pos>V</Pos>
 			<Origin>nativ</Origin>
 			<InfClass>VVReg</InfClass>
+		</NewStem>
+	</SuffStem>
+	<SuffStem>
+		<PrevStem stem_type="deriv">
+			<Complexity>prefderiv</Complexity>
+			<Complexity>simplex</Complexity>
+			<Origin>VVSReg-el/er</Origin>
+			<Pos>NN</Pos>
+		</PrevStem>
+		<Upper>0</Upper>
+		<Lower>0</Lower>
+		<NewStem stem_type="base">
+			<Pos>V</Pos>
+			<Origin>nativ</Origin>
+			<InfClass>VVReg-el/er</InfClass>
 		</NewStem>
 	</SuffStem>
 
@@ -111,6 +154,39 @@
 			<Pos>ADJ</Pos>
 			<Origin>nativ</Origin>
 			<InfClass>Adj+</InfClass>
+		</NewStem>
+	</SuffStem>
+
+	<!-- N->N derivation with 'heit' -->
+	<SuffStem>
+		<PrevStem stem_type="deriv">
+			<Complexity>prefderiv</Complexity>
+			<Complexity>simplex</Complexity>
+			<Complexity>suffderiv</Complexity>
+			<Origin>NSheit</Origin>
+			<Pos>NN</Pos>
+		</PrevStem>
+		<Upper>heit</Upper>
+		<Lower>heits</Lower>
+		<NewStem stem_type="kompos">
+			<Pos>NN</Pos>
+			<Origin>nativ</Origin>
+		</NewStem>
+	</SuffStem>
+	<SuffStem>
+		<PrevStem stem_type="deriv">
+			<Complexity>prefderiv</Complexity>
+			<Complexity>simplex</Complexity>
+			<Complexity>suffderiv</Complexity>
+			<Origin>NSheit</Origin>
+			<Pos>NN</Pos>
+		</PrevStem>
+		<Upper>heit</Upper>
+		<Lower>heit</Lower>
+		<NewStem stem_type="base">
+			<Pos>NN</Pos>
+			<Origin>nativ</Origin>
+			<InfClass>NFem-Deriv</InfClass>
 		</NewStem>
 	</SuffStem>
 </smor>

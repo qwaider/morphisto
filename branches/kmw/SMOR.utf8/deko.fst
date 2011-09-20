@@ -20,10 +20,12 @@ $C3$ = [\!-\~¡-ÿ<n><e><d><~n><ge><Ge-Nom><UL><SS><FB> \
 <ABK><ADJ><ADV><CARD><DIGCARD><NE><NN><PRO><V><ORD><OTHER> \
 <base><deriv><kompos> \
 <nativ><frei><gebunden><kurz><lang><fremd><klassisch><prefnoge> \
+<NPab> \
 <NSNeut_es_e><NSFem_0_n><NSFem_0_en><NSMasc_es_e><NSMasc_es_$e> \
-<NSMasc-s/$sse> \
-<NSDFem_0_en><NSDFem_0_n><NSDFem/Sg><NSDMasc_es_e> \
-<VVSReg>]
+<NSMasc-s/$sse><NSMasc/Sg_s> \
+<NSDFem_0_en><NSDFem_0_n><NSDFem/Sg><NSDMasc_es_e><NSDMasc_es_e> \
+<VVSReg><VVSReg-el/er> \
+<NSheit>]
 
 $FLEX$ = [<Abk_ADJ><Abk_ADV><Abk_ART><Abk_DPRO><Abk_KONJ><Abk_NE-Low><Abk_NE>\
 <Abk_NN-Low><Abk_NN><Abk_PREP><Abk_VPPAST><Abk_VPPRES><Adj$><Adj$e><Adj+(e)> \
@@ -95,17 +97,21 @@ $FILTER$ = (\
 	<lang>:<>    <Suff_Stems> <lang>:<> |\
 	<fremd>:<>   <Suff_Stems> <fremd>:<> |\
 	<prefnoge>:<>   <Suff_Stems> <prefnoge>:<> |\
-	<NSFem_0_en>:<>	<Suff_Stems>	<NSFem_0_en>:<> |\
-	<NSFem_0_n>:<>	<Suff_Stems>	<NSFem_0_n>:<> |\
+	<NSheit>:<>		<Suff_Stems>	<NSheit>:<> |\
+	<NSFem_0_en>:<>		<Suff_Stems>	<NSFem_0_en>:<> |\
+	<NSFem_0_n>:<>		<Suff_Stems>	<NSFem_0_n>:<> |\
 	<NSMasc-s/$sse>:<>	<Suff_Stems>	<NSMasc-s/$sse>:<> |\
 	<NSMasc_es_$e>:<>	<Suff_Stems>	<NSMasc_es_$e>:<> |\
 	<NSMasc_es_e>:<>	<Suff_Stems>	<NSMasc_es_e>:<> |\
+	<NSMasc/Sg_s>:<>	<Suff_Stems>	<NSMasc/Sg_s>:<> |\
 	<NSNeut_es_e>:<>	<Suff_Stems>	<NSNeut_es_e>:<> |\
 	<NSDFem_0_en>:<>	<Suff_Stems>	<NSDFem_0_en>:<> |\
 	<NSDFem_0_n>:<>		<Suff_Stems>	<NSDFem_0_n>:<> |\
 	<NSDFem/Sg>:<>		<Suff_Stems>	<NSDFem/Sg>:<> |\
 	<NSDMasc_es_e>:<>	<Suff_Stems>	<NSDMasc_es_e>:<> |\
+	<NSDMasc_es_$e>:<>	<Suff_Stems>	<NSDMasc_es_$e>:<> |\
 	<VVSReg>:<>		<Suff_Stems>	<VVSReg>:<> |\
+	<VVSReg-el/er>:<>	<Suff_Stems>	<VVSReg-el/er>:<> |\
 	<NGeo-$er-NMasc_s_0>:<>	<Suff_Stems>	<NGeo-$er-NMasc_s_0>:<> |\
 	<NGeo-$er-Adj0-Up>:<>	<Suff_Stems>	<NGeo-$er-Adj0-Up>:<> |\
 	<NGeo-$isch-Adj+>:<>	<Suff_Stems>	<NGeo-$isch-Adj+>:<> |\
@@ -236,10 +242,10 @@ $ANY$ = .*
 
 $bdk$ = [<base><deriv><kompos>]
 $klassisch$ = [<frei><gebunden><kurz><lang>]
-$NS$ = [<NSNeut_es_e><NSFem_0_n><NSFem_0_en><NSMasc_es_e><NSMasc_es_$e><NSMasc-s/$sse> \
-<NSDFem_0_en><NSDFem_0_n<NSDFem/Sg><NSDMasc_es_e>]
+$NS$ = [<NSNeut_es_e><NSFem_0_n><NSFem_0_en><NSMasc_es_e><NSMasc_es_$e><NSMasc-s/$sse><NSMasc/Sg_s> \
+<NSDFem_0_en><NSDFem_0_n<NSDFem/Sg><NSDMasc_es_e><NSDMasc_es_$e>]
 
-$VS$ = [<VVSReg>]
+$VS$ = [<VVSReg><VVSReg-el/er>]
 
 $FILTER$ = \
 % prefixes like "ver" delete the <ge> marker
@@ -250,6 +256,7 @@ $FILTER$ = \
 	{<ABK><nativ>}:{<>}    $ANY$ <ABK>	$bdk$ <nativ> |\
 	{<NN><nativ>}:{<>}     $ANY$ <NN> 	$bdk$ <nativ>  |\
 	{<NN><fremd>}:{<>}     $ANY$ <NN> 	$bdk$ <fremd>  |\
+	{<NN><NPab>}:{<>}      $ANY$ <NN> 	$bdk$ <NPab>:<nativ>  |\
 	{<NE><nativ>}:{<>}     $ANY$ <NE> 	$bdk$ <nativ>  |\
 	{<NE><fremd>}:{<>}     $ANY$ <NE> 	$bdk$ <fremd>  |\
 	{<ADJ><fremd>}:{<>}    $ANY$ <ADJ>	$bdk$ <fremd>  |\
