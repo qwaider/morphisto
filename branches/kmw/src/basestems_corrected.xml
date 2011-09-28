@@ -2,9 +2,15 @@
 <?xml-stylesheet type="text/xsl" href="lexicon-transform.xslt"?>
 <smor>
 <BaseStem> <MorphMarker>ge</MorphMarker>
-<Lemma>stehl</Lemma> <Stem>stiehl</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPres2+Imp</InfClass> <Frequency>11</Frequency> </BaseStem>
+<Lemma>send</Lemma> <Stem>send</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>12</Frequency> </BaseStem>
 <BaseStem> <MorphMarker>ge</MorphMarker>
-<Lemma>find</Lemma> <Stem>find</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPres</InfClass> <Frequency>7</Frequency> </BaseStem>
+<Lemma>send</Lemma> <Stem>send</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPres</InfClass> <Frequency>12</Frequency> </BaseStem>
+<BaseStem> <MorphMarker>ge</MorphMarker>
+<Lemma>send</Lemma> <Stem>sandt</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPP-t</InfClass> <Frequency>12</Frequency> </BaseStem>
+<BaseStem> <MorphMarker>ge</MorphMarker>
+<Lemma>send</Lemma> <Stem>sandt</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastStr</InfClass> <Frequency>12</Frequency> </BaseStem>
+<BaseStem> <MorphMarker>ge</MorphMarker>
+<Lemma>stehl</Lemma> <Stem>stiehl</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPres2+Imp</InfClass> <Frequency>11</Frequency> </BaseStem>
 <BaseStem> <MorphMarker>ge</MorphMarker>
 <Lemma>streich</Lemma> <Stem>streich</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPres</InfClass> <Frequency>11</Frequency> </BaseStem>
 <BaseStem> <MorphMarker>ge</MorphMarker>
@@ -362,8 +368,6 @@
 <BaseStem> <MorphMarker>ge</MorphMarker>
 <Lemma>reit</Lemma> <Stem>ritt</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPP-en</InfClass> <Frequency>13</Frequency> </BaseStem>
 <BaseStem> <MorphMarker>ge</MorphMarker>
-<Lemma>find</Lemma> <Stem>fänd</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastKonjStr</InfClass> <Frequency>7</Frequency> </BaseStem>
-<BaseStem> <MorphMarker>ge</MorphMarker>
 <Lemma>frier</Lemma> <Stem>frier</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPres</InfClass> <Frequency>14</Frequency> </BaseStem>
 <BaseStem> <MorphMarker>ge</MorphMarker>
 <Lemma>wäg</Lemma> <Stem>wäg</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPres</InfClass> <Frequency>11</Frequency> </BaseStem>
@@ -602,8 +606,6 @@
 <BaseStem> <MorphMarker>ge</MorphMarker>
 <Lemma>dresch</Lemma> <Stem>drösch</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastKonjStr</InfClass> <Frequency>16</Frequency> </BaseStem>
 <BaseStem> <MorphMarker>ge</MorphMarker>
-<Lemma>send</Lemma> <Stem>send</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>12</Frequency> </BaseStem>
-<BaseStem> <MorphMarker>ge</MorphMarker>
 <Lemma>sprieß</Lemma> <Stem>sprieß</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVReg</InfClass> <Frequency>15</Frequency> </BaseStem>
 <BaseStem> <MorphMarker>ge</MorphMarker>
 <Lemma>schmeiß</Lemma> <Stem>schmiss</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPP-en</InfClass> <Frequency>14</Frequency> </BaseStem>
@@ -653,8 +655,6 @@
 <Lemma>heb</Lemma> <Stem>hob</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPP-en</InfClass> <Frequency>12</Frequency> </BaseStem>
 <BaseStem> <MorphMarker>ge</MorphMarker>
 <Lemma>scheiß</Lemma> <Stem>schiss</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPP-en</InfClass> <Frequency>15</Frequency> </BaseStem>
-<BaseStem> <MorphMarker>ge</MorphMarker>
-<Lemma>find</Lemma> <Stem>fand</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastIndStr</InfClass> <Frequency>7</Frequency> </BaseStem>
 <BaseStem> <MorphMarker>ge</MorphMarker>
 <Lemma>schlaf</Lemma> <Stem>schläf</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPres2</InfClass> <Frequency>12</Frequency> </BaseStem>
 <BaseStem> <MorphMarker>ge</MorphMarker>
@@ -802,6 +802,12 @@
 <BaseStem> <MorphMarker>ge</MorphMarker>
 <Lemma>reit</Lemma> <Stem>ritt</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastStr</InfClass> <Frequency>13</Frequency> </BaseStem>
 <BaseStem> <MorphMarker>ge</MorphMarker>
+<Lemma>find</Lemma> <Stem>find</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPres</InfClass> <Frequency>7</Frequency> </BaseStem>
+<BaseStem> <MorphMarker>ge</MorphMarker>
+<Lemma>find</Lemma> <Stem>fänd</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastKonjStr</InfClass> <Frequency>7</Frequency> </BaseStem>
+<BaseStem> <MorphMarker>ge</MorphMarker>
+<Lemma>find</Lemma> <Stem>fand</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastIndStr</InfClass> <Frequency>7</Frequency> </BaseStem>
+<BaseStem> <MorphMarker>ge</MorphMarker>
 <Lemma>find</Lemma> <Stem>fund</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPP-en</InfClass> <Frequency>7</Frequency> </BaseStem>
 <BaseStem> <MorphMarker>ge</MorphMarker>
 <Lemma>streich</Lemma> <Stem>strich</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastStr</InfClass> <Frequency>11</Frequency> </BaseStem>
@@ -862,8 +868,6 @@
 <BaseStem> <MorphMarker>ge</MorphMarker>
 <Lemma>schlag</Lemma> <Stem>schläg</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPres2</InfClass> <Frequency>10</Frequency> </BaseStem>
 <BaseStem> <MorphMarker>ge</MorphMarker>
-<Lemma>send</Lemma> <Stem>sandt</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VPPast</InfClass> <Frequency>12</Frequency> </BaseStem>
-<BaseStem> <MorphMarker>ge</MorphMarker>
 <Lemma>tret</Lemma> <Stem>tritt</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPres2+Imp0</InfClass> <Frequency>10</Frequency> </BaseStem>
 <BaseStem> <MorphMarker>ge</MorphMarker>
 <Lemma>klimm</Lemma> <Stem>klömm</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastKonjStr</InfClass> <Frequency>15</Frequency> </BaseStem>
@@ -911,8 +915,6 @@
 <Lemma>fress</Lemma> <Stem>fress</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPP-en</InfClass> <Frequency>13</Frequency> </BaseStem>
 <BaseStem> <MorphMarker>ge</MorphMarker>
 <Lemma>greif</Lemma> <Stem>griff</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPP-en</InfClass> <Frequency>11</Frequency> </BaseStem>
-<BaseStem> <MorphMarker>ge</MorphMarker>
-<Lemma>send</Lemma> <Stem>sandte</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastStr</InfClass> <Frequency>12</Frequency> </BaseStem>
 <BaseStem> <MorphMarker>ge</MorphMarker>
 <Lemma>saug</Lemma> <Stem>sog</Stem> <Pos>V</Pos><Origin>nativ</Origin> <InfClass>VVPastIndStr</InfClass> <Frequency>14</Frequency> </BaseStem>
 <BaseStem> <MorphMarker>ge</MorphMarker>

@@ -26,10 +26,8 @@ $TMPL$ = <>:<WB> $TMPL$ <>:<WB> || $PHON$
 % default noun derivation stems
 
 $DefDerivNN2$ = (\
-(\
-(([\!-\~¡-ÿ]* \
- [<V>]<SUFF>) |\
-([\!-\~¡-ÿ]* <PREF> [\!-\~¡-ÿ]*)) \
+([\!-\~¡-ÿ<PREF>]* \
+ ([<V>]<SUFF>)? \
  <>:<+NN> <>:[<Masc><Fem><Neut><NoGend>] <>:<Nom> <>:<Sg> || $TMPL$) \
 <NN>) || $Del-e$ || $Uml$
 
@@ -44,7 +42,8 @@ $DefBaseADJ2$ = \
 % default adjective composition and derivation stems
 
 $DefKomposADJ2$ = (\
-   [\!-\~¡-ÿ<PREF>]* <NN><SUFF> en <V>:<+V><zu>?[<PPres><PPast>] ||\
+  ([\!-\~¡-ÿ]* <OTHER>al<SUFF> <>:<+ADJ> <>:[<Pos><Comp><Sup>] <>:<Pred> |\
+   [\!-\~¡-ÿ<PREF>]* <NN><SUFF> en <V>:<+V><zu>?[<PPres><PPast>]) ||\
   $TMPL$ || $NoDef2NULL$) <ADJ>
 
 $DefDerivADJ2$ = $DefKomposADJ2$

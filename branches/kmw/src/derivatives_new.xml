@@ -52,7 +52,6 @@
 <DerivStem><Upper>schreiben</Upper><Lower>schrift</Lower><Pos>V</Pos><Origin>NSFem_0_en</Origin></DerivStem>
 <DerivStem><Upper>schreien</Upper><Lower>schrei</Lower><Pos>V</Pos><Origin>NSMasc_es_e</Origin></DerivStem>
 <DerivStem><Upper>schwingen</Upper><Lower>schwung</Lower><Pos>V</Pos><Origin>NSMasc_es_$e</Origin></DerivStem>
-<DerivStem><Upper>sehen</Upper><Lower>sicht</Lower><Pos>V</Pos><Origin>NSFem_0_en</Origin></DerivStem>
 <DerivStem><Upper>setzen</Upper><Lower>satz</Lower><Pos>V</Pos><Origin>NSMasc_es_$e</Origin></DerivStem>
 <DerivStem><Upper>sprechen</Upper><Lower>sprach</Lower><Pos>V</Pos><Origin>NSFem_0_n</Origin></DerivStem>
 <DerivStem><Upper>sprechen</Upper><Lower>spruch</Lower><Pos>V</Pos><Origin>NSMasc_es_$e</Origin></DerivStem>
@@ -73,19 +72,28 @@
 
 <!-- V->N conversion, prefixed only -->
 <DerivStem><Upper>fahren</Upper><Lower>fuhr</Lower><Pos>V</Pos><Origin>NSDFem_0_en</Origin></DerivStem>
+<DerivStem><Upper>gleichen</Upper><Lower>gleich</Lower><Pos>V</Pos><Origin>NSDMasc_es_e</Origin></DerivStem>
 <DerivStem><Upper>kehren</Upper><Lower>kehr</Lower><Pos>V</Pos><Origin>NSDFem/Sg</Origin></DerivStem>
 <DerivStem><Upper>nehmen</Upper><Lower>nahm</Lower><Pos>V</Pos><Origin>NSDFem_0_n</Origin></DerivStem>
 <DerivStem><Upper>scheiden</Upper><Lower>schied</Lower><Pos>V</Pos><Origin>NSDMasc_es_e</Origin></DerivStem>
+<DerivStem><Upper>sehen</Upper><Lower>sicht</Lower><Pos>V</Pos><Origin>NSDFem_0_en</Origin></DerivStem>
 <DerivStem><Upper>wenden</Upper><Lower>wand</Lower><Pos>V</Pos><Origin>NSDMasc_es_$e</Origin></DerivStem>
 
 <!-- N->V conversion -->
+<DerivStem> <MorphMarker>ge</MorphMarker><Upper>Adel</Upper><Lower>adel</Lower><Pos>NN</Pos><Origin>VVSReg-el/er</Origin></DerivStem>
 <DerivStem> <MorphMarker>ge</MorphMarker><Upper>Camp</Upper><Lower>camp</Lower><Pos>NN</Pos><Origin>VVSReg</Origin></DerivStem>
 <DerivStem> <MorphMarker>ge</MorphMarker><Upper>Dampf</Upper><Lower>dampf</Lower><Pos>NN</Pos><Origin>VVSReg</Origin></DerivStem>
 <DerivStem> <MorphMarker>ge</MorphMarker><Upper>Design</Upper><Lower>design</Lower><Pos>NN</Pos><Origin>VVSReg</Origin></DerivStem>
+<DerivStem> <MorphMarker>ge</MorphMarker><Upper>Fight</Upper><Lower>fight</Lower><Pos>NN</Pos><Origin>VVSReg</Origin></DerivStem>
+<DerivStem> <MorphMarker>ge</MorphMarker><Upper>Fisch</Upper><Lower>fisch</Lower><Pos>NN</Pos><Origin>VVSReg</Origin></DerivStem>
+<DerivStem> <MorphMarker>ge</MorphMarker><Upper>Fracht</Upper><Lower>fracht</Lower><Pos>NN</Pos><Origin>VVSReg</Origin></DerivStem>
 <DerivStem> <MorphMarker>ge</MorphMarker><Upper>Glas</Upper><Lower>glas</Lower><Pos>NN</Pos><Origin>VVSReg</Origin></DerivStem>
 <DerivStem> <MorphMarker>ge</MorphMarker><Upper>Geige</Upper><Lower>geig</Lower><Pos>NN</Pos><Origin>VVSReg</Origin></DerivStem>
 <DerivStem> <MorphMarker>ge</MorphMarker><Upper>Puff</Upper><Lower>puff</Lower><Pos>NN</Pos><Origin>VVSReg</Origin></DerivStem>
 <DerivStem> <MorphMarker>ge</MorphMarker><Upper>Schwarm</Upper><Lower>schwärm</Lower><Pos>NN</Pos><Origin>VVSReg</Origin></DerivStem>
+<DerivStem> <MorphMarker>ge</MorphMarker><Upper>Sicht</Upper><Lower>sicht</Lower><Pos>NN</Pos><Origin>VVSReg</Origin></DerivStem>
+<DerivStem> <MorphMarker>ge</MorphMarker><Upper>Sporn</Upper><Lower>sporn</Lower><Pos>NN</Pos><Origin>VVSReg</Origin></DerivStem>
+<DerivStem> <MorphMarker>ge</MorphMarker><Upper>Strand</Upper><Lower>strand</Lower><Pos>NN</Pos><Origin>VVSReg</Origin></DerivStem>
 <DerivStem> <MorphMarker>ge</MorphMarker><Upper>Strand</Upper><Lower>strand</Lower><Pos>NN</Pos><Origin>VVSReg</Origin></DerivStem>
 <DerivStem> <MorphMarker>ge</MorphMarker><Upper>Walze</Upper><Lower>walz</Lower><Pos>NN</Pos><Origin>VVSReg</Origin></DerivStem>
 <DerivStem> <MorphMarker>ge</MorphMarker><Upper>Wechsel</Upper><Lower>wechsel</Lower><Pos>NN</Pos><Origin>VVSReg-el/er</Origin></DerivStem>
@@ -125,10 +133,44 @@
 <BaseStem> <Lemma>Weg</Lemma> <Stem>Weg</Stem> <Pos>NN</Pos><Origin>NPab</Origin> <InfClass>NMasc_es_e</InfClass> <Frequency>8</Frequency> </BaseStem>
 <BaseStem> <Lemma>Wetter</Lemma> <Stem>Wetter</Stem> <Pos>NN</Pos><Origin>NPab</Origin> <InfClass>NNeut/Sg_s</InfClass> <Frequency>11</Frequency> </BaseStem>
 
-<!-- ADJ->V conversion -->
-<DerivStem> <MorphMarker>ge</MorphMarker><Upper>hart</Upper><Lower>härt</Lower><Pos>ADJ</Pos><Origin>VVSReg</Origin></DerivStem>
+<!-- ADJ->N conversion -->
+<DerivStem><Upper>recht</Upper><Lower>recht</Lower><Pos>ADJ</Pos><Origin>NSMasc_es_e</Origin></DerivStem>
 
+<!-- ADJ->V conversion -->
+<DerivStem> <MorphMarker>ge</MorphMarker><Upper>ähnlich</Upper><Lower>ähneln</Lower><Pos>ADJ</Pos><Origin>VVSReg-el/er</Origin></DerivStem>
+<DerivStem> <MorphMarker>ge</MorphMarker><Upper>bleich</Upper><Lower>bleich</Lower><Pos>ADJ</Pos><Origin>VVSReg</Origin></DerivStem>
+<DerivStem> <MorphMarker>ge</MorphMarker><Upper>hart</Upper><Lower>härt</Lower><Pos>ADJ</Pos><Origin>VVSReg</Origin></DerivStem>
+<DerivStem> <MorphMarker>ge</MorphMarker><Upper>los</Upper><Lower>lös</Lower><Pos>ADJ</Pos><Origin>VVSReg</Origin></DerivStem>
+
+<!-- neo classical formativ -->
+<DerivStem><Upper>therm</Upper><Lower>therm</Lower><Pos>OTHER</Pos><Origin>klassisch</Origin></DerivStem>
+<DerivStem><Upper>astr</Upper><Lower>astr</Lower><Pos>OTHER</Pos><Origin>klassisch</Origin></DerivStem>
 
 <!-- other stuff -->
 <DerivStem><Upper>eigen</Upper><Lower>eigent</Lower><Pos>ADJ</Pos><Origin>nativ</Origin></DerivStem>
+<DerivStem><Upper>Akademie</Upper><Lower>akadem</Lower><Pos>NN</Pos><Origin>nativ</Origin></DerivStem>
+<DerivStem><Upper>Akribie</Upper><Lower>akrib</Lower><Pos>NN</Pos><Origin>nativ</Origin></DerivStem>
+<DerivStem><Upper>Dämel</Upper><Lower>däm</Lower><Pos>NN</Pos><Origin>nativ</Origin></DerivStem>
+<DerivStem><Upper>Eltern</Upper><Lower>elter</Lower><Pos>NN</Pos><Origin>nativ</Origin></DerivStem>
+<DerivStem><Upper>kennen</Upper><Lower>kent</Lower><Pos>V</Pos><Origin>nativ</Origin></DerivStem>
+<DerivStem><Upper>Morgen</Upper><Lower>morgend</Lower><Pos>NN</Pos><Origin>nativ</Origin></DerivStem>
+<DerivStem><Upper>Namen</Upper><Lower>nament</Lower><Pos>NN</Pos><Origin>nativ</Origin></DerivStem>
+
+<!-- special NE derivs -->
+<DerivStem><Upper>Abchasien</Upper><Lower>Abchas</Lower><Pos>NE</Pos><Origin>nativ</Origin></DerivStem>
+<DerivStem><Upper>Abchasien</Upper><Lower>Abchasi</Lower><Pos>NE</Pos><Origin>nativ</Origin></DerivStem>
+<DerivStem><Upper>Afrika</Upper><Lower>Afrikan</Lower><Pos>NE</Pos><Origin>nativ</Origin></DerivStem>
+<DerivStem><Upper>Ägäis</Upper><Lower>Ägä</Lower><Pos>NE</Pos><Origin>nativ</Origin></DerivStem>
+<DerivStem><Upper>Ägypten</Upper><Lower>Agypt</Lower><Pos>NE</Pos><Origin>nativ</Origin></DerivStem>
+<DerivStem><Upper>Albanien</Upper><Lower>Alban</Lower><Pos>NE</Pos><Origin>nativ</Origin></DerivStem>
+<DerivStem><Upper>Alexandria</Upper><Lower>Alexandrin</Lower><Pos>NE</Pos><Origin>nativ</Origin></DerivStem>
+<DerivStem><Upper>Algerien</Upper><Lower>Alger</Lower><Pos>NE</Pos><Origin>nativ</Origin></DerivStem>
+<DerivStem><Upper>Algerien</Upper><Lower>Algeri</Lower><Pos>NE</Pos><Origin>nativ</Origin></DerivStem>
+<DerivStem><Upper>Amerika</Upper><Lower>Amerikan</Lower><Pos>NE</Pos><Origin>nativ</Origin></DerivStem>
+<DerivStem><Upper>Anatolien</Upper><Lower>Anatol</Lower><Pos>NE</Pos><Origin>nativ</Origin></DerivStem>
+<DerivStem><Upper>Andalusien</Upper><Lower>Andalus</Lower><Pos>NE</Pos><Origin>nativ</Origin></DerivStem>
+<DerivStem><Upper>Andalusien</Upper><Lower>Andalusi</Lower><Pos>NE</Pos><Origin>nativ</Origin></DerivStem>
+<DerivStem><Upper>Andorra</Upper><Lower>Andorran</Lower><Pos>NE</Pos><Origin>nativ</Origin></DerivStem>
+<DerivStem><Upper>Europa</Upper><Lower>Europä</Lower><Pos>NE</Pos><Origin>nativ</Origin></DerivStem>
+<DerivStem><Upper>Thüringen</Upper><Lower>Thüring</Lower><Pos>NE</Pos><Origin>nativ</Origin></DerivStem>
 </smor>
