@@ -5,6 +5,51 @@
 	<SuffStem>
 		<PrevStem stem_type="deriv">
 			<Complexity>prefderiv</Complexity>
+			<Complexity>simplex</Complexity>
+			<Origin>NSMasc_es_e</Origin>
+			<Pos>ADJ</Pos>
+		</PrevStem>
+		<Upper>0</Upper>
+		<Lower>s</Lower>
+		<NewStem stem_type="kompos">
+			<Pos>NN</Pos>
+			<Origin>nativ</Origin>
+		</NewStem>
+	</SuffStem>
+	<SuffStem>
+		<PrevStem stem_type="deriv">
+			<Complexity>prefderiv</Complexity>
+			<Complexity>simplex</Complexity>
+			<Origin>NSMasc_es_e</Origin>
+			<Pos>ADJ</Pos>
+		</PrevStem>
+		<Upper>0</Upper>
+		<Lower>0</Lower>
+		<NewStem stem_type="base">
+			<Pos>NN</Pos>
+			<Origin>nativ</Origin>
+			<InfClass>NMasc_es_e</InfClass>
+		</NewStem>
+	</SuffStem>
+
+	<SuffStem>
+		<PrevStem stem_type="deriv">
+			<Complexity>prefderiv</Complexity>
+			<Complexity>simplex</Complexity>
+			<Origin>NSMasc/Sg_s</Origin>
+			<Pos>V</Pos>
+		</PrevStem>
+		<Upper>0</Upper>
+		<Lower>0</Lower>
+		<NewStem stem_type="kompos">
+			<Pos>NN</Pos>
+			<Origin>nativ</Origin>
+		</NewStem>
+	</SuffStem>
+	<SuffStem>
+		<PrevStem stem_type="deriv">
+			<Complexity>prefderiv</Complexity>
+			<Complexity>simplex</Complexity>
 			<Origin>NSMasc/Sg_s</Origin>
 			<Pos>V</Pos>
 		</PrevStem>
@@ -39,7 +84,7 @@
 			<Pos>V</Pos>
 		</PrevStem>
 		<Upper>0</Upper>
-		<Lower>0</Lower>
+		<Lower>e</Lower>
 		<NewStem stem_type="base">
 			<Pos>NN</Pos>
 			<Origin>nativ</Origin>
@@ -140,6 +185,22 @@
 		<PrevStem stem_type="deriv">
 			<Complexity>prefderiv</Complexity>
 			<Complexity>simplex</Complexity>
+			<Origin>VVSReg-el/er</Origin>
+			<Pos>ADJ</Pos>
+		</PrevStem>
+		<Upper>0</Upper>
+		<Lower>0</Lower>
+		<NewStem stem_type="base">
+			<Pos>V</Pos>
+			<Origin>nativ</Origin>
+			<InfClass>VVReg-el/er</InfClass>
+		</NewStem>
+	</SuffStem>
+
+	<SuffStem>
+		<PrevStem stem_type="deriv">
+			<Complexity>prefderiv</Complexity>
+			<Complexity>simplex</Complexity>
 			<Complexity>suffderiv</Complexity>
 			<Origin>fremd</Origin>
 			<Origin>nativ</Origin>
@@ -187,6 +248,24 @@
 			<Pos>NN</Pos>
 			<Origin>nativ</Origin>
 			<InfClass>NFem-Deriv</InfClass>
+		</NewStem>
+	</SuffStem>
+
+	<!-- neo classical formativ + 'al' -->
+	<SuffStem>
+		<PrevStem stem_type="deriv">
+			<Complexity>prefderiv</Complexity>
+			<Complexity>simplex</Complexity>
+			<Complexity>suffderiv</Complexity>
+			<Origin>klassisch</Origin>
+			<Pos>OTHER</Pos>
+		</PrevStem>
+		<Upper>al</Upper>
+		<Lower>al</Lower>
+		<NewStem stem_type="base">
+			<Pos>ADJ</Pos>
+			<Origin>nativ</Origin>
+			<InfClass>AdjPos</InfClass>
 		</NewStem>
 	</SuffStem>
 </smor>

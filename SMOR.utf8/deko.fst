@@ -96,6 +96,7 @@ $FILTER$ = (\
 	<kurz>:<>    <Suff_Stems> <kurz>:<> |\
 	<lang>:<>    <Suff_Stems> <lang>:<> |\
 	<fremd>:<>   <Suff_Stems> <fremd>:<> |\
+	<klassisch>:<>   <Suff_Stems> <klassisch>:<> |\
 	<prefnoge>:<>   <Suff_Stems> <prefnoge>:<> |\
 	<NSheit>:<>		<Suff_Stems>	<NSheit>:<> |\
 	<NSFem_0_en>:<>		<Suff_Stems>	<NSFem_0_en>:<> |\
@@ -192,6 +193,7 @@ $FILTER$ = (\
 	<NN>:<>		<Suff_Stems>	<NN>:<> |\
 	<NE>:<>		<Suff_Stems>	<NE>:<> |\
 	<ORD>:<>	<Suff_Stems>	<ORD>:<> |\
+	<OTHER>:<>	<Suff_Stems>	<OTHER>:<> |\
 	<PRO>:<>	<Suff_Stems>	<PRO>:<> |\
 	<V>:<>		<Suff_Stems>	<V>:<>)
 
@@ -243,7 +245,7 @@ $ANY$ = .*
 $bdk$ = [<base><deriv><kompos>]
 $klassisch$ = [<frei><gebunden><kurz><lang>]
 $NS$ = [<NSNeut_es_e><NSFem_0_n><NSFem_0_en><NSMasc_es_e><NSMasc_es_$e><NSMasc-s/$sse><NSMasc/Sg_s> \
-<NSDFem_0_en><NSDFem_0_n<NSDFem/Sg><NSDMasc_es_e><NSDMasc_es_$e>]
+<NSDFem_0_en><NSDFem_0_n><NSDFem/Sg><NSDMasc_es_e><NSDMasc_es_$e>]
 
 $VS$ = [<VVSReg><VVSReg-el/er>]
 
@@ -324,7 +326,7 @@ $GE$ =  $C2$* |\
 	$C2$* <ge>:<> <Deriv_Stems>? {<>}:{ge} $C1$* <Suff_Stems><Ge-Nom>:<> $C1$* |\
 	$C2$* <ge>:<> <Deriv_Stems> {<>}:{ge} $C1$* <Suff_Stems> $C1$* <^pp>:<> $C1$*  |\
 	$C2$* <ge>:<> <Base_Stems>? $C1$* |\
-	$C2$* <ge>:<> <Deriv_Stems> $C1$* <Suff_Stems> $C1$*  |\
+	$C2$* <ge>:<> <Deriv_Stems> $C1$* (<Suff_Stems> $C1$*)*  |\
 	$C2$* <Base_Stems> $C1$* <^pp>:<> $C1$* |\
 	$C2$* <Deriv_Stems>  $C1$* <Suff_Stems> $C1$* <^pp>:<> $C1$*
 
